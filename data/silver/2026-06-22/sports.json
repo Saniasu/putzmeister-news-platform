@@ -96,32 +96,37 @@
                 "label": "GPE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "ORG"
+        ],
         "key_phrases": [
-            "all",
-            "enormous weight",
-            "FS1",
-            "the World Cup",
-            "that",
-            "Schedule",
-            "[+2649 chars",
-            "Iran",
-            "kickoff times",
-            "a first matchday",
-            "the 2026 FIFA World Cup",
-            "FOX",
-            "Times",
-            "TV",
-            "Saudi Arabia",
-            "Full Sunday schedule",
-            "a draw",
-            "More - FOX Sports Spain",
-            "every single opener end",
-            "four pivotal Group G and Group H matchups",
-            "Streaming",
             "Spain",
+            "every single opener end",
             "the 2026 World Cup",
+            "all",
+            "Times",
+            "Schedule",
+            "kickoff times",
+            "a draw",
+            "FS1",
+            "Iran",
+            "Day",
             "Belgium",
-            "Day"
+            "TV",
+            "the World Cup",
+            "enormous weight",
+            "FOX",
+            "Saudi Arabia",
+            "More - FOX Sports Spain",
+            "the 2026 FIFA World Cup",
+            "Full Sunday schedule",
+            "Streaming",
+            "a first matchday",
+            "[+2649 chars",
+            "four pivotal Group G and Group H matchups",
+            "that"
         ],
         "embedding": [
             -0.006951375398784876,
@@ -611,25 +616,31 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "(Phillips",
             "Ravindra",
-            "England",
-            "Second Rothesay Test",
             "the second Test",
-            "209 (Root",
-            "a crushing defeat",
-            "day",
-            "amp",
-            "[+1884 chars",
-            "Matt Henry",
-            "a high-stakes decider",
-            "(Gay",
-            "(Nicholls",
-            "Henry",
             "New Zealand",
+            "Second Rothesay Test",
+            "day",
+            "(Nicholls",
+            "Trent Bridge",
+            "a high-stakes decider",
+            "(Phillips",
+            "(Gay",
+            "Henry",
+            "Matt Henry",
+            "a crushing defeat",
+            "amp",
+            "209 (Root",
             "The Kia Oval",
-            "Trent Bridge"
+            "[+1884 chars",
+            "England"
         ],
         "embedding": [
             0.05521414428949356,
@@ -1103,27 +1114,33 @@
                 "label": "CARDINAL"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG",
+            "GPE"
+        ],
         "key_phrases": [
-            "the PGA Cham",
-            "New York Post McIlroy",
-            ".",
-            "the U.S. Open",
-            "his second consecutive victory",
-            "Rory McIlroy",
+            "the world No",
             "five bogeys",
-            "+3800 chars",
             "a tie",
-            "a turn",
-            "both",
-            "nine implosion",
-            "another roller coaster",
-            "the majors",
-            "US Open contention",
-            "co",
+            "+3800 chars",
             "the tournament",
             "the Masters",
-            "the world No",
-            "Rory McIlroys up-and-down weekend"
+            "Rory McIlroys up-and-down weekend",
+            "US Open contention",
+            "Rory McIlroy",
+            "a turn",
+            "another roller coaster",
+            "both",
+            ".",
+            "New York Post McIlroy",
+            "co",
+            "the PGA Cham",
+            "his second consecutive victory",
+            "the U.S. Open",
+            "the majors",
+            "nine implosion"
         ],
         "embedding": [
             0.09402163326740265,
@@ -1573,20 +1590,26 @@
                 "label": "FAC"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "his death",
-            "approximately 9:51 p.m.",
-            "he",
             "A 51-year-old concertgoer",
-            "police",
-            "o",
+            "he",
             "The fan",
-            "Goose show",
-            "an \u201celevated position",
+            "his death",
+            "police",
+            "approximately 9:51 p.m.",
             "Madison Square Garden",
-            "rock band Goose\u2019s concert",
-            "Concertgoer",
             "Saturday night",
+            "Concertgoer",
+            "an \u201celevated position",
+            "o",
+            "rock band Goose\u2019s concert",
+            "Goose show",
             "chars",
             "Bellevue Hospital"
         ],
@@ -2026,29 +2049,31 @@
                 "label": "CARDINAL"
             }
         ],
+        "contains_pii": false,
+        "pii_entities": [],
         "key_phrases": [
             "who",
-            "the format",
-            "the round",
-            "What",
-            "qualification",
-            "the World Cup 2026 knockouts",
-            "Which teams",
-            "The knockout bracket",
-            "[+5029 chars",
-            "criteria",
-            "list",
-            "3 itemsend",
             "shape",
-            "The 2026 FIFA World Cup knockout stage format",
-            "- Al Jazeera",
+            "July",
             "which",
             "rules",
-            "June",
-            "July",
-            "the FIFA World Cup",
+            "crit",
+            "The knockout bracket",
+            "the round",
+            "list",
+            "Which teams",
+            "What",
+            "[+5029 chars",
             "It",
-            "crit"
+            "criteria",
+            "the FIFA World Cup",
+            "qualification",
+            "the World Cup 2026 knockouts",
+            "the format",
+            "June",
+            "- Al Jazeera",
+            "3 itemsend",
+            "The 2026 FIFA World Cup knockout stage format"
         ],
         "embedding": [
             0.010916466824710369,
@@ -2534,20 +2559,26 @@
                 "label": "GPE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "Japan Stats",
-            "Herve Renard",
-            "the third team",
-            "Ueda",
-            "Tunisia",
             "they",
-            "the 2026 FIFA World Cup",
-            "[+4273 chars",
             "their second Group F game",
-            "Renard\u2019s Comeback Falls Flat - Opta Analyst Tunisia",
             "a positive r",
+            "Japan",
+            "Renard\u2019s Comeback Falls Flat - Opta Analyst Tunisia",
             "Estadio Monterrey",
-            "Japan"
+            "Herve Renard",
+            "Japan Stats",
+            "Tunisia",
+            "the third team",
+            "[+4273 chars",
+            "Ueda",
+            "the 2026 FIFA World Cup"
         ],
         "embedding": [
             -0.07075777649879456,
@@ -3021,28 +3052,34 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "you",
+            "Ohtani homers",
+            "eve",
+            "which",
             "a party",
+            "2nd child - MLB.com LOS ANGELES",
+            "the arrival",
+            "Mamiko",
+            "Decoy",
+            "Shohei Ohtani",
+            "their second child",
+            "Dad strength",
             "LOS ANGELES",
             "the Ohtani family",
-            "order",
-            "his wife",
-            "Father's Day",
-            "their second child",
-            "2nd child - MLB.com LOS ANGELES",
-            "eve",
+            "you",
             "[+1963 chars",
-            "Shohei Ohtani",
-            "Mamiko",
-            "the arrival",
-            "Ohtani homers",
-            "which",
-            "Decoy",
-            "Congratulations",
             "their s",
-            "Dad strength",
-            "birth"
+            "Father's Day",
+            "birth",
+            "his wife",
+            "order",
+            "Congratulations"
         ],
         "embedding": [
             -0.009801927022635937,
@@ -3496,25 +3533,29 @@
                 "label": "ORDINAL"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE"
+        ],
         "key_phrases": [
-            "their opening matches",
-            "the first time",
-            "win",
-            "the sequel",
-            "the tournament",
-            "The second Sunday",
-            "the 2026 World Cup",
-            "All eight teams",
-            "June",
-            "[+3283 chars",
             "Spain",
-            "It",
-            "- Yahoo Sports",
+            "the sequel",
+            "June",
             "i",
             "What",
-            "Saudi Arabia",
+            "the 2026 World Cup",
             "Cape Verde",
-            "a draw-filled day"
+            "[+3283 chars",
+            "It",
+            "the tournament",
+            "All eight teams",
+            "the first time",
+            "win",
+            "a draw-filled day",
+            "Saudi Arabia",
+            "their opening matches",
+            "- Yahoo Sports",
+            "The second Sunday"
         ],
         "embedding": [
             -0.04133850336074829,
@@ -3940,17 +3981,21 @@
                 "label": "NORP"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
-            "Release New Football Uniforms",
+            "classic Husker football design elements",
+            "adidas",
+            "Nebraska Athletics",
             "Husker football",
             "new home and away uniforms",
-            "u",
-            "[+1629 chars",
-            "classic Husker football design elements",
-            "huskers.com  Nebraska Athletics",
             "The uniforms",
-            "Nebraska Athletics",
-            "adidas"
+            "Release New Football Uniforms",
+            "[+1629 chars",
+            "u",
+            "huskers.com  Nebraska Athletics"
         ],
         "embedding": [
             -0.10917750000953674,
@@ -4404,27 +4449,33 @@
                 "label": "EVENT"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "you",
-            "Boston",
-            "Boston - NBC Boston Scotland\u2019s Tartan Army",
-            "the World Cup",
-            "people",
-            "charming Bostonians",
-            "chars",
-            "Scotland's \"Tartan Army",
-            "good vibes",
-            "this World Cup",
-            "bagpipes",
-            "the talk",
-            "Team Scotland",
-            "City",
-            "their kilts",
-            "goodwill",
-            "the city",
-            "They",
             "they",
-            "the town"
+            "the town",
+            "the city",
+            "good vibes",
+            "They",
+            "their kilts",
+            "Scotland's \"Tartan Army",
+            "goodwill",
+            "Team Scotland",
+            "people",
+            "bagpipes",
+            "City",
+            "Boston",
+            "the World Cup",
+            "the talk",
+            "you",
+            "Boston - NBC Boston Scotland\u2019s Tartan Army",
+            "charming Bostonians",
+            "this World Cup",
+            "chars"
         ],
         "embedding": [
             -0.0069836825132369995,
@@ -4914,31 +4965,37 @@
                 "label": "TIME"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG",
+            "GPE"
+        ],
         "key_phrases": [
             "15 saves",
-            "a new national hero",
-            "0-0 draw",
-            "World Cup history",
-            "a tough loss",
-            "Ecuador",
-            "World Cup - AP News Curacao goalkeeper",
-            "Saturday night",
+            "[+4989 chars",
+            "The 37-year-old Room",
             "His save total",
+            "Ecuador",
+            "World Cup history",
+            "his tiny Caribbean nation",
+            "a tough loss",
+            "0-0 draw",
+            "a new national hero",
+            "the island's first-ever World Cup point",
+            "island nation",
+            "World Cup - AP News Curacao goalkeeper",
+            "Eloy Room",
+            "Saturday night",
+            "Curacao\u2019s Eloy Room",
+            "AP",
+            "the finest performances",
+            "Germany",
+            "Mo.",
+            "some room",
             "the standout performance",
             "KANSAS CITY",
-            "the island's first-ever World Cup point",
-            "AP",
-            "a 0-0 draw",
-            "his tiny Caribbean nation",
-            "some room",
-            "The 37-year-old Room",
-            "[+4989 chars",
-            "Germany",
-            "Curacao\u2019s Eloy Room",
-            "Mo.",
-            "Eloy Room",
-            "island nation",
-            "the finest performances"
+            "a 0-0 draw"
         ],
         "embedding": [
             0.059709589928388596,
@@ -5376,19 +5433,25 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG",
+            "GPE"
+        ],
         "key_phrases": [
-            "trade talks",
-            "Giannis Antetokounmpo\u2018s desire",
-            "\u2026 [+2060 chars",
-            "The Bucks",
-            "Giannis Antetokounmpo's desire",
-            "Giannis Antetokounmpo - Hoops Rumors",
-            "leverage",
-            "The Miami Herald",
-            "Barry Jackson",
-            "the Heat",
             "Miami",
-            "their advantage"
+            "Giannis Antetokounmpo - Hoops Rumors",
+            "\u2026 [+2060 chars",
+            "their advantage",
+            "Giannis Antetokounmpo's desire",
+            "The Bucks",
+            "the Heat",
+            "Giannis Antetokounmpo\u2018s desire",
+            "trade talks",
+            "leverage",
+            "Barry Jackson",
+            "The Miami Herald"
         ],
         "embedding": [
             -0.055158812552690506,
@@ -5838,19 +5901,24 @@
                 "label": "GPE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "ORG"
+        ],
         "key_phrases": [
-            "Lumen Field",
-            "a combined audience",
-            "Fox",
-            "Australia",
-            "[+930 chars",
             "Seattle",
-            "Friday afternoon\u2019s U.S. World Cup win - NBC Sports",
-            "Suddenly, soccer sells",
             "Telemundo",
-            "Pe",
+            "Australia",
+            "Friday afternoon\u2019s U.S. World Cup win - NBC Sports",
             "the United States",
-            "Friday afternoons match"
+            "Lumen Field",
+            "[+930 chars",
+            "Friday afternoons match",
+            "Fox",
+            "a combined audience",
+            "Pe",
+            "Suddenly, soccer sells"
         ],
         "embedding": [
             0.05853256210684776,
@@ -6276,21 +6344,26 @@
                 "label": "GPE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "ORG"
+        ],
         "key_phrases": [
-            "a wild viral",
-            "New York City",
-            "woman",
-            "who",
-            "wild video",
-            "Knicks garbage",
-            "An \u201cincredibly stupid\u201d woman",
-            "that",
-            "The woman",
-            "an orang",
-            "the street - New York Post",
-            "[+2766 chars",
             "social media",
-            "storm"
+            "a wild viral",
+            "who",
+            "an orang",
+            "The woman",
+            "the street - New York Post",
+            "storm",
+            "woman",
+            "wild video",
+            "that",
+            "[+2766 chars",
+            "New York City",
+            "Knicks garbage",
+            "An \u201cincredibly stupid\u201d woman"
         ],
         "embedding": [
             -0.028204144909977913,
@@ -6760,23 +6833,29 @@
                 "label": "ORDINAL"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "all",
+            "the end",
+            "a",
+            "Comerica Park",
+            "White Sox",
+            "second straight win",
             "time",
             "Tigers bats",
-            "The Detroit News",
-            "4.2 innings",
             "Detroit",
-            "Comerica Park",
-            "The Tigers",
-            "the end",
-            "the Chicago White Sox",
-            "White Sox",
-            "Kevin McGonigle",
-            "a",
             "hitless",
+            "The Tigers",
+            "4.2 innings",
             "It",
-            "second straight win"
+            "all",
+            "Kevin McGonigle",
+            "the Chicago White Sox",
+            "The Detroit News"
         ],
         "embedding": [
             0.014410356059670448,
@@ -7242,25 +7321,30 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "GPE"
+        ],
         "key_phrases": [
-            "Complete schedule",
-            "Wyndham Clark",
-            "ET",
-            "pairings",
-            "the drama",
-            "2:30 p.m.",
-            "who",
-            "All",
-            "Scottie Scheffler",
-            "the final pairing",
-            "a six-shot lead",
-            "the 2026 U.S. Open",
             "2026 U.S. Open tee times",
-            "Round",
-            "the final round",
+            "Complete schedule",
+            "the 2026 U.S. Open",
+            "who",
             "Sunday",
+            "the drama",
+            "Wyndham Clark",
+            "2:30 p.m.",
+            "Shinnecock Hills - CBS Sports Wyndham Clark",
             "Sunday's final group",
-            "Shinnecock Hills - CBS Sports Wyndham Clark"
+            "Scottie Scheffler",
+            "ET",
+            "Round",
+            "All",
+            "the final round",
+            "pairings",
+            "a six-shot lead",
+            "the final pairing"
         ],
         "embedding": [
             -0.08802121132612228,
@@ -7718,27 +7802,33 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG",
+            "GPE"
+        ],
         "key_phrases": [
-            "comeback win",
-            "that",
-            "no striker",
-            "Erling Haaland",
-            "the round",
-            "a 2-1 win",
-            "TORONTO",
-            "Ivory Coast - ESPN Deniz Undav",
-            "the international level",
-            "Deniz Undav",
-            "two priceless goals",
             "Germany's super sub",
-            "game",
+            "TORONTO",
             "their spot",
-            "him",
-            "[+5665 chars",
-            "Germany",
-            "his 'super sub' role",
+            "comeback win",
+            "Ivory Coast - ESPN Deniz Undav",
+            "game",
+            "the round",
             "goals",
+            "no striker",
+            "his 'super sub' role",
+            "him",
+            "Germany",
+            "Erling Haaland",
+            "[+5665 chars",
+            "the international level",
+            "a 2-1 win",
+            "Deniz Undav",
             "terms",
+            "that",
+            "two priceless goals",
             "Ivory Coast"
         ],
         "embedding": [
@@ -8185,20 +8275,25 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
+            "Triple-A",
+            "Rutschman",
             "catcher Adley Rutschman",
-            "Outfielder Michael Siani",
+            "Orioles Place Adley Rutschman",
             "The Orioles",
+            "the meanti",
             "Siani",
             "Concussion IL - MLB Trade Rumors",
-            "the 7-day concussion injured list",
-            "Orioles Place Adley Rutschman",
-            "the meantime",
             "a team announcement",
             "chars",
-            "the meanti",
-            "Rutschman",
-            "Triple-A"
+            "Outfielder Michael Siani",
+            "the 7-day concussion injured list",
+            "the meantime"
         ],
         "embedding": [
             -0.08010789752006531,
@@ -8616,12 +8711,17 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "scams",
-            "World Cup fuels",
             "Politico Advocacy groups",
+            "scams",
+            "reform demands",
             "Congress",
-            "reform demands"
+            "World Cup fuels"
         ],
         "embedding": [
             -0.047210004180669785,
@@ -9099,27 +9199,33 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "Scheffler",
-            "Shinnecock Hills Golf Club",
             "who",
-            "stake",
-            "the U.S. Open",
-            "a great round",
-            "U.S. Open - ESPN World No. 1 golfer Scottie Scheffler",
-            "N.Y.",
-            "leader Wyndham Clark",
             "what",
-            "a chance",
-            "Sunday's final round",
-            "the 126th U.S. Open",
-            "Scheffler surges",
-            "SOUTHAMPTON",
-            "second place",
-            "Grand Slam",
-            "the career",
+            "a great round",
+            "Scheffler",
             "World No. 1 golfer Scottie Scheffler",
-            "something"
+            "something",
+            "stake",
+            "Sunday's final round",
+            "a chance",
+            "the career",
+            "Scheffler surges",
+            "Shinnecock Hills Golf Club",
+            "the 126th U.S. Open",
+            "U.S. Open - ESPN World No. 1 golfer Scottie Scheffler",
+            "SOUTHAMPTON",
+            "N.Y.",
+            "the U.S. Open",
+            "second place",
+            "leader Wyndham Clark",
+            "Grand Slam"
         ],
         "embedding": [
             -0.03368029743432999,
@@ -9569,23 +9675,28 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "ORG"
+        ],
         "key_phrases": [
             "you",
-            "Group D",
-            "the top spot",
-            "the U.S.",
-            "America Mens",
-            "one game",
-            "the World Cup",
-            "32 match",
-            "the Round",
-            "the USMNT",
-            "the USMNT's Round",
             "their group stage phase",
-            "their first do-or-die game",
-            "[+2262 chars",
+            "America Mens",
+            "the U.S.",
+            "the USMNT",
+            "the Round",
+            "the top spot",
+            "32 match",
+            "the World Cup",
             "It",
-            "The price"
+            "one game",
+            "Group D",
+            "The price",
+            "[+2262 chars",
+            "the USMNT's Round",
+            "their first do-or-die game"
         ],
         "embedding": [
             0.045337334275245667,
@@ -10035,25 +10146,31 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG",
+            "GPE"
+        ],
         "key_phrases": [
-            "To Undergo",
-            "MLB Trade Rumors",
-            "Arizona's victory",
-            "Lawlar heads",
-            "MRIs - MLB Trade Rumors",
-            "Diamondbacks' Michael Soroka",
-            "a strained right hamstring",
-            "Soroka and Lawlar's status",
-            "a strained left glute",
-            "Two injury scares",
-            "Alex Weiner",
-            "the 10-day IL",
-            "Jordan Lawlar",
-            "the 15-day injured list",
             "Friday",
+            "the 15-day injured list",
+            "a strained left glute",
+            "Soroka and Lawlar's status",
+            "a strained right hamstring",
+            "Arizona's victory",
+            "Alex Weiner",
+            "MRIs - MLB Trade Rumors",
+            "To Undergo",
+            "Diamondbacks' Michael Soroka",
             "Left-\u2026 [+3729 chars",
+            "Lawlar heads",
+            "Jordan Lawlar",
+            "Two injury scares",
+            "MLB Trade Rumors",
             "Arizona Sports",
-            "Soroka"
+            "Soroka",
+            "the 10-day IL"
         ],
         "embedding": [
             -0.026145778596401215,
@@ -10503,21 +10620,26 @@
                 "label": "PRODUCT"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
+            "Danny Sullivan",
+            "the XPEL Grand Prix",
             "five consecutive pole positions Alex Palou and Chip Ganassi Racing's\u00a0magical qualifying run",
             "him",
             "he",
-            "something",
-            "His Road America qualifying performance",
             "pole",
             "the late Alex Zanardi",
-            "the XPEL Grand Prix",
+            "Road America",
+            "no IndyCar driver",
+            "His Road America qualifying performance",
+            "The reigning and four-time IndyCar Series champion",
             "Alex Palou",
             "a st\u2026 [+5996 chars",
-            "Danny Sullivan",
-            "The reigning and four-time IndyCar Series champion",
-            "no IndyCar driver",
-            "Road America"
+            "something"
         ],
         "embedding": [
             0.022014273330569267,
@@ -10963,26 +11085,32 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "them",
+            "walk-off win - Battery Power Ozzie Albies",
             "walk-off fashion",
-            "Kyle Harrison",
-            "the Braves",
             "Atlanta",
+            "Chris Sale",
+            "Ozzie Albies",
             "the Brewers",
             "tough lefties",
-            "Ozzie Albies",
-            "some traff",
-            "Chris Sale",
             "game",
-            "each lefty",
             "the game",
-            "it",
+            "Sale",
             "a battle",
             "he",
+            "it",
+            "some traff",
+            "each lefty",
             "1-2-3 frames",
-            "walk-off win - Battery Power Ozzie Albies",
-            "Sale"
+            "Kyle Harrison",
+            "them",
+            "the Braves"
         ],
         "embedding": [
             -0.07063549757003784,
@@ -11456,23 +11584,28 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "the game",
-            "Colin Rea",
-            "a winning recipe",
-            "Wrigley Field",
-            "his 2026 season (and home runs",
-            "the Cubs' bullpen",
-            "[+2294 chars",
-            "Colin Reas",
-            "June",
             "Cubs",
-            "Matt Shaw",
+            "Colin Rea",
+            "June",
+            "Colin Reas",
             "Bleacher Nation",
-            "Pete Crow-Armstrong",
-            "Then, the Cu",
+            "Wrigley Field",
+            "It",
             "Blue Jays",
-            "It"
+            "[+2294 chars",
+            "Matt Shaw",
+            "the game",
+            "Then, the Cu",
+            "Pete Crow-Armstrong",
+            "a winning recipe",
+            "the Cubs' bullpen",
+            "his 2026 season (and home runs"
         ],
         "embedding": [
             -0.05517473444342613,
@@ -11906,22 +12039,27 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "the head coach",
-            "the case",
-            "Stephanie White - Sports Illustrated Indiana Fever coach Stephanie White",
-            "the Indiana Fever",
-            "the Atlanta Dream",
-            "a team",
-            "that",
-            "Fever Collapses",
-            "a blowout loss",
-            "the first place",
+            "expectations",
             "Stephanie White",
+            "the Atlanta Dream",
+            "Spotlight",
+            "Fever Collapses",
+            "a team",
+            "the first place",
+            "a blowout loss",
+            "the case",
+            "that",
+            "Stephanie White - Sports Illustrated Indiana Fever coach Stephanie White",
             "the fingers",
             "the heat",
-            "expectations",
-            "Spotlight"
+            "the Indiana Fever",
+            "the head coach"
         ],
         "embedding": [
             -0.006720906123518944,
@@ -12355,25 +12493,30 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
+            "they",
+            "Awful",
+            "you",
+            "who",
+            "the 2026 FIFA World Cup",
+            "The hydration break",
+            "FIFA",
+            "Announcing Hydration breaks",
+            "it",
+            "all",
             "them",
             "future World Cups",
-            "you",
-            "all",
-            "FIFA",
             "[+3054 chars",
-            "Awful",
-            "who",
-            "they",
-            "the 2026 FIFA World Cup",
-            "(well, the other one",
-            "Alexi Lalas",
-            "The hydration break",
-            "the soccer fan",
-            "it",
-            "Announcing Hydration breaks",
             "The scourge",
-            "FIFA\u2019s World Cup hydration breaks"
+            "Alexi Lalas",
+            "FIFA\u2019s World Cup hydration breaks",
+            "(well, the other one",
+            "the soccer fan"
         ],
         "embedding": [
             -0.020372174680233,
@@ -12803,24 +12946,28 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
-            "20 years",
             "his red T-shirt",
-            "Stanley Cup champions",
-            "he",
-            "the crowd",
-            "Hurricanes fans",
             "The lighthearted moments",
-            "Staal",
-            "tarps",
-            "+1693 chars",
-            "parade - NHL.com",
+            "Hurricanes fans",
             "team's 1st title",
+            "he",
+            "20 years",
+            "tarps",
+            "parade - NHL.com",
+            "the boys",
             "it",
-            "his son",
-            "his head",
+            "+1693 chars",
             "My little guy",
-            "the boys"
+            "his son",
+            "Staal",
+            "Stanley Cup champions",
+            "his head",
+            "the crowd"
         ],
         "embedding": [
             -0.031956419348716736,
@@ -13318,29 +13465,35 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
+            "their second win",
+            "Stat",
+            "second time",
+            "franchise-record 113 points",
+            "three days",
+            "Angel Reese",
+            "24 points",
+            "8 rebounds",
             "the Indiana Fever",
             "Yahoo Sports",
-            "Rhyne Howard",
-            "Allisha Gray",
-            "24 points",
-            "chars",
-            "Stat",
             "All five Atlanta starters",
+            "Allisha Gray",
             "Dream",
-            "1,000 rebounds",
-            "three days",
-            "Rhyne Howard's 24 points",
-            "franchise-record 113 points",
-            "Angel Reese",
-            "8 rebounds",
-            "a 113-96 victory",
-            "their second win",
             "Fever",
-            "double figures",
+            "1,000 rebounds",
+            "a 113-96 victory",
+            "Rhyne Howard",
             "the Atlanta Dream",
-            "second time",
-            "3 days"
+            "chars",
+            "3 days",
+            "double figures",
+            "Rhyne Howard's 24 points"
         ],
         "embedding": [
             -0.027040384709835052,
@@ -13830,28 +13983,34 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "Brobbey doubles",
-            "their first win",
-            "The big win",
-            "Dutch 5\u20131 World Cup win",
-            "Saturday",
-            "Group F. Cody Gakpo",
-            "the favourites",
             "Houston",
-            "Brian Brobbey",
             "the rampant Netherlands",
             "a World Cup",
-            "The Dutch",
-            "Sweden: Gakpo",
-            "front",
-            "Netherlands",
+            "Group F. Cody Gakpo",
+            "the favourites",
             "[+3824 chars",
-            "Al Jazeera",
-            "three points",
-            "Houston S",
+            "Sweden",
+            "Dutch 5\u20131 World Cup win",
             "four points",
-            "Sweden"
+            "Al Jazeera",
+            "Brobbey doubles",
+            "Brian Brobbey",
+            "their first win",
+            "Sweden: Gakpo",
+            "The Dutch",
+            "Houston S",
+            "The big win",
+            "Saturday",
+            "Netherlands",
+            "three points",
+            "front"
         ],
         "embedding": [
             -0.011535711586475372,
@@ -14313,26 +14472,31 @@
                 "label": "CARDINAL"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "ORG"
+        ],
         "key_phrases": [
-            "Rice Stadium",
-            "a smattering",
-            "orange",
-            "the Netherlands - Sweden World Cup Match",
-            "thousands",
+            "they",
             "Houston",
+            "thousands",
+            "I",
             "Houstonians",
+            "soul",
+            "a smattering",
+            "Houston's Dutch Orange Walk",
             "the World Cup - Chron",
-            "Over ten thousand Netherlands fans",
-            "Not even Houston's unending humidity",
-            "summer downpours",
             "a storied tradition",
             "the heart",
-            "soul",
-            "I",
-            "Houston's Dutch Orange Walk",
-            "they",
-            "NRG Stadium",
-            "Dutch football fans"
+            "Over ten thousand Netherlands fans",
+            "the Netherlands - Sweden World Cup Match",
+            "orange",
+            "summer downpours",
+            "Dutch football fans",
+            "Not even Houston's unending humidity",
+            "Rice Stadium",
+            "NRG Stadium"
         ],
         "embedding": [
             0.048925112932920456,
@@ -14790,23 +14954,29 @@
                 "label": "ORDINAL"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG",
+            "GPE"
+        ],
         "key_phrases": [
             "his debut",
+            "Bart",
+            "[+448 chars",
             "a bat first serviceable veteran",
-            "the Braves",
             "Michael Harris rejoins lineup",
-            "his Atlanta debut - Battery Power",
-            "The Braves",
             "the Brewers",
             "a top prospect",
             "former Georgia Tech catcher Joey Bart",
+            "The Braves",
+            "baseball",
+            "his Atlanta debut - Battery Power",
             "Joey Bart",
-            "[+448 chars",
-            "\u2019 tough lefty",
-            "Bart",
             "Sale",
             "The hometown kid",
-            "baseball"
+            "the Braves",
+            "\u2019 tough lefty"
         ],
         "embedding": [
             -0.09430870413780212,
@@ -15236,19 +15406,24 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "every Friday game",
-            "Strikeouts",
-            "I",
             "advance",
-            "every starting pitcher\u2019s performance",
-            "my delirium",
-            "the SP Roundup",
+            "I",
             "Friday",
+            "every starting pitcher performance",
+            "every Friday game",
+            "the jokes",
+            "Strikeouts",
+            "every starting pitcher\u2019s performance",
+            "the SP Roundup",
             "[+20410 chars",
             "my daily fantasy baseball article",
-            "the jokes",
-            "every starting pitcher performance"
+            "my delirium"
         ],
         "embedding": [
             -0.03827787935733795,
@@ -15686,23 +15861,28 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "ORG"
+        ],
         "key_phrases": [
-            "win - NHL.com Marlies",
-            "Toronto",
-            "the Toronto Marlies",
-            "[+2155 chars",
-            "the rafters",
-            "a throng",
-            "themselves",
-            "the moments",
-            "eye",
-            "Maple Leafs prospects",
-            "people",
-            "Coca-Cola Coliseum",
-            "center ice",
             "future",
+            "Toronto",
+            "a throng",
+            "the Toronto Marlies",
+            "the moments",
+            "center ice",
+            "win - NHL.com Marlies",
+            "Coca-Cola Coliseum",
+            "[+2155 chars",
+            "eye",
             "AHL playoffs",
-            "NHL TORONTO --Easton Cowan"
+            "NHL TORONTO --Easton Cowan",
+            "people",
+            "the rafters",
+            "Maple Leafs prospects",
+            "themselves"
         ],
         "embedding": [
             -0.04401161149144173,
@@ -16156,27 +16336,32 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "his lack",
-            "faith",
-            "The Roommates Show",
-            "their whole lives",
-            "the Knicks",
-            "Josh Hart",
-            "a New York Knicks NBA championship",
-            "the chance",
-            "Jalen Brunson",
-            "live podcast",
+            "they",
             "their ability",
-            "a championship",
-            "Stephen A. Smith",
+            "the Knicks",
+            "I",
+            "Josh Hart",
+            "live podcast",
             "another thing",
             "Friday night",
-            "I",
-            "they",
-            "New Yorkers",
+            "something",
+            "faith",
+            "their whole lives",
+            "the chance",
             "Awful Announcing Stephen A. Smith",
-            "something"
+            "a New York Knicks NBA championship",
+            "Jalen Brunson",
+            "The Roommates Show",
+            "Stephen A. Smith",
+            "New Yorkers",
+            "his lack",
+            "a championship"
         ],
         "embedding": [
             -0.01674524135887623,
@@ -16670,25 +16855,31 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "Patrick Corbin",
-            "a much easier path",
-            "a look",
-            "the mound",
-            "Game",
-            "Shaw",
-            "Dylan Cease",
-            "Chicago Cubs Lineup",
-            "Right Field",
             "they",
+            "the Cubs lineup",
+            "the Blue Jays",
+            "Shaw",
+            "- Bleacher Nation",
             "[+4416 chars",
             "the Cubs",
-            "the Blue Jays",
+            "Patrick Corbin",
+            "a look",
+            "Right Field",
             "Wrigley",
+            "Chicago Cubs Lineup",
+            "Hoerner Batting Second",
+            "a much easier path",
+            "Dylan Cease",
+            "the mound",
             "their third straight series",
-            "the Cubs lineup",
-            "- Bleacher Nation",
-            "Hoerner Batting Second"
+            "Game"
         ],
         "embedding": [
             -0.0893491804599762,
@@ -17126,21 +17317,27 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "a referee",
-            "field",
-            "Chinas national team",
-            "Ma Ning",
-            "the field",
-            "the World Cup",
-            "anonymity",
-            "a different approach",
             "someone",
-            "the countrys soccer fans",
-            "the pitch",
-            "Card Master",
+            "the World Cup",
+            "a different approach",
+            "anonymity",
+            "Ma Ning",
+            "[+253 chars",
+            "field",
+            "a referee",
             "no players",
-            "[+253 chars"
+            "the pitch",
+            "Chinas national team",
+            "the field",
+            "the countrys soccer fans",
+            "Card Master"
         ],
         "embedding": [
             -0.02562984637916088,
@@ -17582,20 +17779,25 @@
                 "label": "LOC"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "the Death",
+            "Player Hints",
             "noon",
-            "Amir Shirazi's truck",
             "Smith",
+            "June",
             "the passenger seat",
+            "the Death",
+            "the death",
             "Shirazi",
+            "Aldon Smith",
+            "the San Fran",
+            "Amir Shirazi's truck",
             "[+2626 chars",
             "Foul Play",
-            "June",
-            "the San Fran",
-            "Player Hints",
-            "the death",
-            "Aldon Smith",
             "Aldon Smith - Sports Illustrated"
         ],
         "embedding": [
@@ -18046,21 +18248,26 @@
                 "label": "GPE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "ORG"
+        ],
         "key_phrases": [
-            "the-pitch",
-            "One Scottish fan",
+            "World Cup tourists",
+            "<ul><li>They'll lat",
+            "Scottish fans",
+            "us",
             "an American emergency room",
             "Boston",
-            "Taunton",
             "the tournament",
             "the news",
-            "all - Axios Boston",
-            "World Cup tourists",
+            "One Scottish fan",
             "Mass.",
+            "Taunton",
             "America",
-            "us",
-            "<ul><li>They'll lat",
-            "Scottish fans"
+            "the-pitch",
+            "all - Axios Boston"
         ],
         "embedding": [
             0.07517167180776596,
@@ -18538,29 +18745,35 @@
                 "label": "FAC"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "A rainbow",
-            "a pattern",
-            "Dodger Stadiu",
-            "discrimination",
-            "who",
-            "USA",
-            "MLB's actions",
-            "Dodger Stadium",
-            "their Christian faith",
-            "colored San Francisco Giants logo",
-            "baseball players",
-            "Missouri Sen. Josh Hawley",
-            "California",
-            "Los Angeles",
-            "Pride hat warning - STLtoday.com",
-            "MLB",
             "+46 chars",
+            "who",
+            "MLB's actions",
+            "colored San Francisco Giants logo",
             "Jun",
             "the sleeve",
-            "Giants",
-            "LGBTQ+ Pride Night",
+            "discrimination",
             "Josh Hawley's complaints",
+            "MLB",
+            "LGBTQ+ Pride Night",
+            "a pattern",
+            "baseball players",
+            "Dodger Stadiu",
+            "Pride hat warning - STLtoday.com",
+            "A rainbow",
+            "Giants",
+            "USA",
+            "Missouri Sen. Josh Hawley",
+            "Los Angeles",
+            "their Christian faith",
+            "California",
+            "Dodger Stadium",
             "left fielder Michael Conforto"
         ],
         "embedding": [
@@ -19007,21 +19220,26 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "the biggest talking points",
-            "the White House",
-            "he",
-            "Daniel Cormier's Strong Reaction",
-            "Hokit's WWE-like persona",
-            "the headlines",
-            "the names",
-            "Josh Hokit",
-            "the Octagon",
-            "[+3032 chars",
             "UFC Freedom",
             "MMA",
+            "he",
+            "the Octagon",
+            "the White House",
+            "the names",
+            "It",
+            "Daniel Cormier's Strong Reaction",
             "Josh Hokit's Michelle Obama Slur",
-            "It"
+            "[+3032 chars",
+            "Josh Hokit",
+            "the headlines",
+            "the biggest talking points",
+            "Hokit's WWE-like persona"
         ],
         "embedding": [
             -0.0551789216697216,
@@ -19443,19 +19661,23 @@
                 "label": "CARDINAL"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON"
+        ],
         "key_phrases": [
             "three consecutive runner-up finishes",
-            "a row",
-            "Three times",
-            "a thrilling victory",
-            "Outlaws",
-            "Haudenschild Tops Huset\u2019s High Bank Nationals Prelim Barnburner",
-            "he",
-            "[+5171 chars",
             "| World",
-            "Haudenschild Tops Huset\u2019s High Bank Nationals Prelim Barnburner - World",
+            "he",
+            "a thrilling victory",
+            "Haudenschild",
+            "Three times",
+            "[+5171 chars",
             "Sheldon Haudenschild",
-            "Haudenschild"
+            "a row",
+            "Haudenschild Tops Huset\u2019s High Bank Nationals Prelim Barnburner - World",
+            "Outlaws",
+            "Haudenschild Tops Huset\u2019s High Bank Nationals Prelim Barnburner"
         ],
         "embedding": [
             -0.004363968502730131,
@@ -19897,28 +20119,33 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON"
+        ],
         "key_phrases": [
-            "that",
-            "Carlo Ancelotti",
-            "Brazils manager",
-            "hope",
-            "Four Takeaways",
-            "[+5107 chars",
-            "a balance",
-            "Friday",
-            "him",
-            "a win",
-            "Brazil\u2019s Soured World Cup Win",
-            "which",
-            "Morocco",
-            "Haiti",
             "the clash",
-            "he",
-            "We",
-            "Haiti - Sports Illustrated Carlo Ancelotti",
-            "his star player",
             "a disappointing 11 draw",
-            "desperation"
+            "Haiti",
+            "which",
+            "Carlo Ancelotti",
+            "Four Takeaways",
+            "a win",
+            "a balance",
+            "[+5107 chars",
+            "desperation",
+            "Friday",
+            "Brazils manager",
+            "him",
+            "he",
+            "Haiti - Sports Illustrated Carlo Ancelotti",
+            "We",
+            "Brazil\u2019s Soured World Cup Win",
+            "hope",
+            "his star player",
+            "Morocco",
+            "that"
         ],
         "embedding": [
             0.010201581753790379,
@@ -20348,13 +20575,17 @@
                 "label": "FAC"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
-            "the Qualcomm Circuit",
-            "Naval Base Coronado",
-            "track photos",
             "an exciting weekend",
+            "the Qualcomm Circuit",
+            "track photos",
             "the best photos",
-            "all three series"
+            "all three series",
+            "Naval Base Coronado"
         ],
         "embedding": [
             -0.07474351674318314,
@@ -20792,16 +21023,21 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "Double-A Binghamton",
-            "their rehab assignments",
-            "hits",
-            "Francisco Lindor and center fielder Tyrone Taylor",
-            "rehab assignments",
             "Friday's Double-A game - SNY New York Mets",
             "Tyrone Taylor",
+            "rehab assignments",
+            "Mets' Francisco Lindor",
+            "their rehab assignments",
+            "Francisco Lindor and center fielder Tyrone Taylor",
             "Friday's game",
-            "Mets' Francisco Lindor"
+            "Double-A Binghamton",
+            "hits"
         ],
         "embedding": [
             -0.005022701341658831,
@@ -21255,18 +21491,24 @@
                 "label": "NORP"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "two goals",
-            "Norway star striker Erling Haaland",
             "his country\u2019s first match",
-            "[+2392 chars",
-            "Argentinian legend",
-            "Brazil allegiance",
-            "Cristiano Ronaldo\u2019s sister",
-            "the world\u2019s biggest stars",
-            "Katia",
+            "Portugal World Cup draw - New York Post",
             "the 2026 World Cup",
-            "Portugal World Cup draw - New York Post"
+            "Argentinian legend",
+            "Norway star striker Erling Haaland",
+            "[+2392 chars",
+            "the world\u2019s biggest stars",
+            "Brazil allegiance",
+            "two goals",
+            "Cristiano Ronaldo\u2019s sister",
+            "Katia"
         ],
         "embedding": [
             -0.0010662071872502565,
@@ -21732,24 +21974,30 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "notable players",
-            "WR Cris Carter",
-            "QB Bernie Kosar",
-            "The NFL\u2019s Supplemental Draft",
-            "an interesting history",
-            "Better Tools",
-            "Analyst",
             "the 2026 college season",
-            "He",
-            "QB Brendan Sorsby",
             "Drew Allar - Steelers Depot",
-            "Brendan Sorsby",
+            "He",
+            "QB Bernie Kosar",
             "Texas Tech",
+            "The NFL\u2019s Supplemental Draft",
+            "Analyst",
+            "Brendan Sorsby",
             "[+4189 chars",
-            "'Slightly Better Prospect",
+            "an interesting history",
             "all eyes",
-            "the league"
+            "Better Tools",
+            "WR Cris Carter",
+            "notable players",
+            "the league",
+            "'Slightly Better Prospect",
+            "QB Brendan Sorsby"
         ],
         "embedding": [
             -0.12261117994785309,

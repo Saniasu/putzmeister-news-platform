@@ -44,23 +44,29 @@
                 "label": "GPE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "Newser New Yorker",
-            "His brain",
-            "neon lights",
-            "Indiana Howell",
             "age",
-            "California",
             "who",
             "a Predator",
-            "the troubling case",
-            "Small-Town Doctor",
-            "a refrigerated room",
+            "Indiana Howell",
+            "Dementia",
             "Ray Howell",
-            "+530 chars",
-            "the University",
+            "Newser New Yorker",
+            "His brain",
+            "a refrigerated room",
             "it",
-            "Dementia"
+            "+530 chars",
+            "California",
+            "the troubling case",
+            "neon lights",
+            "the University",
+            "Small-Town Doctor"
         ],
         "embedding": [
             0.060199737548828125,
@@ -514,20 +520,25 @@
                 "label": "CARDINAL"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "the temporary Medicare GLP-1 Bridge program",
-            "its\u00a0launch",
-            "some Medicare beneficiaries",
-            "a year-and-a-half",
-            "a year-and-a-half thr",
-            "GLP-1\u00a0medications",
-            "The temporary program",
-            "one flat fee",
-            "month",
-            "July",
             "the end",
+            "a year-and-a-half",
+            "one flat fee",
+            "the temporary Medicare GLP-1 Bridge program",
             "What",
-            "The Hill"
+            "The temporary program",
+            "its\u00a0launch",
+            "July",
+            "some Medicare beneficiaries",
+            "month",
+            "GLP-1\u00a0medications",
+            "The Hill",
+            "a year-and-a-half thr"
         ],
         "embedding": [
             -0.04386811703443527,
@@ -945,21 +956,25 @@
                 "label": "ORDINAL"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE"
+        ],
         "key_phrases": [
-            "This kid",
-            "him",
-            "His Sister",
             "the poor kid",
-            "A Family Dispute Breaks",
-            "some family members",
-            "A Man",
-            "Pexels/Reddit",
-            "his annoying sister",
-            "the internet",
+            "His Sister",
             "Food",
-            "Ill",
+            "him",
             "meals",
-            "it"
+            "A Man",
+            "his annoying sister",
+            "it",
+            "the internet",
+            "Ill",
+            "This kid",
+            "Pexels/Reddit",
+            "some family members",
+            "A Family Dispute Breaks"
         ],
         "embedding": [
             -0.007246246561408043,
@@ -1381,22 +1396,26 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
             "you",
-            "a crucial pursuit",
-            "strength training",
-            "An 83-year-old trainer\u2019s strength training formula",
-            "anyone",
-            "wel",
-            "we",
-            "muscle mass",
-            "[+6420 chars",
-            "your age",
-            "the over-65s - Fit&Well",
             "muscle",
-            "it",
+            "strength training",
+            "your age",
+            "this workout plan Building strength",
+            "the over-65s - Fit&Well",
             "their senior years",
-            "this workout plan Building strength"
+            "it",
+            "anyone",
+            "a crucial pursuit",
+            "we",
+            "wel",
+            "An 83-year-old trainer\u2019s strength training formula",
+            "[+6420 chars",
+            "muscle mass"
         ],
         "embedding": [
             -0.011204004287719727,
@@ -1806,21 +1825,25 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON"
+        ],
         "key_phrases": [
-            "fresh food",
-            "you",
-            "them",
-            "fruit",
-            "vegetables",
             "they",
-            "a budget-friendly option",
-            "canned veg",
-            "Frozen fruit",
+            "you",
             "us",
+            "a budget-friendly option",
+            "vegetables",
+            "fruit",
+            "them",
+            "Frozen fruit",
+            "living",
             "You",
-            "more fresh food",
+            "canned veg",
             "[+5437 chars",
-            "living"
+            "more fresh food",
+            "fresh food"
         ],
         "embedding": [
             0.0022717234678566456,
@@ -2238,25 +2261,29 @@
                 "label": "NORP"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
-            "Lower Triglycerides",
-            "the most common type",
+            "a dietitian",
+            "a healthy heart",
+            "A high fiber intake",
+            "Triglycerides",
+            "They",
+            "the body",
+            "lipids",
+            "cholesterol",
+            "high triglycerides",
+            "this high-fiber meal plan",
             "fat",
             "a Dietitian - EatingWell",
-            "the risk o",
-            "a healthy heart",
-            "lipids",
-            "They",
-            "both high cholesterol",
-            "improved triglyceride levels",
-            "high triglycerides",
+            "Lower Triglycerides",
             "7-Day High-Fiber Meal Plan",
-            "Triglycerides",
-            "this high-fiber meal plan",
-            "A high fiber intake",
-            "the body",
-            "cholesterol",
-            "a dietitian"
+            "the most common type",
+            "the risk o",
+            "both high cholesterol",
+            "improved triglyceride levels"
         ],
         "embedding": [
             -0.01488242857158184,
@@ -2678,26 +2705,30 @@
                 "label": "CARDINAL"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE"
+        ],
         "key_phrases": [
-            "Pomegranate Juice - Health",
-            "six foods",
-            "6 Foods",
-            "potential",
-            "chars",
             "Pomegranate juice",
-            "Lower Blood Pressure",
+            "adults",
+            "six foods",
+            "a way",
+            "a condition",
             "hypertension",
+            "Lower Blood Pressure",
+            "6 Foods",
+            "These everyday foods",
             "the U.S.",
-            "about half",
+            "it",
             "research",
             "healthy blood pressure",
-            "a condition",
-            "food categories",
-            "it",
-            "These everyday foods",
-            "a way",
+            "potential",
             "But its not the only option",
-            "adults"
+            "food categories",
+            "Pomegranate Juice - Health",
+            "about half",
+            "chars"
         ],
         "embedding": [
             -0.030920421704649925,
@@ -3119,20 +3150,25 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "added sugar",
-            "Dietitian Maria Laura Haddad-Garcia\r\n<ul><li>High-fiber",
-            "Your breakfast bowl",
-            "Cardiologists",
-            "Stroke Risk",
-            "cereals",
-            "a powerful step",
-            "stroke prevention",
-            "that",
             "better heart health",
+            "a powerful step",
+            "Dietitian Maria Laura Haddad-Garcia\r\n<ul><li>High-fiber",
             "sodium",
             "[+6741 chars",
-            "low-added-sugar breakfast cereals"
+            "stroke prevention",
+            "cereals",
+            "low-added-sugar breakfast cereals",
+            "added sugar",
+            "Your breakfast bowl",
+            "Cardiologists",
+            "that",
+            "Stroke Risk"
         ],
         "embedding": [
             -0.01851814053952694,
@@ -3546,29 +3582,33 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON"
+        ],
         "key_phrases": [
-            "you",
-            "both protein",
-            "protein",
-            "nutrition experts",
             "these",
+            "they",
+            "fiber",
+            "protein",
+            "both nutrients",
+            "a single bite",
+            "which",
+            "the ones",
+            "both protein",
+            "+5552 chars",
+            "nutrition experts",
+            "the Best Foods",
             "Nutritionists - marthastewart.com High-protein high-fiber foods",
+            "Protein",
+            "Fiber",
+            "We",
             "different foodslike meat",
             "the best foods",
-            "both nutrients",
-            "the ones",
-            "Fiber",
-            "Protein",
-            "which",
-            "+5552 chars",
-            "fiber",
-            "a single bite",
+            "you",
             "a good chance",
-            "the Best Foods",
-            "they",
-            "We",
-            "a number",
-            "essential nutrients"
+            "essential nutrients",
+            "a number"
         ],
         "embedding": [
             -0.0214068666100502,
@@ -3982,6 +4022,8 @@
                 "label": "CARDINAL"
             }
         ],
+        "contains_pii": false,
+        "pii_entities": [],
         "key_phrases": [
             "shared biomarkers - Medical Xpress",
             "six mental disorders",
@@ -4403,28 +4445,32 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON"
+        ],
         "key_phrases": [
-            "The science",
             "who",
-            "if my",
-            "people",
             "the effects",
-            "Rowan Jacobsen",
-            "the grey winters",
+            "I",
+            "Vermont",
             "we",
-            "ample amounts",
-            "Summers",
+            "Rowan Jacobsen",
+            "people",
             "Defense",
+            "nature writer",
+            "Su",
             "him",
+            "Summers",
+            "The science",
+            "if my",
+            "the seasons",
             "more sun",
             "sun exposure",
-            "Vermont",
-            "the seasons",
-            "science",
-            "I",
-            "nature writer",
             "New York Post",
-            "Su"
+            "science",
+            "ample amounts",
+            "the grey winters"
         ],
         "embedding": [
             0.016170695424079895,
@@ -4850,32 +4896,37 @@
                 "label": "CARDINAL"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "ORG"
+        ],
         "key_phrases": [
-            "revisions",
-            "testosterone replacement therapies",
-            "evidence",
-            "thousands",
-            "the US government\u2019s latest move",
-            "Human Services",
-            "their safety",
-            ">Recent studies",
-            "benefits",
-            "What men",
-            "new data",
-            "testos",
-            "the labels",
-            "changes",
-            "Summary",
-            "the way",
-            "testosterone therapy",
-            "These updates",
-            "men",
-            "The US Department",
-            "[+7770 chars",
             "therapy labels",
+            "thousands",
+            "testosterone replacement therapies",
+            "the US government\u2019s latest move",
+            "evidence",
+            "Health",
+            "the labels",
+            "men",
+            "revisions",
+            "These updates",
+            "new data",
+            "changes",
+            "testosterone therapy",
             "new safety data.</li><li",
+            "testos",
+            "Summary",
+            "[+7770 chars",
+            "Human Services",
             "easier access",
-            "Health"
+            "The US Department",
+            "the way",
+            "What men",
+            ">Recent studies",
+            "their safety",
+            "benefits"
         ],
         "embedding": [
             -0.008465094491839409,
@@ -5309,26 +5360,32 @@
                 "label": "CARDINAL"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "Which",
-            "both Broccoli",
-            "your diet",
-            "Both",
-            "Healthier",
-            "Brussels Sprouts",
-            "Antioxidants",
-            "a nutritional punch",
-            "these health-boosting compounds",
-            "a healthy, balanced diet",
-            "antioxidants",
-            "part",
-            "cruciferous vegetables",
-            "Information Broccoli",
             "high levels",
-            "great additions",
+            "cruciferous vegetables",
+            "part",
+            "Both",
+            "Antioxidants",
             "Health",
+            "Which",
+            "great additions",
+            "Brussels Sprouts",
+            "both Broccoli",
+            "a nutritional punch",
+            "Broccoli",
+            "Information Broccoli",
+            "your diet",
             "Brussels sprouts",
-            "Broccoli"
+            "a healthy, balanced diet",
+            "these health-boosting compounds",
+            "antioxidants",
+            "Healthier"
         ],
         "embedding": [
             0.014206799678504467,
@@ -5770,22 +5827,27 @@
                 "label": "CARDINAL"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "ORG"
+        ],
         "key_phrases": [
-            "a year",
+            "the state's first outbreak",
             "no clear end",
+            "sight",
+            "June",
+            "a grim milestone",
+            "outbreaks",
+            "the United States",
+            "battling measles",
             "its measles-free designation",
             "sick sinc",
-            "outbreaks",
-            "the past year",
             "Utah",
-            "that",
-            "June",
-            "the state's first outbreak",
-            "the United States",
-            "sight",
-            "a grim milestone",
-            "battling measles",
             "PBS",
+            "a year",
+            "the past year",
+            "that",
             "More than 680 people"
         ],
         "embedding": [
@@ -6196,22 +6258,24 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": false,
+        "pii_entities": [],
         "key_phrases": [
+            "the very clockwork",
+            "a trend",
+            "a dietary trend",
+            "years",
+            "unusual fascination",
             "nutritionists",
             "The Actual Benefits",
-            "years",
+            "it",
+            "this kind",
+            "intermittent fasting resurfaces",
+            "that",
+            "Every couple",
             "Intermittent Fasting",
             "Experts - GQ Intermittent fasting",
-            "that",
-            "unusual fascination",
-            "a weight-loss diet",
-            "the very clockwork",
-            "intermittent fasting resurfaces",
-            "Every couple",
-            "it",
-            "a trend",
-            "this kind",
-            "a dietary trend"
+            "a weight-loss diet"
         ],
         "embedding": [
             -0.04876728728413582,
@@ -6633,22 +6697,26 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
-            "as little as five weeks",
             "poles",
-            "trial",
+            "depression symptoms",
+            "Nordic walking",
             "the body's muscles",
             "part",
-            "that",
-            "The specially designed poles",
-            "a very effective aerobic activity",
-            "up to 90%",
-            "it",
-            "depression symptoms",
-            "re",
             "these accessories",
+            "re",
+            "it",
+            "The specially designed poles",
             "trekking",
-            "Nordic walking"
+            "as little as five weeks",
+            "trial",
+            "a very effective aerobic activity",
+            "that",
+            "up to 90%"
         ],
         "embedding": [
             -0.0030468227341771126,
@@ -7090,23 +7158,29 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
             "POMONA",
-            "his life",
-            "retired CalFire firefighter George Rojas",
-            "the team",
-            "[+1893 chars",
-            "that",
-            "Pomona - ABC7 Los Angeles Retired CalFire firefighter George Rojas",
-            "retired firefighter reunites",
-            "doctors",
-            "a debilitating stroke",
             "KABC",
-            "nurses",
+            "[+1893 chars",
+            "a debilitating stroke",
+            "Pomona - ABC7 Los Angeles Retired CalFire firefighter George Rojas",
             "what",
+            "doctors",
             "hospital medical team",
-            "Stroke survivor",
-            "Pomona Valley Hospital Medical Center"
+            "nurses",
+            "the team",
+            "his life",
+            "that",
+            "retired firefighter reunites",
+            "Pomona Valley Hospital Medical Center",
+            "retired CalFire firefighter George Rojas",
+            "Stroke survivor"
         ],
         "embedding": [
             -0.02977050095796585,
@@ -7516,26 +7590,30 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
-            "you",
-            "Their Mom",
-            "Mom",
-            "her own puppies",
             "who",
-            "that",
-            "Golden Retriever Puppies",
-            "M",
-            "right",
-            "a Walk - Yahoo Life UK",
-            "a walk",
             "the total unique situation",
-            "[+2223 chars",
+            "a Walk - Yahoo Life UK",
             "the puppies",
-            "One dog mom",
-            "your pup",
             "You",
+            "your pup",
+            "[+2223 chars",
+            "right",
+            "Golden Retriever Puppies",
+            "her own puppies",
+            "One dog mom",
             "it",
-            "charge"
+            "you",
+            "a walk",
+            "M",
+            "charge",
+            "that",
+            "Their Mom",
+            "Mom"
         ],
         "embedding": [
             0.024596884846687317,
@@ -7953,24 +8031,29 @@
                 "label": "GPE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "ORG"
+        ],
         "key_phrases": [
-            "the gut, immune, and digestive benefits",
-            "yogurt",
-            "Fermented Foods",
-            "what fermented foods",
             "they",
-            "a fixture",
-            "fermented foods",
-            "Nutrition experts",
-            "which",
-            "kimchi",
             "grocery aisles",
             "wellness conversations",
-            "what",
             "your health",
             "kombucha",
+            "a fixture",
             "Your Body",
-            "your body"
+            "what",
+            "the gut, immune, and digestive benefits",
+            "yogurt",
+            "kimchi",
+            "your body",
+            "which",
+            "Fermented Foods",
+            "Nutrition experts",
+            "fermented foods",
+            "what fermented foods"
         ],
         "embedding": [
             0.04321333393454552,
@@ -8384,25 +8467,27 @@
                 "label": "TIME"
             }
         ],
+        "contains_pii": false,
+        "pii_entities": [],
         "key_phrases": [
-            "Our World",
-            "some positive vibes",
-            "Fake AirPods",
-            "time",
-            "A Few Minutes - Bored Panda Tired",
-            "that",
-            "tiny high-quality components",
-            "the endless political drama",
-            "precision engineering",
-            "micro",
-            "the difference",
-            "You",
-            "97 Amazing Facts",
-            "the outside",
-            "advanced chips",
-            "a break",
             "Real AirPods",
-            "It"
+            "Our World",
+            "97 Amazing Facts",
+            "micro",
+            "some positive vibes",
+            "a break",
+            "advanced chips",
+            "precision engineering",
+            "A Few Minutes - Bored Panda Tired",
+            "time",
+            "It",
+            "the outside",
+            "the difference",
+            "tiny high-quality components",
+            "that",
+            "You",
+            "Fake AirPods",
+            "the endless political drama"
         ],
         "embedding": [
             -0.05610239505767822,
@@ -8820,24 +8905,28 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
-            "replacement",
-            "worn-out knees",
-            "the cartilage",
-            "worn-down knees",
             "Stanf",
-            "the discomfort",
-            "that extent",
-            "We",
-            "regeneration",
-            "Yahoo",
-            "But new research",
-            "one injection",
-            "the usual answer",
+            "worn-out knees",
             "stages",
+            "that extent",
+            "But new research",
+            "We",
+            "the discomfort",
             "cartilage",
+            "the cartilage",
+            "replacement",
+            "Yahoo",
+            "the usual answer",
             "+2559 chars",
-            "the joint"
+            "the joint",
+            "regeneration",
+            "worn-down knees",
+            "one injection"
         ],
         "embedding": [
             -0.033725809305906296,
@@ -9247,21 +9336,25 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
-            "[+1888 chars",
-            "behaviors",
-            "the use",
-            "reports",
-            "they",
             "injectable weight-loss drugs - WOODTV.com People",
-            "(NewsNation",
-            "\"ghost fat",
-            "the reported issues",
-            "a surprising side effect",
+            "they",
+            "the use",
             "injectable weight-loss drugs",
+            "behaviors",
             "a prominent psychological effect",
+            "(NewsNation",
             "Ghost fat",
-            "the known side effects"
+            "the reported issues",
+            "\"ghost fat",
+            "a surprising side effect",
+            "the known side effects",
+            "reports",
+            "[+1888 chars"
         ],
         "embedding": [
             0.003245600499212742,
@@ -9687,20 +9780,22 @@
                 "label": "ORDINAL"
             }
         ],
+        "contains_pii": false,
+        "pii_entities": [],
         "key_phrases": [
-            "a newly recognized and extremely rare tick-borne illness",
-            "Northern California",
-            "An individual",
             "only the fourth documented case",
-            "the infection",
-            "a rare tick-borne bacterial infection",
-            "[+5222 chars",
-            "symptoms",
             "know - Sacramento Bee CDPH",
-            "Northern California patient",
+            "symptoms",
             "what",
+            "[+5222 chars",
+            "Northern California",
+            "a newly recognized and extremely rare tick-borne illness",
+            "Northern California patient",
+            "Extremely rare tick-borne disease",
+            "a rare tick-borne bacterial infection",
             "Wellness",
-            "Extremely rare tick-borne disease"
+            "An individual",
+            "the infection"
         ],
         "embedding": [
             0.06331973522901535,
@@ -10122,18 +10217,22 @@
                 "label": "TIME"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE"
+        ],
         "key_phrases": [
             "you",
             "a stroke",
-            "Your loved one",
-            "A Stroke - HuffPost Stroke symptoms",
             "someone",
-            "You",
-            "it",
-            "[+5696 chars",
-            "some",
+            "the United States",
             "This Subtle Sign",
-            "the United States"
+            "Your loved one",
+            "it",
+            "A Stroke - HuffPost Stroke symptoms",
+            "You",
+            "[+5696 chars",
+            "some"
         ],
         "embedding": [
             0.01710371859371662,
@@ -10567,25 +10666,30 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "more than 80 surgeries",
-            "to Come - Newsweek Wioletta Wyrwol",
-            "routine surgery",
-            "one woman",
-            "her health battles",
-            "Woman",
-            "pain",
             "who",
-            "more than 80 medical procedures",
-            "over a decade",
-            "a devastating ordeal",
-            "[+2862 chars",
-            "Routine Surgery",
-            "uncertainty",
-            "What",
             "Wioletta Wyrwols jour",
+            "[+2862 chars",
+            "one woman",
+            "What",
+            "more than 80 surgeries",
+            "Routine Surgery",
+            "a routine surgery",
+            "uncertainty",
+            "her health battles",
+            "to Come - Newsweek Wioletta Wyrwol",
+            "a devastating ordeal",
+            "over a decade",
+            "routine surgery",
             "Her Arm",
-            "a routine surgery"
+            "more than 80 medical procedures",
+            "Woman",
+            "pain"
         ],
         "embedding": [
             -0.028458107262849808,
@@ -11035,26 +11139,32 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "Dr. Haidy Marzouk",
-            "Central New York",
-            "a snow",
-            "WSYR-TV",
             "doctor",
+            "Heavy pollen",
+            "a reason",
+            "Dr. Haidy Marzouk",
+            "St. Joseph\u2019s Health",
+            "a snow",
+            "Central New York",
+            "an ear, nose and throat physician",
+            "an ear",
+            "Many Central New Yorkers",
+            "WSYR FAYETTEVILLE",
+            "doctors",
+            "tissues",
+            "WSYR-TV",
+            "themselves",
+            "allergy season",
             "N.Y.",
             "FAYETTEVILLE",
-            "tissues",
-            "a reason",
-            "an ear, nose and throat physician",
-            "allergy season",
-            "St. Joseph\u2019s Health",
-            "doctors",
-            "Heavy pollen",
-            "WSYR FAYETTEVILLE",
-            "themselves",
-            "Many Central New Yorkers",
-            "[+2224 chars",
-            "an ear"
+            "[+2224 chars"
         ],
         "embedding": [
             0.07495218515396118,
@@ -11476,22 +11586,24 @@
                 "label": "PRODUCT"
             }
         ],
+        "contains_pii": false,
+        "pii_entities": [],
         "key_phrases": [
-            "bleeding complications",
-            "the preventive health measure",
-            "other preventive care",
-            "2.9%",
-            "[+6029 chars",
             "a prominent medical journal",
-            "many more families",
-            "Western Pa. families",
-            "which",
-            "that rat",
+            "newborns",
             "vitamin K shots",
-            "A recent study",
-            "rates",
             "The JAMA researchers",
-            "newborns"
+            "bleeding complications",
+            "many more families",
+            "the preventive health measure",
+            "rates",
+            "[+6029 chars",
+            "which",
+            "2.9%",
+            "Western Pa. families",
+            "A recent study",
+            "other preventive care",
+            "that rat"
         ],
         "embedding": [
             -0.0020966939628124237,
@@ -11913,30 +12025,34 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
-            "The problem",
-            "vitamin D deficiency",
-            "a video",
-            "people",
-            "nearly one billion people",
-            "India Vitamin D",
-            "itself",
-            "Something",
-            "[+511 chars",
-            "The Times",
-            "supplementation",
-            "People",
-            "mo",
-            "Instagram",
-            "Vitamin D supplements",
-            "most cases",
             "the sunshine vitamin",
-            "those",
+            "most cases",
             "supplements",
-            "any meaningful benefit",
+            "nearly one billion people",
+            "The Times",
+            "India Vitamin D",
+            "vitamin D deficiency",
+            "Something",
+            "heart surgeon",
+            "people",
+            "itself",
+            "The problem",
+            "those",
+            "People",
             "the doctor",
-            "the supplement",
-            "heart surgeon"
+            "supplementation",
+            "[+511 chars",
+            "Instagram",
+            "mo",
+            "any meaningful benefit",
+            "Vitamin D supplements",
+            "a video",
+            "the supplement"
         ],
         "embedding": [
             -0.0006726967985741794,
@@ -12366,26 +12482,31 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "GPE"
+        ],
         "key_phrases": [
+            "I",
+            "a young age",
+            "what",
             "Lacey Duvall",
-            "people",
-            "Life-Changing' Dental Implants",
+            "Woman",
+            "the 'Scary Looking' Aftermath (Exclusive) - Yahoo Lifestyle Canada",
             ">The",
             "$54K",
-            "PEOPLE",
-            "further damage",
-            "what",
-            "<ul><li>Years",
-            "Woman",
-            "childhood cancer treatment",
-            "+5631 chars",
-            "your teeth",
-            "it",
-            "Lacey Duvalls teeth",
-            "the 'Scary Looking' Aftermath (Exclusive) - Yahoo Lifestyle Canada",
-            "I",
+            "people",
             "a domestic violence incident",
-            "a young age",
+            "<ul><li>Years",
+            "further damage",
+            "Lacey Duvalls teeth",
+            "+5631 chars",
+            "it",
+            "Life-Changing' Dental Implants",
+            "your teeth",
+            "childhood cancer treatment",
+            "PEOPLE",
             "full reconstruction"
         ],
         "embedding": [
@@ -12804,15 +12925,19 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
             "AI model",
-            "diagnoses",
             "years",
             "Videos",
             "some patients",
             "uncertainty",
             "Study - ABC News - Breaking News",
-            "Latest News"
+            "Latest News",
+            "diagnoses"
         ],
         "embedding": [
             0.034293271601200104,
@@ -13270,21 +13395,26 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "ORG"
+        ],
         "key_phrases": [
             "you",
-            "wife",
-            "[+2057 chars",
-            "Ala.",
-            "who",
-            "MILLBROOK",
             "they",
-            "Millbrook couple\u2019s cancer fight",
-            "a Millbrook husband",
-            "the same week",
-            "- WSFA",
-            "we",
-            "(WSFA",
+            "who",
             "four cancer diagnoses",
+            "the same week",
+            "[+2057 chars",
+            "wife",
+            "MILLBROOK",
+            "Millbrook couple\u2019s cancer fight",
+            "we",
+            "- WSFA",
+            "Ala.",
+            "(WSFA",
+            "a Millbrook husband",
             "stage"
         ],
         "embedding": [
@@ -13727,26 +13857,32 @@
                 "label": "GPE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "decades",
+            "years",
             "severe heart damage",
             "the United States",
-            "That view",
-            "the U.S.",
-            "Yahoo",
-            "infections",
-            "Chagas disease",
-            "a result",
-            "the heart",
-            "it",
-            "the CDC",
-            "CDC",
             "Chagas",
-            "years",
+            "the CDC",
+            "a result",
+            "something",
+            "Chagas disease",
             "kissing bug disease",
+            "the heart",
+            "CDC",
+            "the U.S.",
+            "decades",
+            "it",
+            "Yahoo",
             "travel",
-            "a significan",
-            "something"
+            "infections",
+            "That view",
+            "a significan"
         ],
         "embedding": [
             0.01580130308866501,
@@ -14184,26 +14320,32 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "the Powassan virus",
+            "which",
+            "Rare tick disease",
+            "Duluth News Tribune Researchers",
             "state health officials",
-            "no treatment",
-            "The deer tick",
-            "the University",
-            "tick-bite-related emergency room visits",
-            "Minnesota",
-            "5%",
             "[+7149 chars",
-            "GULL LAKE, Minn. Tick populations",
+            "an increase",
+            "The deer tick",
+            "Minnesota",
+            "no treatment",
+            "the state",
+            "5%",
+            "the Powassan virus",
+            "the University",
             "north",
             "a danger",
             "ticks",
-            "which",
             "brain inflammation",
-            "the state",
-            "an increase",
-            "Duluth News Tribune Researchers",
-            "Rare tick disease"
+            "GULL LAKE, Minn. Tick populations",
+            "tick-bite-related emergency room visits"
         ],
         "embedding": [
             -0.0009472923120483756,
@@ -14608,24 +14750,26 @@
         "sentiment_score": 0.429,
         "sentiment_label": "Positive",
         "entities": [],
+        "contains_pii": false,
+        "pii_entities": [],
         "key_phrases": [
-            "that diff",
-            "distinct heart adaptations",
-            "both the tissue",
-            "The Surprising Reason Swimming",
-            "+5115 chars",
-            "more favorable molecular changes",
-            "swimming",
-            "molecular levels",
             "The findings",
-            "cardiovascular health",
-            "greater heart growth",
-            "Your Heart",
+            "swimming",
             "fitness gains",
             "Running - SciTechDaily Swimming",
+            "fitness",
+            "more favorable molecular changes",
+            "Your Heart",
             "it",
+            "that diff",
+            "cardiovascular health",
+            "both the tissue",
+            "greater heart growth",
+            "+5115 chars",
+            "distinct heart adaptations",
+            "molecular levels",
             "Researchers",
-            "fitness"
+            "The Surprising Reason Swimming"
         ],
         "embedding": [
             0.01060582511126995,
@@ -15043,29 +15187,33 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON"
+        ],
         "key_phrases": [
-            "Shutter",
-            "nutrition",
+            "[+4923 chars",
+            "a potential connection",
+            "Vitamin C",
+            "brain",
+            "lower vitamin C levels",
+            "the Secret",
+            "Credit",
+            "weaker neural connectivity",
+            "differences",
+            "Researchers",
+            "SciTechDaily Lower vitamin C levels",
             "brain structure",
             "brain scans",
-            "Your Brain Younger",
-            "lower vitamin C levels",
-            "blood samples",
-            "health",
-            "the Secret",
-            "older adults",
-            "differences",
-            "weaker neural connectivity",
-            "reduced brain volume",
-            "[+4923 chars",
-            "SciTechDaily Lower vitamin C levels",
-            "a potential connection",
-            "connectivity",
-            "Researchers",
-            "brain",
             "more than 2,000 older adults",
-            "Vitamin C",
-            "Credit"
+            "blood samples",
+            "Shutter",
+            "Your Brain Younger",
+            "connectivity",
+            "nutrition",
+            "older adults",
+            "reduced brain volume",
+            "health"
         ],
         "embedding": [
             -0.024745330214500427,
@@ -15483,23 +15631,27 @@
                 "label": "TIME"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
             "you",
-            "Natural Night Owls",
-            "Sleep Experts - marthastewart.com Sleep experts",
-            "the morning",
-            "it",
-            "the answer",
-            "your biology",
-            "some people",
-            "chronotypes",
-            "[+4691 chars",
-            "Some People",
+            "Your circadian rhythm",
             "sleep patterns",
-            "what",
-            "a typical bedtime",
             "natural night owls",
-            "Your circadian rhythm"
+            "what",
+            "Natural Night Owls",
+            "your biology",
+            "the answer",
+            "it",
+            "Some People",
+            "[+4691 chars",
+            "the morning",
+            "chronotypes",
+            "a typical bedtime",
+            "Sleep Experts - marthastewart.com Sleep experts",
+            "some people"
         ],
         "embedding": [
             0.06942347437143326,
@@ -15921,12 +16073,17 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "Treating Cognitive Decline - inc.com",
             "Memory",
-            "44 Percent",
+            "Treating Cognitive Decline - inc.com",
             "a Breakthrough",
-            "Groundbreaking Copper Drug"
+            "Groundbreaking Copper Drug",
+            "44 Percent"
         ],
         "embedding": [
             0.06443898379802704,

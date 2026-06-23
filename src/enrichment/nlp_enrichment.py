@@ -52,6 +52,28 @@ def extract_entities(text):
     return entities
 
 
+def detect_pii(entities):
+    """
+    Detect PII entities from extracted entities
+    """
+
+    pii_labels = {
+        "PERSON",
+        "ORG",
+        "GPE"
+    }
+
+    detected_pii = list(set([
+        entity["label"]
+        for entity in entities
+        if entity["label"] in pii_labels
+    ]))
+
+    contains_pii = len(detected_pii) > 0
+
+    return contains_pii, detected_pii
+
+
 def extract_key_phrases(text):
     """
     Extract noun phrases as key phrases
@@ -99,7 +121,14 @@ def enrich_article(article):
     article["sentiment_score"] = sentiment_score
     article["sentiment_label"] = sentiment_label
 
-    article["entities"] = extract_entities(text)
+    entities = extract_entities(text)
+
+    article["entities"] = entities
+
+    contains_pii, pii_entities = detect_pii(entities)
+
+    article["contains_pii"] = contains_pii
+    article["pii_entities"] = pii_entities
 
     article["key_phrases"] = extract_key_phrases(text)
 
@@ -115,7 +144,7 @@ def process_raw_files():
     Already processed articles are skipped.
     """
 
-    today = datetime.now().strftime("%Y-%m-%d")
+    today = "2026-06-22"
 
     raw_path = os.path.join("data", "raw", today)
 

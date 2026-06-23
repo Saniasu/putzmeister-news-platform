@@ -44,26 +44,30 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE"
+        ],
         "key_phrases": [
-            "The Washington Post",
-            "a phenomenon",
-            "The exceptional temperatures",
-            "that",
-            "the United Kingdom",
-            "persistent sunshine",
-            "heat",
-            "swaths",
-            "Western Europe",
-            "the landscape",
-            "Another major heat dome",
-            "A significant heat wave",
-            "Central Europe",
-            "Europe",
-            "the Iberian Peninsula",
             "hot sinking air",
             "[+100 chars",
+            "Central Europe",
+            "Europe",
             "T",
-            "the coming days"
+            "the coming days",
+            "The Washington Post",
+            "Western Europe",
+            "heat",
+            "A significant heat wave",
+            "the United Kingdom",
+            "Another major heat dome",
+            "The exceptional temperatures",
+            "the landscape",
+            "the Iberian Peninsula",
+            "persistent sunshine",
+            "a phenomenon",
+            "swaths",
+            "that"
         ],
         "embedding": [
             0.07243257761001587,
@@ -501,25 +505,29 @@
                 "label": "CARDINAL"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE"
+        ],
         "key_phrases": [
-            "the streets",
-            "more than half a decade",
-            "a recent government crackdow",
-            "this Southeast Asian city",
-            "scam centers",
-            "thousands",
-            "Phnom Penh",
-            "a secondary crisis",
-            "the multibillion-dollar online scam industry",
             "victims",
-            "which",
-            "stranded foreign workers",
-            "Cambodia's scam compounds",
-            "Cambodia",
+            "NPR Cambodia's crackdown",
+            "thousands",
             "vestiges",
-            "[+6485 chars",
             "a new crisis",
-            "NPR Cambodia's crackdown"
+            "stranded foreign workers",
+            "the multibillion-dollar online scam industry",
+            "Cambodia's scam compounds",
+            "a recent government crackdow",
+            "Phnom Penh",
+            "which",
+            "scam centers",
+            "[+6485 chars",
+            "the streets",
+            "Cambodia",
+            "this Southeast Asian city",
+            "a secondary crisis",
+            "more than half a decade"
         ],
         "embedding": [
             -0.017080018296837807,
@@ -945,21 +953,26 @@
                 "label": "NORP"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "the countrys progressive government",
-            "far-right lawyer Abelardo de la Espriella",
-            "a crackd",
-            "hardliner",
-            "a far-right outsider",
-            "the polls",
             "a run-off election",
             "presidential run-off",
-            "leftist Ivan Cepeda",
             "the presidency",
-            "Colombians",
-            "Al Jazeera Run-off election",
+            "hardliner",
+            "a far-right outsider",
             "their next president",
-            "a leftist heir"
+            "leftist Ivan Cepeda",
+            "a leftist heir",
+            "a crackd",
+            "Al Jazeera Run-off election",
+            "far-right lawyer Abelardo de la Espriella",
+            "the countrys progressive government",
+            "Colombians",
+            "the polls"
         ],
         "embedding": [
             0.025968946516513824,
@@ -1461,25 +1474,31 @@
                 "label": "GPE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "most experts\u2019 lists",
-            "most experts lists",
-            "Tuesdays NBA Draft",
-            "he",
-            "his name",
-            "NBA Draft",
-            "the top",
-            "the only Massachusetts products",
-            "The Boston Globe Dybantsa",
-            "Jimmy Walker",
-            "Dybantsa",
-            "the first No. 1 pick",
-            "41 years",
             "AJ Dybantsa",
+            "the top",
+            "41 years",
+            "he",
             "[+4026 chars",
+            "the only Massachusetts products",
+            "Massachusetts",
+            "The Boston Globe Dybantsa",
+            "Tuesdays NBA Draft",
             "Patrick Ewing",
-            "Tuesday\u2019s NBA Draft",
-            "Massachusetts"
+            "Jimmy Walker",
+            "NBA Draft",
+            "most experts\u2019 lists",
+            "Dybantsa",
+            "most experts lists",
+            "the first No. 1 pick",
+            "his name",
+            "Tuesday\u2019s NBA Draft"
         ],
         "embedding": [
             -0.08102429658174515,
@@ -1925,23 +1944,28 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "structural deterioration",
-            "algae growth",
-            "he",
-            "it",
             "Pool",
+            "the new paint",
+            "structural deterioration",
+            "he",
             "the site",
-            "the Washington Monument",
-            "Washington",
+            "curiosity",
+            "it",
+            "Former Olympian",
+            "arrest - BBC Davey Hearn",
             "leaks",
             "the Lincoln Memorial",
-            "curiosity",
-            "arrest - BBC Davey Hearn",
-            "the new paint",
-            "Davey Hearn",
-            "Former Olympian",
-            "faulty pipes"
+            "the Washington Monument",
+            "faulty pipes",
+            "Washington",
+            "algae growth",
+            "Davey Hearn"
         ],
         "embedding": [
             -0.017008809372782707,
@@ -2439,26 +2463,32 @@
                 "label": "CARDINAL"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "Tehran\u2019s nuclear program",
-            "top U.S. and Iranian officials",
-            "the war",
-            "U.S. Vice President JD Vance",
-            "Tehrans nuclear program",
             "negotiations",
+            "The talks",
+            "talks",
+            "OBBUERGEN",
             "Switzerland",
+            "its nuclear program",
+            "Tehrans nuclear program",
+            "US Vice President JD Vance",
+            "Tehran\u2019s nuclear program",
+            "The negotiations",
+            "U.S. Vice President JD Vance",
             "Iran",
             "AP",
-            "an interim deal",
-            "The negotiations",
-            "AP News U.S. Vice President JD Vance",
-            "talks",
-            "its nuclear program",
             "Iranian leaders",
-            "The talks",
-            "US Vice President JD Vance",
-            "OBBUERGEN",
-            "t"
+            "t",
+            "an interim deal",
+            "the war",
+            "top U.S. and Iranian officials",
+            "AP News U.S. Vice President JD Vance"
         ],
         "embedding": [
             0.010090703144669533,
@@ -2920,24 +2950,30 @@
                 "label": "FAC"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "+3112 chars",
-            "KTLA Gov. Gavin Newsom",
-            "a State",
-            "Emergency",
-            "South Los Palos",
             "plumes",
-            "the 1400 block",
-            "Boyle Heights warehouse fire",
-            "black smoke",
-            "Boyle Heights",
-            "a freezer",
-            "The fire",
+            "KTLA Gov. Gavin Newsom",
+            "+3112 chars",
             "South Los Palos Street",
-            "Newsom",
-            "the Lineage Logistics warehouse fire",
+            "Boyle Heights warehouse fire",
+            "a freezer",
+            "Gov. Gavin Newsom",
+            "South Los Palos",
             "State",
-            "Gov. Gavin Newsom"
+            "the 1400 block",
+            "Boyle Heights",
+            "black smoke",
+            "the Lineage Logistics warehouse fire",
+            "Newsom",
+            "Emergency",
+            "a State",
+            "The fire"
         ],
         "embedding": [
             0.013586468994617462,
@@ -3379,28 +3415,34 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "The Washington Post",
-            "[+41 chars",
-            "steep hurdles",
-            "U.S.-Iran talks",
-            "a loosely defined Memorandum",
-            "diplomats",
-            "a 60-day sprint",
-            "Tehran",
-            "challenges",
-            "Chaotic run-up",
-            "Neither Washington",
-            "ZURICH Iranian and American negotiators",
-            "Understanding",
-            "a felt-tipped flourish",
-            "the peace process",
-            "distrust",
-            "themselves",
             "they",
-            "Wednes",
+            "a felt-tipped flourish",
+            "U.S.-Iran talks",
+            "distrust",
+            "Understanding",
+            "the peace process",
+            "The Washington Post",
+            "Tehran",
+            "ZURICH Iranian and American negotiators",
+            "steep hurdles",
+            "diplomats",
+            "challenges",
+            "[+41 chars",
+            "themselves",
+            "a loosely defined Memorandum",
+            "a process",
+            "Neither Washington",
             "President Donald Trump",
-            "a process"
+            "Wednes",
+            "a 60-day sprint",
+            "Chaotic run-up"
         ],
         "embedding": [
             -0.006692174356430769,
@@ -3838,23 +3880,29 @@
                 "label": "CARDINAL"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "most formidable foe",
+            ". 1 Scottie Scheffler",
+            "a comeback",
+            "the demanding Shinnecock course",
+            "world No",
+            "even his playing partner",
             "Wyndham Clark\u2019s coronation",
+            "New York Wyndham Clarks",
+            "U.S. Open",
+            "most formidable foe",
+            "the final round",
+            "the U.S. Open",
             "the ages",
             "SOUTHAMPTON",
-            "the demanding Shinnecock course",
-            "even his playing partner",
-            ". 1 Scottie Scheffler",
-            "world No",
             "[+4090 chars",
-            "the U.S. Open",
-            "a comeback",
-            "U.S. Open",
             "- NBC Sports Wyndham Clark",
-            "a historic lead",
-            "New York Wyndham Clarks",
-            "the final round"
+            "a historic lead"
         ],
         "embedding": [
             0.005926846526563168,
@@ -4324,24 +4372,30 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "Saturday",
-            "elimination",
             "the first game",
+            "The Tar Heels",
+            "North Carolina",
+            "Sunday",
+            "The Sooners",
+            "the College World Series finals",
+            "the postseason",
+            "the outing",
+            "game",
+            "Saturday",
+            "Oklahoma",
             "the championship series",
             "[+6040 chars",
-            "Oklahoma",
-            "North Carolina",
-            "The Tar Heels",
-            "the outing",
-            "the postseason",
-            "The Sooners",
             "North Carolina Falls",
             "perinning updates",
-            "game",
-            "Sunday",
-            "the CWS Finals",
-            "the College World Series finals"
+            "elimination",
+            "the CWS Finals"
         ],
         "embedding": [
             -0.06585744023323059,
@@ -4795,25 +4849,31 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "them",
-            "she",
-            "- South China Morning Post",
-            "The Italian PM",
-            "the US president",
-            "US Donald Trump",
-            "Italy\u2019s Meloni",
             "Spanish Socialis",
-            "Seven",
-            "Trump\u2019s jibes",
-            "a \u2018clean break",
-            "some point",
-            "[+1594 chars",
-            "enemies",
             "Italys Giorgia Meloni",
             "none",
+            "a \u2018clean break",
+            "Seven",
+            "[+1594 chars",
+            "The Italian PM",
+            "US Donald Trump",
+            "she",
+            "them",
+            "Italy\u2019s Meloni",
+            "some point",
             "his friends",
-            "something"
+            "something",
+            "- South China Morning Post",
+            "enemies",
+            "the US president",
+            "Trump\u2019s jibes"
         ],
         "embedding": [
             0.00541678536683321,
@@ -5267,25 +5327,31 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG",
+            "GPE"
+        ],
         "key_phrases": [
-            "H5N1 bird flu",
-            "a seabird",
-            "every continent",
-            "Forestry",
-            "the first time",
-            "its way",
-            "The first case",
-            "Australia",
-            "Esperance",
-            "the",
-            "Western Australia",
-            "its first case",
-            "The Australian Department",
-            "every continent - Fox News Australia",
-            "Agriculture",
             "virus",
+            "every continent",
+            "every continent - Fox News Australia",
+            "Australia",
+            "The first case",
+            "Esperance",
+            "its way",
+            "Agriculture",
+            "H5N1 bird flu",
+            "its first case",
+            "the first time",
+            "Western Australia",
+            "Fisheries",
+            "Forestry",
+            "The Australian Department",
+            "the",
             "the virus",
-            "Fisheries"
+            "a seabird"
         ],
         "embedding": [
             0.033332183957099915,
@@ -5743,22 +5809,28 @@
                 "label": "EVENT"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "CBS News Ukrainian leader Volodymyr Zelenskyy",
-            "Zelenskyy",
-            "Poland's highest honor",
-            "him",
-            "Polish president",
             "Poland",
-            "a state honor",
+            "CBS News Ukrainian leader Volodymyr Zelenskyy",
+            "the award",
+            "him",
             "a politically charged dispute",
+            "it",
+            "Poland's highest honor",
             "World War II history resurfa",
+            "Zelenskyy",
+            "a state honor",
+            "the Polish president",
             "Ukrainian leader Volodymyr Zelenskyy",
             "Poland's highest state honor",
-            "it",
-            "history dispute",
-            "the Polish president",
-            "the award"
+            "Polish president",
+            "history dispute"
         ],
         "embedding": [
             -0.04794546589255333,
@@ -6208,23 +6280,29 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
+            "UK PM Starmer",
+            "Starmer",
             "his Chequers country residence",
             "Monday",
-            "Starmer",
-            "a government source",
-            "the matter",
             "he",
-            "a timetable",
-            "British Prime Minister Keir Starmer",
-            "The Observer report",
-            "a final decision",
-            "Report",
+            "the matter",
+            "his departure",
             "his wife",
-            "Britain's Observer newspaper",
             "source",
-            "UK PM Starmer",
-            "his departure"
+            "a timetable",
+            "Britain's Observer newspaper",
+            "British Prime Minister Keir Starmer",
+            "a final decision",
+            "a government source",
+            "The Observer report",
+            "Report"
         ],
         "embedding": [
             0.09836172312498093,
@@ -6662,20 +6740,24 @@
                 "label": "LOC"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE"
+        ],
         "key_phrases": [
-            "a Maryland resident",
-            "Dulles Airport",
-            "Maryland resident",
-            "Measles case",
             "the District",
             "who",
-            "area health officials",
-            "DC",
-            "The local health age",
-            "A confirmed measles case",
-            "Dulles",
+            "Measles case",
+            "Dulles Airport",
+            "Maryland resident",
             "an urgent care office",
-            "chars"
+            "DC",
+            "Dulles",
+            "chars",
+            "area health officials",
+            "A confirmed measles case",
+            "The local health age",
+            "a Maryland resident"
         ],
         "embedding": [
             -0.023413538932800293,
@@ -7121,22 +7203,27 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "ORG"
+        ],
         "key_phrases": [
-            "a widely mocked \"land acknowledgment",
-            "the United Stat",
-            "Obama Presidential Center",
-            "that",
-            "Native American dance performances",
-            "the Obama Presidential Center's \"land acknowledgement",
-            "the opening weekend",
-            "Native American dance show",
-            "[+3612 chars",
             "the center",
-            "a nod",
             "officials",
-            "the Barack Obama Presidential Center",
+            "Obama Presidential Center",
+            "the United Stat",
+            "a nod",
+            "[+3612 chars",
             "widely-mocked 'stolen land' acknowledgment",
-            "Fox News Critics"
+            "the opening weekend",
+            "that",
+            "a widely mocked \"land acknowledgment",
+            "the Obama Presidential Center's \"land acknowledgement",
+            "Fox News Critics",
+            "the Barack Obama Presidential Center",
+            "Native American dance performances",
+            "Native American dance show"
         ],
         "embedding": [
             0.03600627928972244,
@@ -7590,27 +7677,33 @@
                 "label": "ORDINAL"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
+            "Almiron",
+            "what",
+            "the cover",
+            "Uncertain World Cup",
+            "\u2026 [+3468 chars",
+            "the World Cup Group D match",
+            "the first red card",
+            "the first pl",
+            "his mouth",
+            "Friday",
+            "Turkiyes Mert Muldur",
+            "it",
+            "It",
             "his hand",
+            "his last gesture",
             "Paraguay\u2019s Almiron",
             "Al Jazeera Almiron",
-            "the first pl",
-            "this World Cup",
-            "\u2026 [+3468 chars",
-            "what",
-            "Friday",
-            "Uncertain World Cup",
-            "Almiron",
-            "it",
-            "the cover",
-            "the World Cup Group D match",
-            "Paraguays Miguel Almiron",
-            "his last gesture",
-            "Turkiyes Mert Muldur",
-            "his mouth",
             "Turkiye",
-            "the first red card",
-            "It"
+            "this World Cup",
+            "Paraguays Miguel Almiron"
         ],
         "embedding": [
             -0.0436633862555027,
@@ -8044,25 +8137,30 @@
                 "label": "CARDINAL"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "a look",
-            "the old policies",
-            "Hoops",
-            "Campaign",
-            "just how many hoops",
-            "those issues",
             "they",
-            "Microsoft\r\nXbox",
-            "their friends",
-            "order",
             "an aircraft carrier",
-            "new leadership",
-            "the middle",
-            "the last administration",
-            "Xbox Forces PS5 Players",
+            "those issues",
+            "Hoops",
+            "a look",
+            "Campaign",
+            "Microsoft\r\nXbox",
+            "the old policies",
             "+2636 chars",
             "Halo",
-            "- Forbes PlayStation and Xbox players"
+            "- Forbes PlayStation and Xbox players",
+            "their friends",
+            "just how many hoops",
+            "order",
+            "the last administration",
+            "new leadership",
+            "the middle",
+            "Xbox Forces PS5 Players"
         ],
         "embedding": [
             0.058961380273103714,
@@ -8508,22 +8606,26 @@
                 "label": "CARDINAL"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
-            "the tech giant",
-            "its everyday apps",
-            "about - TechCrunch",
+            "the WWDC spotlight",
+            "[+5118 chars",
+            "Apple\u2019s new Siri AI",
+            "it",
             "upgrades",
+            "Apples new Siri AI",
+            "a number",
+            "Apple Intelligence announcements",
+            "its everyday apps",
+            "additions",
             "that",
             "Apple Intelligence upgrades",
-            "additions",
-            "a number",
-            "Apples new Siri AI",
-            "it",
-            "Apple Intelligence announcements",
-            "the WWDC spotlight",
-            "Apple\u2019s new Siri AI",
-            "[+5118 chars",
-            "Every new iOS 27 feature"
+            "about - TechCrunch",
+            "Every new iOS 27 feature",
+            "the tech giant"
         ],
         "embedding": [
             -0.05388245731592178,
@@ -8989,27 +9091,33 @@
                 "label": "GPE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "decades",
-            "a scene",
             "its highest stress",
-            "1,000 years",
-            "a San Andreas disaster",
-            "Los Angeles",
-            "A major earthquake",
-            "infrastructure",
-            "fires",
-            "CNN",
-            "The \u2018earthquake gate",
-            "(CNN",
             "the San Andreas fault ripples",
-            "trigger",
             "a Hollywood movie",
-            "triggering landslides",
             "KTVZ",
-            "It",
+            "a scene",
+            "scientists",
+            "fires",
+            "A major earthquake",
             "Kasha Patel",
-            "scientists"
+            "decades",
+            "It",
+            "trigger",
+            "infrastructure",
+            "(CNN",
+            "Los Angeles",
+            "The \u2018earthquake gate",
+            "CNN",
+            "1,000 years",
+            "triggering landslides",
+            "a San Andreas disaster"
         ],
         "embedding": [
             -0.03356177732348442,

@@ -24,29 +24,33 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
-            "you",
-            "But not every TV de",
-            "QLED",
-            "your shopping list",
-            "order",
-            "TVs",
-            "the time",
             "these",
-            "the Prime Day deals",
-            "a living",
-            "\u2026 [+8928 chars",
-            "what",
-            "budget models",
-            "Business Insider Prime Day TV deals",
-            "plenty",
-            "Our TV expert",
-            "which",
-            "a new TV",
             "I",
-            "options",
+            "what",
+            "\u2026 [+8928 chars",
+            "TVs",
+            "a new TV",
+            "budget models",
+            "which",
+            "But not every TV de",
+            "the time",
+            "a living",
+            "your shopping list",
+            "Our TV expert",
+            "Business Insider Prime Day TV deals",
             "shoppers",
-            "Amazon Prime Day"
+            "plenty",
+            "options",
+            "the Prime Day deals",
+            "QLED",
+            "you",
+            "Amazon Prime Day",
+            "order"
         ],
         "embedding": [
             -0.01866922155022621,
@@ -472,25 +476,30 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
             "you",
-            "chain issues",
-            "Some BMW inline-sixes",
-            "all",
-            "this criticism",
-            "4 Common Problems",
-            "their size",
-            "length",
-            "torsion",
-            "chain problems",
-            "our five inline-six engines",
             "list",
-            "the engines",
-            "the N57",
-            "we",
             "Inline-6 Engines - SlashGear Inline-sixes",
             "problems",
-            "uneven air/fuel distribution"
+            "chain issues",
+            "their size",
+            "all",
+            "torsion",
+            "Some BMW inline-sixes",
+            "the engines",
+            "uneven air/fuel distribution",
+            "chain problems",
+            "we",
+            "this criticism",
+            "our five inline-six engines",
+            "the N57",
+            "length",
+            "4 Common Problems"
         ],
         "embedding": [
             -0.0665317177772522,
@@ -952,39 +961,45 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "original content",
-            "Johnson",
-            "blogs",
-            "Kuykendall",
-            "WillardR",
-            "Dirt Late Model",
-            "BagleyRow",
-            "another MLRA sweep - Dirt",
-            "Phillips",
-            "Salina",
-            "Dirt",
-            "the Dirt Track World Champi",
             "DirtonDirt.com",
-            "M. LarsonRow",
-            "Davenport",
-            "WolffRow",
+            "RossRow",
             "BoyerRow",
             "massive amounts",
-            "website",
-            "magazine",
-            "videos",
-            "Whitwell",
-            "stories",
-            "no other publication",
-            "Marrant",
             "Bragg",
+            "another MLRA sweep - Dirt",
+            "Kuykendall",
+            "blogs",
+            "videos",
             "HerzogRow",
-            "+66 chars",
-            "RossRow",
+            "stories",
+            "WillardR",
+            "Dirt Late Model",
+            "Johnson",
+            "the Dirt Track World Champi",
+            "Whitwell",
+            "Marrant",
             "photos",
+            "M. LarsonRow",
+            "WolffRow",
+            "Wilhite",
+            "original content",
             "columns",
-            "Wilhite"
+            "Salina",
+            "Dirt",
+            "no other publication",
+            "+66 chars",
+            "BagleyRow",
+            "magazine",
+            "Phillips",
+            "Davenport",
+            "website"
         ],
         "embedding": [
             -0.0023482462856918573,
@@ -1414,30 +1429,34 @@
                 "label": "PRODUCT"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
             "the Best Deals",
-            "Apple gear",
-            "that",
-            "AirPods - CNET Act",
-            "AirPods",
-            "Apple favorites",
-            "Prime Day savings",
-            "a whole range",
-            "reasons",
-            "iPads",
-            "the best products",
-            "[+5211 chars",
-            "a home",
-            "some",
             "Apple\u2019s Early Prime Day Sale",
-            "plenty",
+            "Apple gear",
+            "a whole range",
+            "[+5211 chars",
             "our lists",
-            "it",
-            "categories",
-            "MacBooks",
+            "AirPods - CNET Act",
+            "Prime Day savings",
             "Beats headphones",
+            "the best products",
+            "plenty",
+            "Apple favorites",
+            "MacBooks",
             "We",
-            ", includ"
+            "a home",
+            "it",
+            "iPads",
+            "reasons",
+            ", includ",
+            "AirPods",
+            "that",
+            "categories",
+            "some"
         ],
         "embedding": [
             -0.042791206389665604,
@@ -1879,18 +1898,22 @@
                 "label": "CARDINAL"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
             "you",
-            "Pin Bowling",
-            "This new game",
+            "Nintendo Switch Sports Resort - Nintendo Life",
+            "Nintendo Switch Sports Resort",
             "Gallery",
+            "This new game",
             "12 different sports",
             "intuitive motion",
             "Wuhu Island",
-            "Nintendo Switch Sports Resort - Nintendo Life",
-            "Nintendo Shares Multiple Screenshots",
+            "Pin Bowling",
             "the Switch",
-            "Nintendo Switch Sports Resort"
+            "Nintendo Shares Multiple Screenshots"
         ],
         "embedding": [
             0.0035300366580486298,
@@ -2324,25 +2347,29 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
             "the 1980s",
-            "styling",
-            "Ferrari designs",
-            "the most iconic Ferrari models",
-            "All Time - SlashGear",
-            "innovation",
-            "the same mid-engine design philosophy",
-            "the brand",
-            "The Coolest Ferrari Designs",
-            "a design",
+            "modern masterpieces",
             "heritage",
+            "innovation",
+            "decades",
+            "Ferrari designs",
+            "styling",
+            "the same mid-engine design philosophy",
+            "a design",
+            "the brand",
+            "the most iconic Ferrari models",
+            "The Coolest Ferrari Designs",
             "that",
             "wedge-era icons",
-            "decades",
-            "automotive history",
+            "another couple",
+            "All Time - SlashGear",
             "80 years",
-            "modern masterpieces",
-            "another couple"
+            "automotive history"
         ],
         "embedding": [
             -0.048900019377470016,
@@ -2792,18 +2819,22 @@
                 "label": "CARDINAL"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
-            "affordable 2.5 Gbit",
-            "10 Gbit consumer networking gear",
             "A Freshly Cooked 10Gbit SFP+",
-            "the advent",
+            "affordable 2.5 Gbit",
             "5 Gbit",
-            "more and more people",
-            "these higher networking speeds",
-            "This",
-            "Network Adapter - Hackaday",
-            "advantage",
+            "10 Gbit consumer networking gear",
             "[+1832 chars",
+            "Network Adapter - Hackaday",
+            "This",
+            "these higher networking speeds",
+            "more and more people",
+            "advantage",
+            "the advent",
             "Autopsy"
         ],
         "embedding": [
@@ -3242,30 +3273,35 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "Mivtza Torah program",
-            "a complete Hebrew ArtScroll Shas",
-            "appreciation",
-            "Tomchei Temimim Morristown",
-            "Award Ceremony",
-            "Anash.org",
-            "Morristown Bochurim Surprise Menahel",
-            "chars",
             "The event",
-            "the tables",
-            "Tomchei Temimim Yeshiva Morristown",
-            "Rabbi Chaim Schapiro",
-            "the bochurim",
-            "his dedication",
-            "this years",
-            "their menahel",
             "the talmidim's accomplishments",
-            "Tuesday",
-            "bochurim",
+            "this years",
             "the completion",
+            "Tomchei Temimim Yeshiva Morristown",
+            "Award Ceremony",
+            "appreciation",
             "an awards ceremony",
+            "A special Chag Hasiyum",
+            "their menahel",
+            "Rabbi Chaim Schapiro",
+            "bochurim",
             "the accomplishments",
-            "A special Chag Hasiyum"
+            "Tuesday",
+            "Tomchei Temimim Morristown",
+            "Mivtza Torah program",
+            "the bochurim",
+            "the tables",
+            "a complete Hebrew ArtScroll Shas",
+            "Anash.org",
+            "his dedication",
+            "chars",
+            "Morristown Bochurim Surprise Menahel"
         ],
         "embedding": [
             -0.010447913780808449,
@@ -3695,23 +3731,28 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "the entirely credible possibilities",
             "[+2124 chars",
+            "NCsoft",
+            "the not-so-secret test",
+            "a\u00a0Guil",
+            "ArenaNet",
+            "Bilibili - Massively Overpowered",
+            "Guild Wars",
+            "we",
+            "that",
             "Mistbound",
             "3\u2019s formal announcement",
-            "Bilibili - Massively Overpowered",
+            "the card game",
+            "an ArenaNet reveal",
             "the works",
             "a new Guild Wars CCG",
-            "ArenaNet",
-            "that",
-            "a\u00a0Guil",
-            "an ArenaNet reveal",
-            "the card game",
-            "we",
-            "NCsoft",
-            "Guild Wars",
-            "the not-so-secret test"
+            "the entirely credible possibilities"
         ],
         "embedding": [
             -0.04327568784356117,
@@ -4145,25 +4186,30 @@
                 "label": "CARDINAL"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "more than 12 yea",
-            "that",
             "Jalopnik",
-            "the legend",
-            "a set list",
-            "chars",
-            "The Honda S2000's Manual Gearbox A Cult Object",
-            "enthusiast talking points",
-            "multi-cone synchros",
-            "throws",
+            "The Engineering",
             "That",
             "a bolt-action rifle",
-            "the Honda S2000",
-            "metal-rod linkage",
-            "naturally aspirated engines",
-            "The Engineering",
-            "a record",
             "Ferrari",
+            "naturally aspirated engines",
+            "metal-rod linkage",
+            "enthusiast talking points",
+            "more than 12 yea",
+            "a set list",
+            "The Honda S2000's Manual Gearbox A Cult Object",
+            "throws",
+            "the Honda S2000",
+            "that",
+            "multi-cone synchros",
+            "chars",
+            "the legend",
+            "a record",
             "the Honda S2000's manual transmission"
         ],
         "embedding": [
@@ -4598,23 +4644,29 @@
                 "label": "GPE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "light",
-            "the game",
-            "A Nintendo Switch 2 version",
-            "Nintendo Everything Nintendo Switch",
-            "Nintendo Switch",
-            "that",
-            "2 owners",
-            "the future",
-            "New evidence",
             "the latest evidence",
-            "Taiwan",
+            "2 owners",
+            "that direction",
+            "New evidence",
+            "Nintendo Everything Nintendo Switch",
+            "Diablo",
+            "Nintendo Switch",
             "Additional evidence",
             "[+1148 chars",
             "we",
-            "that direction",
-            "Diablo"
+            "that",
+            "the game",
+            "Taiwan",
+            "A Nintendo Switch 2 version",
+            "the future",
+            "light"
         ],
         "embedding": [
             -0.015232408419251442,
@@ -5092,20 +5144,26 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "NVIDIA DLSS support lands",
-            "DLS",
-            "Phoronix",
-            "This",
-            "Linux",
-            "Linux - VideoCardz.com NVIDIA DLSS support",
-            "NVIDIA DLSS support",
-            "the required code",
-            "NVK",
-            "open-source NVK Vulkan driver",
-            "Mesa",
             "the open-source NVK Vulkan driver",
-            "Mesa 26.2-devel"
+            "the required code",
+            "DLS",
+            "NVIDIA DLSS support lands",
+            "Mesa",
+            "Linux - VideoCardz.com NVIDIA DLSS support",
+            "Mesa 26.2-devel",
+            "This",
+            "NVK",
+            "NVIDIA DLSS support",
+            "open-source NVK Vulkan driver",
+            "Phoronix",
+            "Linux"
         ],
         "embedding": [
             -0.05245176702737808,
@@ -5563,27 +5621,32 @@
                 "label": "PRODUCT"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "their MS-03 small form factor",
-            "their upcoming MS-03 mini",
-            "The successor",
-            "chars",
-            "other major Core Ultra Series",
-            "-",
+            "this years",
             "Computex",
-            "Upcoming MS-03 SFF PC",
-            "a good thing",
-            "\u2026 [+5959",
-            "PC",
+            "other major Core Ultra Series",
+            "Minisforum",
+            "Minisforums",
+            "their MS-03 small form factor",
             "the successor",
             "the MS-03 see",
-            "Minisforums",
-            "Computex trade show",
-            "a Good Thing",
-            "this years",
+            "a good thing",
+            "Intel's new Panther Lake platform",
+            "PC",
             "their S5 NAS",
-            "Minisforum",
-            "Intel's new Panther Lake platform"
+            "Computex trade show",
+            "-",
+            "their upcoming MS-03 mini",
+            "a Good Thing",
+            "\u2026 [+5959",
+            "The successor",
+            "Upcoming MS-03 SFF PC",
+            "chars"
         ],
         "embedding": [
             -0.00018364521383773535,
@@ -6025,31 +6088,36 @@
                 "label": "CARDINAL"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
+            "I",
+            "strawberry",
             "the sandwich",
-            "Welch's First New Jelly",
+            "30 Years",
+            "o",
             "stores",
             "the jelly",
-            "a new Four Berry Spread",
-            "the iconic PB",
-            "o",
-            "[+1706 chars",
-            "blackberries",
-            "strawberries",
+            "only one sandwich",
             "raspberries",
-            "two choices",
-            "grape",
             "amp",
             "other new spreads",
+            "Welch's First New Jelly",
             "J Upgrade - Allrecipes Welch",
-            "my lunch",
-            "team grape",
-            "I",
-            "30 Years",
-            "strawberry",
+            "two choices",
+            "the iconic PB",
+            "[+1706 chars",
             "blueberries",
+            "my lunch",
+            "blackberries",
+            "a new Four Berry Spread",
+            "grape",
+            "strawberries",
             "the Ultimate PB",
-            "only one sandwich"
+            "team grape"
         ],
         "embedding": [
             -0.1094987541437149,
@@ -6499,24 +6567,30 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "the RPG series",
-            "him",
-            "one Game designer",
-            "he",
-            "The eccentric Lord British",
-            "Richard Garriott",
+            "EA",
             "[+2123 chars",
-            "astronaut",
-            "that",
-            "Texan castle owner Richard Garriott",
             "the classic RPG series",
+            "him",
+            "he",
+            "astronaut",
+            "The eccentric Lord British",
+            "the RPG series",
             "90s",
-            "a statement",
+            "that",
             "Ultima",
+            "one Game designer",
             "control",
-            "Obscure Legal Quirks",
-            "EA"
+            "a statement",
+            "Richard Garriott",
+            "Texan castle owner Richard Garriott",
+            "Obscure Legal Quirks"
         ],
         "embedding": [
             -0.025776514783501625,
@@ -6974,26 +7048,30 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
-            "a local attacker vulnerability",
-            "that",
-            "Samsung",
-            "the last couple",
+            "Millions",
+            "the free Android 17 upgrade",
+            "days",
             "the One UI 9 beta",
             "Samsung Galaxy Phones",
-            "the June security update",
-            "phones",
-            "rapid rollout",
-            "more phones",
             "the full list",
+            "more phones",
+            "rapid rollout",
+            "phones",
             "it",
-            "Millions",
-            "One UI",
             "\u2026 [+2506 chars",
-            "days",
+            "more Galaxy devices",
+            "a local attacker vulnerability",
+            "One UI",
+            "Samsung",
             "A Free Upgrade - Forbes Samsung",
-            "the free Android 17 upgrade",
-            "more Galaxy devices"
+            "that",
+            "the June security update",
+            "the last couple"
         ],
         "embedding": [
             -0.12510928511619568,
@@ -7459,19 +7537,24 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "its X870 AORUS TACHYON ICE motherboard",
-            "AMD\u2019s new Ryzen PRO 9000 desktop processors",
+            "Gigabyte",
             "VideoCardz.com Gigabyte",
-            "[+2628 chars",
-            "The list",
-            "consumer X870 motherboard",
             "Ryzen 9 PRO 9965X3D support",
             "AMDs",
-            "the CPU support list",
+            "its X870 AORUS TACHYON ICE motherboard",
+            "new Ryzen PRO 9000 desktop processors",
             "Ryzen 9 PRO",
-            "Gigabyte",
-            "new Ryzen PRO 9000 desktop processors"
+            "[+2628 chars",
+            "consumer X870 motherboard",
+            "AMD\u2019s new Ryzen PRO 9000 desktop processors",
+            "The list",
+            "the CPU support list"
         ],
         "embedding": [
             -0.07284486293792725,
@@ -7909,24 +7992,29 @@
                 "label": "QUANTITY"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "ORG"
+        ],
         "key_phrases": [
-            "A Lot",
-            "Internet - SlashGear Starlink",
-            "around 6.4 million acres",
-            "Starlink Satellites",
-            "Canada",
-            "NOAA.gov",
-            "that",
-            "June",
-            "internet",
             "flames",
-            "a very publicized battle",
-            "Starlink",
-            "recent years",
+            "around 6.4 million acres",
+            "June",
+            "NOAA.gov",
+            "Internet - SlashGear Starlink",
+            "Starlink Satellites",
             "it",
-            "wildfires",
+            "Canada",
+            "a very publicized battle",
+            "recent years",
+            "rural areas",
             "one point",
-            "rural areas"
+            "that",
+            "Starlink",
+            "A Lot",
+            "wildfires",
+            "internet"
         ],
         "embedding": [
             0.05933716148138046,
@@ -8360,28 +8448,33 @@
                 "label": "GPE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "ORG"
+        ],
         "key_phrases": [
-            "you",
-            "i",
-            "the series",
-            "- Polygon.com",
-            "more impactful decisions",
-            "Wild Huntto",
             "White Orchard",
-            "not the game",
-            "The Witcher",
-            "the perfect example",
-            "my favorite game",
-            "those wolves",
-            "the moment",
-            "the best games",
-            "[+3534 chars",
-            "it",
-            "the third game",
-            "Vesemir",
             "I",
             "all time",
-            "inspiration"
+            "my favorite game",
+            "inspiration",
+            "Vesemir",
+            "more impactful decisions",
+            "The Witcher",
+            "- Polygon.com",
+            "those wolves",
+            "the moment",
+            "it",
+            "Wild Huntto",
+            "the perfect example",
+            "the third game",
+            "you",
+            "[+3534 chars",
+            "i",
+            "not the game",
+            "the best games",
+            "the series"
         ],
         "embedding": [
             0.07634483277797699,
@@ -8803,11 +8896,15 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
-            "CMF Phone Pro 2 successor",
             "Mashable RAM prices",
-            "rising RAM costs",
-            "Nothing"
+            "Nothing",
+            "CMF Phone Pro 2 successor",
+            "rising RAM costs"
         ],
         "embedding": [
             0.0009611711720936,
@@ -9253,25 +9350,30 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "ORG"
+        ],
         "key_phrases": [
             "you",
-            "[+8492 chars",
-            "Saratoga Springs",
-            "The X",
-            "NY",
-            "- Polygon.com",
+            "the X-Files museum",
+            "the hit 1990s science-fiction series",
             "-",
             "your brain",
-            "the world\u2019s only museum",
             "10 jaw-dropping X-Files discoveries",
-            "geographical locations",
-            "Files",
-            "Washington",
-            "D.C.",
-            "the X-Files museum",
-            "FBI headquarters",
+            "NY",
+            "- Polygon.com",
+            "Saratoga Springs",
             "it",
-            "the hit 1990s science-fiction series"
+            "FBI headquarters",
+            "geographical locations",
+            "D.C.",
+            "Files",
+            "The X",
+            "the world\u2019s only museum",
+            "Washington",
+            "[+8492 chars"
         ],
         "embedding": [
             0.0026595317758619785,
@@ -9701,18 +9803,22 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
-            "Rockstar Games",
-            "Fans",
-            "Rockstar Releases New Official",
-            "a new screenshot",
-            "Game",
-            "an agonizing 13 years",
-            "Grand Theft Auto",
-            "[+2880 chars",
             "the end",
-            "fans",
             "sight",
+            "Rockstar Releases New Official",
+            "fans",
+            "Rockstar Games",
+            "a new screenshot",
+            "an agonizing 13 years",
+            "[+2880 chars",
+            "Fans",
+            "Grand Theft Auto",
+            "Game",
             "a new official Grand Theft Auto 6 screenshot"
         ],
         "embedding": [
@@ -10171,19 +10277,24 @@
                 "label": "WORK_OF_ART"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "Galaxy Watch",
-            "Galaxy Techie",
-            "Ultra 2 leaks",
-            "more changes",
-            "new leaks",
-            "Galaxy Watch Ultra",
-            "new details",
-            "some software-sourced rende",
-            "Twitter/X",
             "a few more details",
+            "some software-sourced rende",
+            "Ultra 2 leaks",
+            "Galaxy Watch Ultra",
             "Samsung\u2019s July event",
-            "[Gallery"
+            "Galaxy Watch",
+            "new leaks",
+            "Galaxy Techie",
+            "new details",
+            "more changes",
+            "[Gallery",
+            "Twitter/X"
         ],
         "embedding": [
             -0.11844541132450104,
@@ -10621,31 +10732,35 @@
                 "label": "NORP"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
-            "you",
-            "smart TV brands",
-            "that",
-            "mind",
+            "they",
+            "a new living room TV",
             "Consumer Reports",
-            "2026 - House Digest",
-            "Sony",
-            "Not LG",
-            "links",
-            "Consumer Reports Names",
+            "They",
             "what",
+            "LG",
+            "[+1441 chars",
+            "links",
+            "mind",
+            "We",
+            "it",
+            "Not LG",
+            "smart TV brands",
+            "a commission",
+            "purchases",
+            "2026 - House Digest",
+            "you",
+            "Consumer Reports Names",
+            "Sony",
             "most people",
             "sense",
-            "LG",
-            "it",
+            "that",
             "Their Top-Rated 65-Inch TV",
-            "purchases",
-            "a commission",
-            "the first ones",
-            "[+1441 chars",
-            "They",
-            "they",
-            "We",
-            "a new living room TV"
+            "the first ones"
         ],
         "embedding": [
             0.044342994689941406,
@@ -11091,27 +11206,33 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "Details",
-            "Project Sundown",
-            "Skeleton Key",
-            "a look",
-            "its Austin-based studio",
-            "the Coast",
-            "what",
-            "Wizards",
-            "WOTC's cancelled horror game",
-            "the studio",
-            "exclusive details",
-            "an unannounced horror game",
-            "The cancellation",
-            "Cancelled Horror Game - MP1st",
             "WOTC",
+            "what",
+            "an unannounced horror game",
+            "the studio",
+            "Skeleton Key",
             "reports",
-            "We",
-            "an unknown number",
             "Report",
-            "[+4932 chars"
+            "Cancelled Horror Game - MP1st",
+            "[+4932 chars",
+            "exclusive details",
+            "Project Sundown",
+            "The cancellation",
+            "an unknown number",
+            "Wizards",
+            "We",
+            "a look",
+            "WOTC's cancelled horror game",
+            "Details",
+            "the Coast",
+            "its Austin-based studio"
         ],
         "embedding": [
             -0.049473732709884644,
@@ -11533,32 +11654,37 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "father-child relationships",
-            "all",
-            "cuteness",
-            "that",
-            "[+1532 chars",
-            "Pragmata's Diana",
-            "the 'cunning' kind",
-            "problems",
-            "genre",
-            "things",
             "its fair share",
-            "the \"Diana Police",
-            "-",
-            "women",
-            "this",
-            "check",
-            "it",
-            "the way",
-            "female characters",
+            "all",
+            "things",
+            "Pragmata's Diana",
             "The conse",
-            "a small group",
-            "a dad game",
-            "a pseudo",
+            "[+1532 chars",
+            "genre",
+            "the \"Diana Police",
+            "women",
+            "check",
+            "father-child relationships",
+            "problems",
+            "the 'cunning' kind",
+            "cuteness",
+            "female characters",
+            "it",
+            "It",
             "Pragmata",
-            "It"
+            "the way",
+            "-",
+            "a pseudo",
+            "this",
+            "that",
+            "a dad game",
+            "a small group"
         ],
         "embedding": [
             -0.06399746984243393,
@@ -11984,19 +12110,21 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": false,
+        "pii_entities": [],
         "key_phrases": [
-            "a look",
-            "Push Square\r\nWe",
-            "the first six months",
-            "its best PS5 games",
-            "[+2934 chars",
-            "I",
             "the year",
-            "Feature",
-            "The 10 Best PS5 Games",
-            "So Far - Push Square",
-            "we",
+            "I",
+            "[+2934 chars",
+            "a look",
             "traditional Push Square fashion",
+            "Feature",
+            "we",
+            "The 10 Best PS5 Games",
+            "Push Square\r\nWe",
+            "its best PS5 games",
+            "So Far - Push Square",
+            "the first six months",
             "you Image"
         ],
         "embedding": [
@@ -12423,27 +12551,31 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
-            "Ocarina",
-            "a franchise",
             "Zelda fans",
-            "Legend",
+            "the heady days",
+            "The Breath",
+            "the years",
+            "an amazing one",
+            "Ocarina",
+            "[+2094 chars",
             "some truly remarkable periods",
             "Te",
-            "Zelda",
-            "[+2094 chars",
-            "it",
-            "Time",
             "Official",
-            "The Breath",
-            "an amazing one",
-            "a few more timeless releases",
-            "the heady days",
-            "the years",
-            "the open-world creativity",
             "the Wild era",
-            "The Legend",
-            "It"
+            "Zelda",
+            "Time",
+            "it",
+            "It",
+            "Legend",
+            "a few more timeless releases",
+            "a franchise",
+            "the open-world creativity",
+            "The Legend"
         ],
         "embedding": [
             0.028062012046575546,
@@ -12905,16 +13037,20 @@
                 "label": "NORP"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
-            "beta",
-            "Apple",
-            "its upcoming fall software updates",
-            "[+4016 chars",
             "These Five New Apps",
-            "five new apps",
+            "[+4016 chars",
+            "Apple",
+            "Last Week - MacRumors Apple",
             "WWDC",
+            "its upcoming fall software updates",
+            "beta",
             "developers",
-            "Last Week - MacRumors Apple"
+            "five new apps"
         ],
         "embedding": [
             -0.04430639371275902,
@@ -13336,12 +13472,16 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON"
+        ],
         "key_phrases": [
-            "Stung",
-            "Duty Ports",
             "$80 Price Tag",
+            "16-Year-Old Call",
             "that",
-            "16-Year-Old Call"
+            "Stung",
+            "Duty Ports"
         ],
         "embedding": [
             0.013604698702692986,
@@ -13783,20 +13923,25 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "bytes",
-            "Work",
             "Six Years",
-            "work",
-            "h",
-            "The strncpy() function",
-            "six years",
             "the Linux kernel",
-            "360+ Patches - Phoronix Linux",
-            "Linux",
-            "a specified number",
+            "The strncpy() function",
+            "Work",
+            "bytes",
             "The strncpy API",
-            "the strncpy API"
+            "the strncpy API",
+            "360+ Patches - Phoronix Linux",
+            "h",
+            "six years",
+            "a specified number",
+            "Linux",
+            "work"
         ],
         "embedding": [
             -0.04626854881644249,
@@ -14246,16 +14391,21 @@
                 "label": "TIME"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "ORG"
+        ],
         "key_phrases": [
-            "the U.S.",
-            "U.S.",
-            "that",
-            "its retail stores",
             "a unionized location",
             "The locations",
+            "the U.S.",
+            "U.S.",
             "Three Apple Stores",
-            "the evening",
-            "Apple"
+            "Apple",
+            "its retail stores",
+            "that",
+            "the evening"
         ],
         "embedding": [
             0.09651387482881546,
@@ -14677,22 +14827,26 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
-            "The worst Steam",
             "the diamonds",
-            "Next Fest",
-            "A",
             "I",
-            "Cannon - Kotaku",
-            "the best Next Fest demo",
-            "Next Fest Demos",
-            "the rough has",
-            "all the crap",
             "some standout bangers",
-            "me",
-            "recorded history",
+            "A",
             "+5580 chars",
-            "The Best Steam"
+            "the best Next Fest demo",
+            "all the crap",
+            "The worst Steam",
+            "The Best Steam",
+            "recorded history",
+            "Next Fest",
+            "me",
+            "Cannon - Kotaku",
+            "Next Fest Demos",
+            "the rough has"
         ],
         "embedding": [
             -0.05293745920062065,
@@ -15130,29 +15284,34 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "them",
             "No Regrets",
+            "I",
+            "Naoki Hamaguchi",
+            "This Story",
+            "The Trilogy",
+            "That",
             "the beloved classic",
             "Rebirth",
-            "the Final Fantasy 7 Remake trilogy",
-            "Naoki Hamaguchi",
-            "A Way",
-            "a fact",
-            "its development team",
-            "Nostalgia",
-            "Revelation",
-            "game director",
             "the driving forces",
-            "That",
-            "Remake",
-            "The Trilogy",
-            "Some",
-            "This Story",
-            "whi",
-            "I",
             "We",
-            "\" - Final Fantasy 7 Revelation's Game Director"
+            "Some",
+            "a fact",
+            "whi",
+            "game director",
+            "Remake",
+            "the Final Fantasy 7 Remake trilogy",
+            "\" - Final Fantasy 7 Revelation's Game Director",
+            "Nostalgia",
+            "its development team",
+            "Revelation",
+            "A Way",
+            "them"
         ],
         "embedding": [
             -0.05408170446753502,
@@ -15578,21 +15737,25 @@
                 "label": "CARDINAL"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON"
+        ],
         "key_phrases": [
-            "this",
-            "The New Cover Art Girl",
-            "Grand Theft Auto 6 fans",
-            "the exc",
-            "They",
-            "another Lindsay Lohan situation",
-            "A Model Capitalising",
             "they",
             "who",
-            "6 Fans",
             "The Hype - TheGamer",
-            "the model",
+            "They",
+            "The New Cover Art Girl",
+            "this",
+            "another Lindsay Lohan situation",
+            "Grand Theft Auto 6 fans",
             "It",
-            "the game's new cover art girl"
+            "A Model Capitalising",
+            "the game's new cover art girl",
+            "6 Fans",
+            "the model",
+            "the exc"
         ],
         "embedding": [
             -0.048302024602890015,
@@ -16066,25 +16229,31 @@
                 "label": "CARDINAL"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "B550 Rock WiFi",
             "Socket",
-            "a new motherboard",
             "tax",
-            "the B550 Rock WiFi",
+            "a new ATX motherboard",
             "June",
-            "AMD\u2019s Socket AM4 platform",
-            "[+1759 chars",
-            "AMDs",
-            "GDM",
-            "AMD\u2019s ten-year-old AM4 platform",
-            "the board",
-            "ASRock",
+            "B550 Rock WiFi",
             "Japan",
-            "an expected price",
-            "AM4 platform",
+            "AMDs",
+            "ASRock",
             "VideoCardz.com ASRock",
-            "a new ATX motherboard"
+            "a new motherboard",
+            "AMD\u2019s ten-year-old AM4 platform",
+            "the B550 Rock WiFi",
+            "AM4 platform",
+            "the board",
+            "an expected price",
+            "GDM",
+            "[+1759 chars",
+            "AMD\u2019s Socket AM4 platform"
         ],
         "embedding": [
             0.02235238626599312,
@@ -16546,26 +16715,32 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "Silicon",
             "who",
+            "a signature line",
+            "the next morni",
+            "a copywriter",
+            "A diamond",
+            "[+12109 chars",
+            "the N.W. Ayer advertising agency",
             "Frances Gerety",
-            "marriage",
-            "40 countries",
-            "she",
-            "the Philadelphia offices",
             "The four-word line",
+            "marriage",
+            "Silicon",
+            "she",
+            "She",
+            "the Philadelphia offices",
+            "it",
+            "40 countries",
             "A Diamond",
             "a Philadelphia ad agency",
-            "a signature line",
-            "[+12109 chars",
-            "The line",
-            "a copywriter",
-            "the N.W. Ayer advertising agency",
-            "it",
-            "A diamond",
-            "the next morni",
-            "She"
+            "The line"
         ],
         "embedding": [
             -0.02186141535639763,
@@ -16983,21 +17158,25 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
             "you",
-            "Sonos",
-            "Speakers",
-            "Top Soundbars",
-            "these speakers",
-            "Roku",
-            "streaming music",
-            "Thanks",
             "the time",
-            "TV",
-            "soundbar sales",
-            "Sale",
+            "these speakers",
+            "Sonos",
             "Beats",
-            "the best-of-the-best brands"
+            "Speakers",
+            "TV",
+            "Thanks",
+            "Sale",
+            "streaming music",
+            "soundbar sales",
+            "the best-of-the-best brands",
+            "Roku",
+            "Top Soundbars"
         ],
         "embedding": [
             -0.027792179957032204,
@@ -17419,30 +17598,34 @@
                 "label": "NORP"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
-            "the process",
-            "danger",
-            "Xbox games",
             "closure",
+            "they",
+            "Microsofts gaming wing",
+            "the games",
+            "multiple studios",
+            "the situation",
+            "which",
+            "Xbox games",
+            "Xboxs",
+            "the process",
+            "studio closures",
+            "the reality",
+            "a reset",
+            "even more lay-offs",
+            "reset memo",
+            "- IGN Xbox",
             "Xbox Games",
             "What",
-            "the reality",
-            "the games",
-            "this",
-            "multiple studios",
-            "Xboxs",
-            "Microsofts gaming wing",
-            "studio closures",
-            "[+16516 chars",
-            "which",
-            "it",
-            "the situation",
-            "even more lay-offs",
-            "a reset",
-            "they",
             "We",
-            "reset memo",
-            "- IGN Xbox"
+            "it",
+            "[+16516 chars",
+            "danger",
+            "this"
         ],
         "embedding": [
             -0.0066398740746080875,
@@ -17900,32 +18083,36 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
-            "you",
-            "minutes",
-            "that",
-            "Select Object version",
-            "Lightroom Classic",
-            "Apple silicon Macs",
-            "AI denoising",
             "50% faster denoisin",
-            "Three Upgrades",
-            "flyaway hair",
             "stacks",
-            "Worth",
-            "changes",
-            "it",
-            "sloppy Select Subject masks",
-            "your catalog",
-            "three major upgrades",
-            "a catalog cl",
-            "Your Time - Fstoppers Lightroom",
-            "tree limbs",
-            "Classic",
-            "fine details",
             "files",
+            "Apple silicon Macs",
             "[+2265 chars",
-            "a new duplicate detection feature scans"
+            "minutes",
+            "three major upgrades",
+            "Three Upgrades",
+            "sloppy Select Subject masks",
+            "a catalog cl",
+            "changes",
+            "Classic",
+            "your catalog",
+            "fine details",
+            "it",
+            "tree limbs",
+            "a new duplicate detection feature scans",
+            "Lightroom Classic",
+            "Worth",
+            "AI denoising",
+            "you",
+            "Your Time - Fstoppers Lightroom",
+            "Select Object version",
+            "that",
+            "flyaway hair"
         ],
         "embedding": [
             0.03376157954335213,
@@ -18343,23 +18530,27 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
             "the \u2026 [+4939 chars",
-            "a way",
-            "owners",
+            "- | Cord Cutters News Roku",
             "The New Roku Home Screen",
             "the automatic rollout",
             "Roku TVs",
-            "- | Cord Cutters News Roku",
-            "Roku",
-            "its streaming devices",
             "televisions",
-            "m",
-            "Roku Players",
             "the company\u2019s newly redesigned home screen",
             "the platform\u2019s main screen",
             "the most significant overhaul",
-            "The new interface"
+            "its streaming devices",
+            "owners",
+            "Roku Players",
+            "The new interface",
+            "Roku",
+            "m",
+            "a way"
         ],
         "embedding": [
             0.018297331407666206,
@@ -18805,18 +18996,22 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
-            "Microsoft",
-            "a new DirectX 12 feature",
-            "DirectX Dump Files",
-            "GPU",
-            "developers",
             "a .dxdmp file",
-            "The feature",
             "Windows",
-            "a public preview",
+            "[+1740 chars",
+            "DirectX Dump Files",
+            "developers",
+            "GPU",
+            "Microsoft",
             "VideoCardz.com Microsoft",
-            "[+1740 chars"
+            "The feature",
+            "a new DirectX 12 feature",
+            "a public preview"
         ],
         "embedding": [
             -0.07290101796388626,
@@ -19270,24 +19465,29 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "you",
-            "state",
-            "5G connectivity",
             "more problems",
-            "Android",
-            "Android Central Pixel users",
-            "<ul><li>Pixel users",
-            "the Google Pixel",
-            "Pixel phones",
             "they",
+            "5G connectivity",
+            "you",
+            "Android Central Pixel users",
+            "What",
+            "Android",
+            "the Google Pixel",
+            "No Connection",
+            "Pixel phones",
             "5G connectivity problems",
             "[+3310 chars",
-            "5G",
-            "What",
             "Android 17 messes",
-            "No Connection",
-            "their device"
+            "<ul><li>Pixel users",
+            "5G",
+            "their device",
+            "state"
         ],
         "embedding": [
             0.012530146166682243,
@@ -19705,25 +19905,30 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "them",
-            "the reasoning",
+            "who",
+            "I",
             "frame rates",
             "all things",
-            "I",
-            "Switch 2 developers",
-            "Nintendo Switch",
-            "who",
-            "no introduction",
             "content creators",
-            "game performance",
+            "the reasoning",
             "[+2652 chars",
-            "developers",
-            "life",
-            "Windows Central Digital Foundry",
             "it",
-            "Xbox Series S",
-            "Digital Foundry"
+            "developers",
+            "Windows Central Digital Foundry",
+            "Nintendo Switch",
+            "them",
+            "Switch 2 developers",
+            "no introduction",
+            "life",
+            "Digital Foundry",
+            "game performance",
+            "Xbox Series S"
         ],
         "embedding": [
             0.02278584986925125,
@@ -20153,28 +20358,33 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "a modern version",
-            "the Commodore Callback",
-            "everything",
-            "messaging apps",
-            "the company",
-            "Love Commodore's New Minimalist Flip Phone - bgr.com",
-            "[+1205 chars",
-            "a flip phone",
-            "the Co",
             "users",
-            "maps",
             "the Commodore",
             "no social media",
-            "80s nostalgia",
-            "Gen Z",
-            "reality",
-            "The Commodore Callback",
-            "a music play",
-            "Commodore's\u00a0blog post",
+            "[+1205 chars",
+            "a modern version",
+            "Love Commodore's New Minimalist Flip Phone - bgr.com",
+            "maps",
             "distractions",
-            "It"
+            "the Commodore Callback",
+            "messaging apps",
+            "Commodore's\u00a0blog post",
+            "reality",
+            "It",
+            "a music play",
+            "everything",
+            "Gen Z",
+            "a flip phone",
+            "the company",
+            "80s nostalgia",
+            "The Commodore Callback",
+            "the Co"
         ],
         "embedding": [
             -0.1290767937898636,
@@ -20588,16 +20798,21 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "ORG"
+        ],
         "key_phrases": [
-            "a nice beach hike route",
-            "I",
-            "The new Siri AI",
-            "[+3261 chars",
             "Siri AI",
+            "I",
             "Me",
             "a single paragraph",
+            "many contemporary AI assistants",
+            "a nice beach hike route",
             "Siri AIs bite-sized replies",
-            "many contemporary AI assistants"
+            "The new Siri AI",
+            "[+3261 chars"
         ],
         "embedding": [
             -0.006090136710554361,
@@ -21023,12 +21238,17 @@
                 "label": "GPE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "ORG"
+        ],
         "key_phrases": [
-            "lifetime access",
+            "Claude",
             "ever - Mashable A smarter way",
-            "AI",
             "Gemini",
-            "Claude"
+            "lifetime access",
+            "AI"
         ],
         "embedding": [
             -0.07330593466758728,
@@ -21462,22 +21682,28 @@
                 "label": "LOC"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "Europe",
-            "Nintendo Life",
+            "Star Fox Soft Toy Line",
+            "Star Fox",
             "decoration\" Image",
-            "The Nintendo Store",
+            "the return",
+            "San-Ei",
+            "the Nintendo Stores",
+            "Europe",
             "the UK",
             "[+1047 chars",
-            "San-Ei",
-            "Nintendo",
-            "the Nintendo Stores",
             "play",
-            "Star Fox",
-            "Star Fox Soft Toy Line",
-            "its Star Fox \"soft toy\" line",
+            "The Nintendo Store",
+            "Nintendo",
+            "Nintendo Life",
             "These plush",
-            "the return"
+            "its Star Fox \"soft toy\" line"
         ],
         "embedding": [
             -0.06095891073346138,
@@ -21923,26 +22149,30 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
-            "Dragons",
-            "players",
-            "Dragons Fanatics Wizards",
-            "Dungeons",
-            "their new D&D 5.5E spell cards",
-            "New D&D Spell Cards",
-            "the 2024 Player's Handbook",
             "magical options",
-            "New D&amp;D Spell Cards",
-            "the Coast",
-            "amp",
             "Magic",
-            "the Season",
-            "a magic user",
             "I",
-            "three physical sets",
-            "qualifying purchases",
-            "[+3816 chars",
+            "their new D&D 5.5E spell cards",
+            "amp",
             "an Amazon Associate",
+            "a magic user",
+            "players",
+            "Dungeons",
+            "the Season",
+            "Dragons Fanatics Wizards",
+            "Dragons",
+            "qualifying purchases",
+            "New D&D Spell Cards",
+            "three physical sets",
+            "the 2024 Player's Handbook",
+            "[+3816 chars",
+            "the Coast",
+            "New D&amp;D Spell Cards",
             "Magic - Dungeons"
         ],
         "embedding": [
@@ -22389,23 +22619,28 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "GPE"
+        ],
         "key_phrases": [
+            "PS4",
             "the offer",
-            "Free - comicbook.com Ubisoft",
-            "Nintendo Switch",
-            "149 games",
-            "149 Games Available",
-            "Xbox",
             "PC",
             "PS5",
-            "which",
-            "PS4",
-            "Switch",
-            "a limited time",
-            "Xbox Series X users",
+            "Free - comicbook.com Ubisoft",
+            "149 games",
             "those",
             "Ubisoft",
-            "[+2305 chars"
+            "Nintendo Switch",
+            "Xbox Series X users",
+            "Xbox",
+            "which",
+            "[+2305 chars",
+            "Switch",
+            "149 Games Available",
+            "a limited time"
         ],
         "embedding": [
             -0.008338689804077148,
@@ -22855,20 +23090,24 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
             "you",
-            "Microsoft",
-            "the death knell",
+            "Latest Microsoft",
+            "an End",
+            "Support",
+            "Office 2021 reminder",
             "\u2026 [+3599 chars",
-            "- Windows",
             "October",
             "an updated support document",
             "Office",
-            "Office 2021 reminder",
+            "Microsoft",
             "its Microsoft Support document",
-            "Latest Microsoft",
-            "an End",
-            "Support"
+            "the death knell",
+            "- Windows"
         ],
         "embedding": [
             -0.08795752376317978,
@@ -23314,25 +23553,30 @@
                 "label": "ORDINAL"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "Fans",
-            "Persona 4 Revival",
-            "The Persona 4 Revival Broadcast",
-            "three big ways",
             "[+7605 chars",
-            "our first deep dive",
-            "upcoming JRPG remake",
+            "those Persona 4 Revival achievements",
+            "Fans",
             "June",
-            "the key takeaways",
+            "us",
             "the latest Persona 4 Revival Broadcast",
+            "The Persona 4 Revival Broadcast",
+            "a bunch",
+            "our first deep dive",
+            "Persona 4 Revival",
+            "changes",
+            "the original RPG",
             "Spring",
             "which",
-            "the original RPG",
-            "a bunch",
-            "changes",
+            "upcoming JRPG remake",
+            "three big ways",
             "the launch",
-            "those Persona 4 Revival achievements",
-            "us"
+            "the key takeaways"
         ],
         "embedding": [
             0.010502925142645836,

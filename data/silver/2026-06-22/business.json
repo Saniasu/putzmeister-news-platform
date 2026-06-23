@@ -64,26 +64,32 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "Federal Reserve Chairman Kevin W",
-            "the Fed - CNBC",
-            "a quiet revolution",
-            "virtually everything",
-            "the helm",
-            "DC",
-            "Kevin Warsh",
             "a velvet glove",
-            "the central bank",
-            "reporters",
-            "his first news conference",
-            "task forces",
-            "[+7033 chars",
-            "Federal Reserve Chair Kevin Warsh",
-            "June",
+            "DC",
+            "virtually everything",
             "The first big announced changes",
-            "Washington",
+            "the helm",
+            "task forces",
             "'Regime change",
-            "the Fed"
+            "Kevin Warsh",
+            "[+7033 chars",
+            "his first news conference",
+            "Federal Reserve Chairman Kevin W",
+            "Washington",
+            "a quiet revolution",
+            "June",
+            "the Fed - CNBC",
+            "reporters",
+            "the central bank",
+            "the Fed",
+            "Federal Reserve Chair Kevin Warsh"
         ],
         "embedding": [
             0.03840380534529686,
@@ -545,26 +551,32 @@
                 "label": "NORP"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "What",
+            "they",
+            "the Iran war",
+            "the economy",
+            "gallon",
+            "a halt",
+            "the US war",
             "Americans",
-            "diesel",
+            "the Pentagon",
+            "13 American service members",
             "their lives.</li><li>Gas prices",
             "Iran",
-            "a halt",
-            "13 American service members",
+            "What",
             "The 100-day war",
-            "gallon",
-            "the economy",
             "an agreement",
-            "the Pentagon",
-            "the US war",
-            "the Iran war",
             "Summary",
-            "ul><li",
-            "they",
             "Trump - CNN",
-            "President Donald Trump"
+            "President Donald Trump",
+            "ul><li",
+            "diesel"
         ],
         "embedding": [
             0.02903745137155056,
@@ -1006,24 +1018,29 @@
                 "label": "GPE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "ORG"
+        ],
         "key_phrases": [
-            "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
-            "the US economy",
-            "the US",
             "the cliff",
-            "a major vulnerability",
-            "That",
             "the the US economy",
-            "that",
-            "An explosion",
-            "the European Bank",
-            "hold",
-            "a recent note",
             "clients",
-            "America's swelling debt pile",
-            "a concerning trend",
-            "SocGen",
+            "the European Bank",
             "household debt",
+            "a concerning trend",
+            "a major vulnerability",
+            "An explosion",
+            "the US",
+            "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
+            "That",
+            "America's swelling debt pile",
+            "that",
+            "the US economy",
+            "a recent note",
+            "hold",
+            "SocGen",
             "a tough spot - Business Insider Americans"
         ],
         "embedding": [
@@ -1450,22 +1467,26 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
             "comfort",
+            "Americans",
             "how much money",
+            "a comfortable retirement",
+            "how many Americans",
+            "a rough estimate",
             "savings",
+            "The \"magic number",
+            "an American",
             "The 'magic number",
-            "Retirement planners",
+            "a \"magic number",
             "the number",
             "a seven-figure sum",
             "[+3153 chars",
-            "a comfortable retirement",
-            "Americans",
-            "a rough estimate",
-            "a \"magic number",
-            "The \"magic number",
-            "an American",
-            "how many Americans"
+            "Retirement planners"
         ],
         "embedding": [
             0.0833803042769432,
@@ -1891,23 +1912,28 @@
                 "label": "CARDINAL"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "Europe",
+            "a trend",
             "a work",
-            "This time its a piece",
-            "Citrini Researchs",
-            "[+3786 chars",
-            "their brains",
+            "AI-Pilled Speculative Fiction",
             "speculative fiction",
             "it",
+            "It",
+            "Europeans",
+            "Europe",
+            "Citrini Researchs",
+            "AI people",
+            "[+3786 chars",
             "that",
             "Another Piece",
             "fiction seep",
-            "AI people",
-            "AI-Pilled Speculative Fiction",
-            "a trend",
-            "It",
-            "Europeans"
+            "their brains",
+            "This time its a piece"
         ],
         "embedding": [
             -0.07046946883201599,
@@ -2325,23 +2351,27 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON"
+        ],
         "key_phrases": [
-            "gas",
-            "His Hot Air",
-            "a lot",
-            "his complaints",
-            "the aesthetic qualities",
-            "A serious energy nationalist",
-            "lack",
-            "Trump",
-            "turbines",
-            "wind energy",
             "offshore wind\u2019s weakness",
-            "The president",
-            "hot air",
-            "a sunnier answer",
+            "his complaints",
             "President Donald Trump",
-            "+9389 chars"
+            "the aesthetic qualities",
+            "hot air",
+            "Trump",
+            "The president",
+            "lack",
+            "a sunnier answer",
+            "wind energy",
+            "turbines",
+            "gas",
+            "A serious energy nationalist",
+            "+9389 chars",
+            "a lot",
+            "His Hot Air"
         ],
         "embedding": [
             0.02787177823483944,
@@ -2787,25 +2817,30 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON"
+        ],
         "key_phrases": [
             "Miami",
+            "a full-time, 6-figure family business",
             "the plan",
+            "A Miami couple",
             "They",
-            "that",
+            "a side gig",
+            "the couple",
+            "a fleet",
+            "it",
             "Gerardo Aletti",
             "Business Insider",
-            "a married couple",
-            "a Nissan Infiniti",
-            "A couple's car rental business",
-            "A Miami couple",
-            "a fleet",
             "over 60 cars",
-            "it",
-            "the couple",
-            "a full-time, 6-figure family business",
+            "A couple's car rental business",
+            "that",
+            "Sofia Escarra",
             "their car",
-            "a side gig",
-            "Sofia Escarra"
+            "a married couple",
+            "a Nissan Infiniti"
         ],
         "embedding": [
             0.03840530663728714,
@@ -3259,27 +3294,32 @@
                 "label": "CARDINAL"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "ORG"
+        ],
         "key_phrases": [
-            "you",
-            "that",
-            "This",
-            "the world's longest-range commercial aircraft",
             "capable o",
+            "Near-10,000 Mile Nonstop Flights",
+            "the case",
             "It - Jalopnik Project Sunrise",
             "that record",
-            "Airbus",
-            "[+1551 chars",
-            "The Airbus A380",
+            "Sydney",
+            "the world's longest-range commercial aircraft",
             "The Plane",
-            "London",
             "New York",
-            "the case",
-            "Near-10,000 Mile Nonstop Flights",
-            "Qantas",
-            "22-hour flights",
-            "the largest planes",
             "the Airbus A350-1000ULR",
-            "Sydney"
+            "[+1551 chars",
+            "Airbus",
+            "Qantas",
+            "The Airbus A380",
+            "you",
+            "This",
+            "that",
+            "22-hour flights",
+            "London",
+            "the largest planes"
         ],
         "embedding": [
             0.09886582940816879,
@@ -3749,26 +3789,31 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
+            "they",
             "who",
-            "Nearly every Democrat",
-            "This past week",
+            "Kevin Warshs nomination",
+            "Warsh mad\u2026 [+4561 chars",
+            "the sort - New York Post",
             "the man",
-            "Democrats",
-            "Fed chair",
-            "nothing",
-            "Fed Chair Kevin Warsh",
-            "his opening move",
+            "Kevin Warsh\u2019s nomination",
+            "a tool",
+            "he",
             "him",
             "a Trump loyalist",
-            "a tool",
-            "Kevin Warsh\u2019s nomination",
+            "Fed chair",
+            "Nearly every Democrat",
+            "Fed Chair Kevin Warsh",
+            "This past week",
             "the Senate",
-            "Kevin Warshs nomination",
-            "he",
-            "the sort - New York Post",
-            "they",
-            "Warsh mad\u2026 [+4561 chars"
+            "his opening move",
+            "nothing",
+            "Democrats"
         ],
         "embedding": [
             0.06762288510799408,
@@ -4226,22 +4271,27 @@
                 "label": "CARDINAL"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "ORG"
+        ],
         "key_phrases": [
-            "Texas",
-            "A driver",
-            "fatal Texas home crash",
-            "his Tesla",
-            "a 76-year-old woman",
-            "Autopilot",
-            "a home",
-            "a residential road",
-            "[+4905 chars",
-            "the brick wall",
-            "Electrek A driver",
-            "Katy",
-            "it",
             "Harris County investigators",
-            "Tesla driver"
+            "A driver",
+            "Texas",
+            "his Tesla",
+            "the brick wall",
+            "a home",
+            "Electrek A driver",
+            "it",
+            "Autopilot",
+            "a residential road",
+            "a 76-year-old woman",
+            "[+4905 chars",
+            "Tesla driver",
+            "fatal Texas home crash",
+            "Katy"
         ],
         "embedding": [
             -0.02430955320596695,
@@ -4691,23 +4741,28 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "his commitment",
-            "the conversation",
-            "the story",
-            "he",
-            "his grandson",
-            "Oholei Torah\u2019s new Rabbinical Campus",
-            "Anash.org",
-            "the first donation",
             "the\u2026 [+379 chars",
+            "Anash.org",
+            "he",
             "Rabbi Mangel",
-            "Rabbi Nissen Mangel",
-            "Oholei Torah's new Rabbinical Campus",
+            "his commitment",
             "the Deal Closed",
-            "glance",
+            "the conversation",
+            "the first donation",
+            "his grandson",
+            "A passing glance",
             "Sale",
-            "A passing glance"
+            "the story",
+            "Oholei Torah's new Rabbinical Campus",
+            "glance",
+            "Rabbi Nissen Mangel",
+            "Oholei Torah\u2019s new Rabbinical Campus"
         ],
         "embedding": [
             0.004994781222194433,
@@ -5149,28 +5204,33 @@
                 "label": "LOC"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "ORG"
+        ],
         "key_phrases": [
-            "early discounts",
-            "\u2026 [+2106 chars",
-            "Fire TV streaming gear",
-            "Prime Day Deals",
-            "the Top 25+ Amazon Device",
-            "-",
-            "Savings",
-            "Prime Day",
-            "some",
-            "readers",
-            "Amazon's most popular devices",
-            "These early Prime Day deals",
-            "Ring security cameras",
-            "up to 60%",
-            "Tuesday",
-            "its most popular devices",
-            "Echo sma",
-            "they",
             "Kindle",
+            "they",
+            "Savings",
+            "\u2026 [+2106 chars",
+            "Prime Day",
             "e",
+            "Amazon's most popular devices",
+            "up to 60%",
+            "some",
+            "early discounts",
+            "Ring security cameras",
+            "Tuesday",
+            "the Top 25+ Amazon Device",
+            "Echo sma",
+            "its most popular devices",
+            "Prime Day Deals",
+            "Fire TV streaming gear",
+            "These early Prime Day deals",
+            "-",
             "Ring",
+            "readers",
             "Amazon"
         ],
         "embedding": [
@@ -5576,12 +5636,14 @@
         "sentiment_score": 0.287,
         "sentiment_label": "Positive",
         "entities": [],
+        "contains_pii": false,
+        "pii_entities": [],
         "key_phrases": [
-            "None",
             "They",
-            "Polymarket",
+            "It",
             "Real - WSJ",
-            "It"
+            "None",
+            "Polymarket"
         ],
         "embedding": [
             -0.047690313309431076,
@@ -5995,20 +6057,24 @@
                 "label": "GPE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE"
+        ],
         "key_phrases": [
-            "bets",
             "concerns",
-            "a reassessment",
-            "A high pro\u2026 [+299 chars",
-            "the Iran war recede",
-            "agriculture",
-            "climate risk",
+            "A Stock Trader\u2019s Guide",
+            "bets",
             "a Rare \u2018Super El Ni\u00f1o",
-            "which",
+            "agriculture",
+            "the Iran war recede",
+            "stock investors",
             "another threat",
             "insurance",
-            "A Stock Trader\u2019s Guide",
-            "stock investors",
+            "which",
+            "A high pro\u2026 [+299 chars",
+            "climate risk",
+            "a reassessment",
             "sectors"
         ],
         "embedding": [
@@ -6443,26 +6509,30 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE"
+        ],
         "key_phrases": [
-            "them",
-            "an AI company",
+            "they",
+            "the free cleans",
             "five apartments",
-            "one day",
-            "chars",
-            "my New York City apartment",
-            "the robots",
             "free cleaners",
-            "door",
+            "an AI company",
+            "these guys",
+            "free - BBC An AI company",
             "New York",
             "it",
-            "the free cleans",
-            "a regul",
-            "The only difference",
-            "demand",
-            "free - BBC An AI company",
+            "door",
             "a bid",
-            "they",
-            "these guys"
+            "my New York City apartment",
+            "one day",
+            "demand",
+            "The only difference",
+            "a regul",
+            "the robots",
+            "them",
+            "chars"
         ],
         "embedding": [
             -0.022452685981988907,
@@ -6904,24 +6974,30 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "The c",
-            "I-35",
             "$47M Buc-ee",
-            "new Texas Hill Country spot",
+            "August",
+            "new sign",
+            "I-35",
+            "A \"Coming Soon\" sign",
             "day",
             "+2849 chars",
-            "nears completion",
-            "the beaver logo",
-            "its anticipated August debut",
-            "A \"Coming Soon\" sign",
+            "The San Marcos Buc-ee",
             "newly installed Buc-ee's branding greet drivers",
+            "the beaver logo",
+            "the San Marcos travel center",
+            "new Texas Hill Country spot",
+            "The c",
             "completion",
             "Taylor Kamnetz/MySA",
-            "new sign",
-            "the San Marcos travel center",
-            "The San Marcos Buc-ee",
-            "August"
+            "its anticipated August debut",
+            "nears completion"
         ],
         "embedding": [
             -0.02512509562075138,
@@ -7351,22 +7427,27 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "a price",
-            "+1696 chars",
-            "a new product",
-            "The new product introduction",
-            "its candies",
-            "a version",
             "The iconic brand",
-            "M&amp;M",
-            "Yahoo",
-            "America",
-            "arti",
+            "a price",
+            "two iconic colors",
             "M&M",
-            "artificial dyes",
+            "a new product",
+            "arti",
+            "Yahoo",
+            "+1696 chars",
+            "its candies",
             "its lineup",
-            "two iconic colors"
+            "America",
+            "M&amp;M",
+            "a version",
+            "The new product introduction",
+            "artificial dyes"
         ],
         "embedding": [
             0.0034931362606585026,
@@ -7828,24 +7909,29 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "ORG"
+        ],
         "key_phrases": [
-            "two flights - WCVB",
-            "Boston",
-            "[+491 chars",
-            "Logan Airport",
-            "Massachusetts",
-            "an American Ai",
-            "a Delta Air Lines flight",
-            "Mass.",
-            "Authorities",
-            "FAA",
-            "Saturday",
             "land",
-            "close call",
-            "The FAA",
+            "a Delta Air Lines flight",
+            "Logan Airport",
             "a potential close call",
+            "Massachusetts",
+            "a close call",
+            "[+491 chars",
             "EAST BOSTON",
-            "a close call"
+            "Saturday",
+            "Boston",
+            "The FAA",
+            "Mass.",
+            "FAA",
+            "Authorities",
+            "close call",
+            "an American Ai",
+            "two flights - WCVB"
         ],
         "embedding": [
             0.03209152817726135,
@@ -8275,24 +8361,28 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
+            "grilling",
+            "warm weather days",
+            "the horizon",
+            "Sunday",
+            "our staff",
+            "all season",
+            "these 5 staff-favorite recipes",
             "our colleagues",
+            "The ice cream",
+            "panzanella",
+            "what",
+            "pasta",
+            "your summer bucket list",
+            "the official start",
             "pool parties",
             "summer",
-            "grilling",
             "the months",
-            "the horizon",
-            "these 5 staff-favorite recipes",
-            "all season",
-            "panzanella",
-            "pasta",
-            "our staff",
-            "your summer bucket list",
-            "what",
-            "The ice cream",
-            "warm weather days",
-            "Sunday",
-            "the official start",
             "Every\u2026 [+363 chars"
         ],
         "embedding": [
@@ -8727,23 +8817,27 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
-            "Rate cuts",
-            "hope",
-            "financial condition",
-            "potential increases",
-            "Markets",
-            "[+3536 chars",
             "the year",
-            "May",
-            "Even the Fed's new chair",
-            "companies",
             "Fortune Corporate bond issuance",
-            "the Federal Reserve",
-            "the deluge",
-            "financial markets",
+            "financial condition",
             "capital",
-            "rates"
+            "Markets",
+            "May",
+            "[+3536 chars",
+            "rates",
+            "Even the Fed's new chair",
+            "potential increases",
+            "companies",
+            "the deluge",
+            "the Federal Reserve",
+            "hope",
+            "financial markets",
+            "Rate cuts"
         ],
         "embedding": [
             0.0240426417440176,
@@ -9173,22 +9267,26 @@
                 "label": "TIME"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON"
+        ],
         "key_phrases": [
-            "store formats",
-            "penicillin",
-            "all",
-            "Century-old bakery chain closing",
-            "credit cards",
-            "The company",
-            "Starbucks",
-            "television",
-            "which",
-            "the closure",
-            "commercial airlines",
-            "Panera Bread",
             "multiple grocery brands",
             "16 y",
-            "chars"
+            "The company",
+            "Century-old bakery chain closing",
+            "all",
+            "television",
+            "penicillin",
+            "credit cards",
+            "Starbucks",
+            "which",
+            "chars",
+            "store formats",
+            "commercial airlines",
+            "the closure",
+            "Panera Bread"
         ],
         "embedding": [
             0.045941609889268875,
@@ -9618,25 +9716,29 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
-            "Thursday",
-            "default",
-            "the 9 million borrowers",
-            "interest rates",
-            "a plan",
-            "Fortune The Education Department's temporary 1% interest rate reduction",
             "auto-pay enrollment",
-            "Trump\u2019s student loan rate cut",
-            "loan consolidation",
-            "it",
-            "growing numbers o",
-            "higher education",
-            "federal student loans",
-            "The Education Department",
             "a reduction",
-            "good standing",
+            "loan consolidation",
+            "federal student loans",
             "part",
-            "[+2805 chars"
+            "the 9 million borrowers",
+            "growing numbers o",
+            "[+2805 chars",
+            "it",
+            "a plan",
+            "interest rates",
+            "The Education Department",
+            "higher education",
+            "default",
+            "good standing",
+            "Trump\u2019s student loan rate cut",
+            "Thursday",
+            "Fortune The Education Department's temporary 1% interest rate reduction"
         ],
         "embedding": [
             0.051361504942178726,
@@ -10094,26 +10196,30 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON"
+        ],
         "key_phrases": [
+            "a $2,000 check",
+            "a Roughly 30% Smaller Check",
             "Early cla",
-            "that",
+            "his badge",
+            "He",
+            "the same company",
+            "a 40-Year Career",
+            "the kind",
             "roughly 30%",
             "life",
-            "the kind",
-            "He",
-            "the Time",
-            "Social Security",
-            "the same company",
-            "his badge",
-            "monthly benefits",
-            "ul><li",
             "- Yahoo Finance",
-            "a 40-Year Career",
             "40 years",
             "he",
-            "a $2,000 check",
             "[+5322 chars",
-            "a Roughly 30% Smaller Check"
+            "ul><li",
+            "Social Security",
+            "the Time",
+            "that",
+            "monthly benefits"
         ],
         "embedding": [
             -0.01542219053953886,
@@ -10543,27 +10649,31 @@
                 "label": "PERCENT"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
-            "earth",
-            "that",
-            "a new source",
-            "a fresh catalyst",
-            "SpaceX shares",
-            "investor demand",
-            "The initial SpaceX frenzy",
-            "the horizon",
-            "to strike - MarketWatch SpaceX",
             "cash",
-            "[+292 chars",
-            "breadth",
+            "index entry",
+            "SpaceX shares",
+            "the coming days",
+            "a new source",
+            "the horizon",
+            "investor demand",
+            "earth",
             "SpaceXs stock \r\nSPCX",
-            "weeks",
+            "a fresh catalyst",
             "stock indexes",
             "Tuesday",
-            "its intraday",
-            "the coming days",
-            "index entry",
-            "a new wave"
+            "a new wave",
+            "The initial SpaceX frenzy",
+            "to strike - MarketWatch SpaceX",
+            "breadth",
+            "[+292 chars",
+            "weeks",
+            "that",
+            "its intraday"
         ],
         "embedding": [
             -0.030149823054671288,
@@ -10993,22 +11103,26 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON"
+        ],
         "key_phrases": [
-            "your dishes",
-            "employment",
-            "your toilets",
-            "I",
-            "an",
-            "Jaelyn Chester",
-            "+2117 chars",
-            "your shelves",
-            "the 17-year-old a chance",
-            "Chester",
-            "the warmer months",
-            "the 'Most Marginalized' Groups",
             "your tables",
+            "Jaelyn Chester",
+            "employment",
+            "I",
+            "Chester",
+            "+2117 chars",
+            "your dishes",
+            "the warmer months",
+            "only someone",
+            "your shelves",
             "Summer Jobs - Newser US teens",
-            "only someone"
+            "your toilets",
+            "the 'Most Marginalized' Groups",
+            "the 17-year-old a chance",
+            "an"
         ],
         "embedding": [
             0.0025011920370161533,
@@ -11454,22 +11568,28 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "two separate deals",
             "Dow Jones",
-            "the U.S.",
-            "All Rights Reserved",
-            "WSJ",
-            "amp",
             "Domino",
-            "Inc.",
-            "Company",
-            "its grasp",
-            "It",
+            "the U.S.",
             "Copyright \u00a9",
-            "its sale",
+            "All Rights Reserved",
+            "Inc.",
             "Pizza Hut",
-            "the U.S. pizza market"
+            "It",
+            "Company",
+            "the U.S. pizza market",
+            "amp",
+            "its sale",
+            "WSJ",
+            "its grasp",
+            "two separate deals"
         ],
         "embedding": [
             0.028516137972474098,
@@ -11891,27 +12011,31 @@
                 "label": "TIME"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE"
+        ],
         "key_phrases": [
-            "the Tab - Yahoo A restaurant",
-            "@ClownWorld",
-            "-dashers",
             "A restaurant",
-            "The seven-se",
-            "[+2556 chars",
-            "No Cash",
-            "a group",
-            "No Food",
-            "Track Dine",
-            "Restaurant Used Surveillance",
-            "dine",
-            "surveillance footage",
-            "the incident",
-            "-Dashers",
             "Massachusetts",
+            "The seven-se",
             "X",
+            "-dashers",
+            "Restaurant Used Surveillance",
+            "@ClownWorld",
             "public assistance",
+            "a group",
+            "-Dashers",
+            "No Cash",
+            "[+2556 chars",
+            "No Food",
             "The seven-second video",
-            "Who"
+            "the incident",
+            "Track Dine",
+            "Who",
+            "dine",
+            "the Tab - Yahoo A restaurant",
+            "surveillance footage"
         ],
         "embedding": [
             -0.029359916225075722,
@@ -12329,23 +12453,28 @@
                 "label": "ORDINAL"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
+            "indices",
+            "a great example",
+            "I",
+            "inco",
+            "data",
+            "the smartphone",
             "my first smartphone",
             "Bitcoin's future",
+            "CoinDesk's president",
+            "which",
             "CoinDesk - CNBC CoinDesk\u2019s president",
-            "data",
-            "I",
-            "indices",
+            "a message",
+            "bitcoin",
             "a disruptive technology",
             "that",
-            "a great example",
-            "which",
-            "CoinDesk's president",
-            "inco",
-            "the smartphone",
-            "investors",
-            "a message",
-            "bitcoin"
+            "investors"
         ],
         "embedding": [
             -0.05044911429286003,
@@ -12783,27 +12912,33 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "Spirit Airlines",
-            "the wings",
-            "Passengers",
-            "The budget airline model",
-            "the U.S.",
-            "United",
-            "[+13120 chars",
-            "failure",
             "low fares",
-            "runway - CNBC Spirit's bankruptcy",
-            "jet fuel spikes",
-            "Tweed-New Haven Airport",
-            "airline industry",
-            "Delta",
-            "the busy summer season",
             "the skies",
-            "success",
-            "an Avelo flight",
+            "Passengers",
             "travelers",
-            "fewer lower-cost options"
+            "airline industry",
+            "the busy summer season",
+            "failure",
+            "the wings",
+            "Spirit Airlines",
+            "fewer lower-cost options",
+            "the U.S.",
+            "success",
+            "Tweed-New Haven Airport",
+            "The budget airline model",
+            "Delta",
+            "[+13120 chars",
+            "runway - CNBC Spirit's bankruptcy",
+            "an Avelo flight",
+            "jet fuel spikes",
+            "United"
         ],
         "embedding": [
             0.14920879900455475,
@@ -13257,24 +13392,29 @@
                 "label": "PRODUCT"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "Paramount-Warner Bros Discovery merger",
-            "foreign investor concerns",
-            "[+4033 chars",
-            "Dem senators",
             "concerns",
-            "FCC",
-            "Three Democratic senators",
-            "the foreign ownership",
             "foreign investors",
-            "pause",
-            "what wou",
-            "the Federal Communications Commission",
+            "Paramount-Warner Bros Discovery merger",
             "the Paramount-Warner Bros. Discovery merger",
-            "the Paramount-Warner Bros. entity",
-            "FCC Chairman Brendan Carr",
+            "pause",
             "The senators",
-            "more due diligence"
+            "more due diligence",
+            "FCC",
+            "the Federal Communications Commission",
+            "foreign investor concerns",
+            "the foreign ownership",
+            "Three Democratic senators",
+            "what wou",
+            "Dem senators",
+            "FCC Chairman Brendan Carr",
+            "the Paramount-Warner Bros. entity",
+            "[+4033 chars"
         ],
         "embedding": [
             0.02451537922024727,
@@ -13692,21 +13832,25 @@
                 "label": "CARDINAL"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
+            "a little-known rule",
+            "The fight",
             "Robinhood",
-            "a push",
+            "[+3008 chars",
+            "it",
+            "the market",
             "most traders",
             "exists",
-            "Robinhood backs",
             "the best stock price investors",
-            "SEC Rule",
-            "[+3008 chars",
-            "the market",
-            "The fight",
-            "The SEC",
-            "it",
             "a market rule",
-            "a little-known rule"
+            "Robinhood backs",
+            "SEC Rule",
+            "a push",
+            "The SEC"
         ],
         "embedding": [
             -0.08225955069065094,
@@ -14164,25 +14308,31 @@
                 "label": "GPE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "Documents",
-            "Buc-ees",
-            "Greenwood",
-            "Fox",
             "first Buc-ee",
-            "Plans",
-            "Hoosiers",
-            "Buc-ee",
-            "Ind. Hoosiers",
-            "wit",
-            "The massively popular Texas-based travel center chain",
-            "the Greenwood Advisory Plan Commission",
+            "Buc-ees",
             "the com",
             "59 GREENWOOD",
-            "GREENWOOD",
+            "Documents",
+            "Plans",
+            "\u2019s",
             "Ind.",
             "its first Indiana location",
-            "\u2019s"
+            "The massively popular Texas-based travel center chain",
+            "Ind. Hoosiers",
+            "Greenwood",
+            "Buc-ee",
+            "Fox",
+            "wit",
+            "GREENWOOD",
+            "Hoosiers",
+            "the Greenwood Advisory Plan Commission"
         ],
         "embedding": [
             0.02487487532198429,
@@ -14624,25 +14774,31 @@
                 "label": "WORK_OF_ART"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
             "you",
-            "The Ramsey Show\r\nMoneywise and Yahoo Finance LLC",
-            "decision paralysis",
-            "links",
-            "his entire $450K inheritance",
-            "23-year-old Jackson",
-            "he",
             "Dave Ramsey's advice",
-            "the content",
             "a young age",
+            "New York",
+            "he",
+            "decision paralysis",
+            "it",
+            "the content",
             "a CD",
-            "Yahoo Finance Sudden wealth",
             "commission",
             "[+8232 chars",
-            "New York",
-            "it",
             "The Ramsey Show",
-            "revenue"
+            "links",
+            "The Ramsey Show\r\nMoneywise and Yahoo Finance LLC",
+            "his entire $450K inheritance",
+            "revenue",
+            "Yahoo Finance Sudden wealth",
+            "23-year-old Jackson"
         ],
         "embedding": [
             -0.04081474989652634,
@@ -15072,18 +15228,23 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
             "the face",
-            "[+5210 chars",
+            "memory and storage costs",
             "20th Anniversary iPhone Rumors",
             "Top Stories",
             "CEO Tim Cook",
-            "memory and storage costs",
-            "as many other smartphone and computer manufacturers",
+            "Apple",
+            "[+5210 chars",
             "massive increases",
             "More - MacRumors",
-            "Apple",
-            "prices"
+            "prices",
+            "as many other smartphone and computer manufacturers"
         ],
         "embedding": [
             0.008932395838201046,
@@ -15509,18 +15670,24 @@
                 "label": "GPE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "that shift",
+            "cash-flow story",
+            "what",
             "bond-market story",
+            "Nvidia",
+            "That",
+            "the Fed",
+            "a lot more expensive - Startup Fortune Big Tech",
+            "the money",
             "Big Tech",
             "a lot more expensive Big Techs AI buildout",
-            "That",
-            "the money",
-            "cash-flow story",
-            "Nvidia",
-            "a lot more expensive - Startup Fortune Big Tech",
-            "the Fed",
-            "what",
+            "that shift",
             "Kevin Warshs first Fed meeting"
         ],
         "embedding": [
@@ -15947,28 +16114,33 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
+            "I",
+            "BuzzFeed",
+            "the internet's most f",
+            "The Modern Home Design Trends",
+            "[+17 chars",
+            "Prison gray",
+            "real-life stories",
+            "a Senior Staff Writer",
+            "My House",
+            "BuzzFeed StaffAs",
+            "People",
+            "it",
+            "relationships",
+            "gray walls",
+            "lifestyle",
             "everything",
             "Liz RichardsonBuzzFeed",
-            "that",
-            "[+17 chars",
-            "lifestyle",
-            "BuzzFeed StaffAs",
-            "That Nasty",
-            "real-life stories",
-            "People",
-            "The Modern Home Design Trends",
             "They Absolutely Hate - BuzzFeed \"Gray floors",
-            "Prison gray",
-            "My House",
-            "it",
-            "BuzzFeed",
-            "gray walls",
-            "the internet's most f",
-            "a Senior Staff Writer",
-            "I",
-            "relationships",
             "travel",
+            "That Nasty",
+            "that",
             "beauty"
         ],
         "embedding": [
@@ -16399,25 +16571,29 @@
                 "label": "GPE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE"
+        ],
         "key_phrases": [
+            "Cheddar",
+            "the top",
+            "a good Cheddar cheese",
+            "one newcomer",
+            "the eye",
+            "We",
+            "Two cheeses",
+            "a winner",
+            "it",
             "Our Top Choice - Southern Living Southern Living editors",
+            "This",
+            "the list",
+            "the occasional charcuterie boar",
+            "different store-bought Cheddar cheeses",
+            "9 Cheddar Cheese Brands",
             "a perfect grilled cheese",
             "[+4452 chars",
-            "Cheddar",
-            "the list",
-            "one newcomer",
-            "We",
-            "the top",
-            "a winner",
-            "9 Cheddar Cheese Brands",
-            "This",
-            "a staple brand",
-            "the eye",
-            "a good Cheddar cheese",
-            "the occasional charcuterie boar",
-            "it",
-            "different store-bought Cheddar cheeses",
-            "Two cheeses"
+            "a staple brand"
         ],
         "embedding": [
             0.024684671312570572,
@@ -16867,23 +17043,28 @@
                 "label": "ORDINAL"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "ORG"
+        ],
         "key_phrases": [
             "McDonald's leading consideration and Chick-fil-A earning top marks",
-            "most consumers",
-            "survey",
             "fast f",
-            "not best burger",
-            "restaurants",
-            "America's top fast-food brands",
-            "which",
-            "A new YouGov survey",
-            "quality chicken",
-            "American diners",
-            "America's favorite fast-food chain",
             "the United States",
+            "American diners",
+            "A new YouGov survey",
+            "A new report",
+            "quality chicken",
             "McDonald",
+            "America's favorite fast-food chain",
+            "which",
+            "America's top fast-food brands",
+            "restaurants",
+            "most consumers",
+            "not best burger",
             "hearts",
-            "A new report"
+            "survey"
         ],
         "embedding": [
             -0.0006649487768299878,
@@ -17313,20 +17494,25 @@
                 "label": "MONEY"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "ORG"
+        ],
         "key_phrases": [
-            "your trial",
-            "Financial Times FT analysis",
-            "any device",
-            "its way",
-            "Anthropic",
-            "an AI export ban",
-            "month",
-            "company",
-            "dangers",
             "rival OpenAI",
+            "Financial Times FT analysis",
+            "its way",
+            "advanced AI",
             "Complete digital access",
+            "any device",
+            "your trial",
+            "month",
+            "dangers",
             "quality FT journalism",
-            "advanced AI"
+            "Anthropic",
+            "company",
+            "an AI export ban"
         ],
         "embedding": [
             0.028847767040133476,
@@ -17776,23 +17962,28 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "countervailing duties",
+            "tariffs",
             "[+2905 chars",
-            "display",
-            "Chinese plug-in hybrids",
-            "an investigat",
-            "an investigation",
-            "Handelsblatt",
+            "the Beijing Auto Show",
             "A BYD Sealion 06 SUV",
             "April",
-            "the Beijing Auto Show",
             "report",
-            "tariffs",
-            "EU",
-            "The European Commission",
             "Credit",
-            "way"
+            "an investigation",
+            "Chinese plug-in hybrids",
+            "display",
+            "an investigat",
+            "Handelsblatt",
+            "countervailing duties",
+            "The European Commission",
+            "way",
+            "EU"
         ],
         "embedding": [
             -0.09092284739017487,
@@ -18226,22 +18417,28 @@
                 "label": "CARDINAL"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "gas",
-            "a new wind-generation record",
-            "California",
-            "Yahoo Wind",
-            "the West",
-            "the nation's largest wind project",
-            "the state\u2019s generation-capacity mix",
-            "a wind record",
             "the new SunZia's wind turbines",
-            "America's biggest wind farm",
-            "the biggest share",
-            "Output",
-            "it",
             "grids",
-            "its formal debut"
+            "its formal debut",
+            "Output",
+            "the biggest share",
+            "America's biggest wind farm",
+            "a new wind-generation record",
+            "it",
+            "a wind record",
+            "California",
+            "the West",
+            "Yahoo Wind",
+            "the state\u2019s generation-capacity mix",
+            "gas",
+            "the nation's largest wind project"
         ],
         "embedding": [
             0.05086362734436989,
@@ -18659,21 +18856,25 @@
                 "label": "MONEY"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
             "you",
-            "larger homes",
-            "a pretty penny",
             "[+4731 chars",
-            "an affiliate commission",
-            "release",
-            "New York Post",
-            "this robot",
-            "Prime Day",
             "our links",
-            "Featured pricing",
-            "A good robot vacuum",
+            "larger homes",
+            "release",
             "its lowest price",
-            "change"
+            "change",
+            "this robot",
+            "an affiliate commission",
+            "A good robot vacuum",
+            "New York Post",
+            "Prime Day",
+            "Featured pricing",
+            "a pretty penny"
         ],
         "embedding": [
             -0.02370445430278778,
@@ -19131,26 +19332,31 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "ORG"
+        ],
         "key_phrases": [
-            "Summary\r\n<ul><li>Private members' clubs",
-            "a great deal",
-            "The private members\u2019 club",
-            "an affordability crisis.</li><li>More clubs",
-            "the walls",
-            "Queen Victoria\u2019s daughters",
+            "they",
             "thousands",
+            "the walls",
+            "a great deal",
+            "Summary\r\n<ul><li>Private members' clubs",
             "annual fees",
-            "London",
-            "- CNN",
-            "Private clubs",
+            "The Sloane Club",
+            "Queen Victoria\u2019s daughters",
+            "the last five years",
             "New York",
             "London\u2019s ritzy Chelsea district",
             "tha",
-            "they",
-            "The Sloane Club",
+            "Private clubs",
+            "The private members\u2019 club",
+            "- CNN",
+            "an affordability crisis.</li><li>More clubs",
+            "+6843 chars",
             "history",
-            "the last five years",
-            "+6843 chars"
+            "London"
         ],
         "embedding": [
             0.0992521420121193,
@@ -19592,25 +19798,30 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "new menu items",
-            "generations",
-            "drinks",
-            "designs",
-            "the wrong goal",
-            "Christophe Poirier",
-            "Gen Z - Business Insider KFC's strategy",
-            "brands",
-            "that",
+            "Gen",
             "Gen Z",
+            "Gen Z - Business Insider KFC's strategy",
+            "it",
+            "KFC's global chief concept officer",
+            "designs",
+            "It",
+            "Every brand",
+            "Christophe Poirier",
+            "new menu items",
+            "that",
+            "the wrong goal",
+            "brands",
+            "drinks",
             "Busine",
             "+2753 chars",
-            "Every brand",
-            "It",
-            "Gen",
-            "it",
-            "KFC's design chief",
-            "KFC's global chief concept officer"
+            "generations",
+            "KFC's design chief"
         ],
         "embedding": [
             0.0029037140775471926,
@@ -20064,24 +20275,29 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "three people",
-            "Fed\u2019s \u2018quiet period",
-            "Michelle Bowman",
-            "[+85 chars",
-            "Wednesday",
-            "a private dinner",
-            "that",
-            "the Fed's \u00ab quiet period",
-            "clients",
-            "America",
-            "The Washington Post A Trump-appointed Fed official",
-            "the Federal Reserves top banking regulator",
-            "monetary policy",
             "Bank",
-            "officials",
+            "the Federal Reserves top banking regulator",
+            "The Washington Post A Trump-appointed Fed official",
+            "Michelle Bowman",
+            "clients",
+            "Wednesday",
+            "the event",
+            "monetary policy",
+            "the Fed's \u00ab quiet period",
+            "three people",
+            "[+85 chars",
+            "that",
+            "America",
+            "a private dinner",
+            "Fed\u2019s \u2018quiet period",
             "Fed governor",
-            "the event"
+            "officials"
         ],
         "embedding": [
             0.05627044290304184,
@@ -20523,26 +20739,32 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "robbers",
-            "Video",
-            "Starbucks employee",
-            "two men",
-            "him",
-            "the worlds",
-            "two robbers",
+            "a Starbucks employee",
             "largest coffee chain",
+            "The Independent Ex-Starbucks employee",
+            "Starbucks employee",
+            "robbers",
+            "two men",
+            "he",
+            "him",
             "the moment",
             "it",
-            "his St. Louis store",
-            "a Starbucks employee",
+            "two robbers",
+            "moment",
             "shocking video",
-            "he",
             "a move",
+            "Video",
+            "the worlds",
             "Michael Har",
-            "Michael Harris",
-            "The Independent Ex-Starbucks employee",
-            "moment"
+            "his St. Louis store",
+            "Michael Harris"
         ],
         "embedding": [
             -0.036981672048568726,
@@ -20980,28 +21202,33 @@
                 "label": "GPE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "ORG"
+        ],
         "key_phrases": [
-            "Coal",
-            "that",
-            "a decline",
-            "coal",
-            "U.S. Solar Power Generation",
             "the United States",
+            "solar power",
             "power",
             "Solar-generated electricity",
-            "a reflection",
-            "a symbolic milestone",
-            "the nation's changing energy landscape",
-            "[+6442 chars",
-            "First Time - Cowboy State Daily",
-            "the first time",
-            "greater demand",
-            "more U.S. electricity",
             "But Wyoming energy experts sa",
-            "May",
-            "solar power",
+            "the nation's changing energy landscape",
+            "greater demand",
+            "Coal",
+            "U.S. Solar Power Generation",
+            "the first time",
+            "more U.S. electricity",
             "Wyoming energy experts",
-            "coal power"
+            "a decline",
+            "First Time - Cowboy State Daily",
+            "May",
+            "a symbolic milestone",
+            "[+6442 chars",
+            "a reflection",
+            "coal",
+            "coal power",
+            "that"
         ],
         "embedding": [
             -0.005226457957178354,
@@ -21435,26 +21662,31 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "prior breaches",
-            "victim",
-            "thi",
-            "that",
-            "internal networks",
-            ", not the full story",
+            "I",
             "what",
-            "bruteforcing",
+            ", not the full story",
             "That",
-            "password",
+            "other Friday fun",
+            "something",
             "Fortinet",
             "FortiBleed",
-            "I",
-            "Kevin Beaumont | Jun",
-            "other Friday fun",
+            "victim",
             "media",
-            "the data",
             "2026 - DoublePulsar Attackers",
-            "something"
+            "thi",
+            "internal networks",
+            "password",
+            "prior breaches",
+            "bruteforcing",
+            "that",
+            "the data",
+            "Kevin Beaumont | Jun"
         ],
         "embedding": [
             -0.0712146982550621,
@@ -21896,23 +22128,28 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "ORG"
+        ],
         "key_phrases": [
-            "two plants",
-            "+3556 chars",
-            "World\u2019s largest meat supplier",
-            "experts",
-            "that",
-            "grocers",
-            "beef lovers",
-            "BJs",
-            "bad news",
-            "A major meat supplier",
-            "it",
             "two US plant locations",
-            "carnivores",
-            "a meat-processing company",
             "JBS USA",
-            "Costco"
+            "bad news",
+            "Costco",
+            "it",
+            "grocers",
+            "carnivores",
+            "World\u2019s largest meat supplier",
+            "+3556 chars",
+            "that",
+            "two plants",
+            "BJs",
+            "experts",
+            "a meat-processing company",
+            "beef lovers",
+            "A major meat supplier"
         ],
         "embedding": [
             0.040872666984796524,
@@ -22354,27 +22591,32 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "ORG"
+        ],
         "key_phrases": [
-            "A pet food retailer",
-            "that",
-            "a potential listeria contamination",
-            "multiple products",
-            "More tha",
+            "July",
+            "New Jersey",
+            "March",
             "an FDA notice",
+            "Adelphia",
+            "December",
+            "question",
+            "N.J.",
             "pet food",
             "As well as another batch",
-            "Adelphia",
-            "question",
-            "March",
-            "The food",
+            "multiple products",
+            "a potential listeria contamination",
             "several states",
-            "HOWELL TOWNSHIP",
-            "N.J.",
-            "New Jersey",
-            "July",
-            "[+990 chars",
             "400,000+ pounds",
-            "December"
+            "The food",
+            "A pet food retailer",
+            "[+990 chars",
+            "More tha",
+            "that",
+            "HOWELL TOWNSHIP"
         ],
         "embedding": [
             -0.05053252354264259,
@@ -22804,21 +23046,26 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "ORG"
+        ],
         "key_phrases": [
-            "Breckenridge Pharmaceuticals",
-            "t",
             "they",
-            "[+1297 chars",
-            "a generic version",
-            "A popular antidepressant",
             "Popular antidepressant",
-            "bottles",
             "high levels",
+            "The New-Jersey based drug company",
+            "a cancer-causing compound - NBC New York",
+            "Breckenridge Pharmaceuticals",
             "Cymbalta",
             "a cancer-causing compound",
-            "a cancer-causing compound - NBC New York",
-            "The New-Jersey based drug company",
-            "the prescription drug duloxetine"
+            "bottles",
+            "[+1297 chars",
+            "a generic version",
+            "the prescription drug duloxetine",
+            "t",
+            "A popular antidepressant"
         ],
         "embedding": [
             -0.04380383342504501,
@@ -23236,23 +23483,28 @@
                 "label": "CARDINAL"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON"
+        ],
         "key_phrases": [
-            "The problem",
-            "tha",
-            "Aviation officials",
+            "The aviation agency",
+            "the person",
             "the official",
-            "tech company Palantir",
+            "one official",
             "who",
-            "anonymity",
             "the agencys ongoing project",
             "AI",
-            "The long-term goal",
-            "This data",
-            "one official",
-            "the person",
             "runway issues",
+            "tha",
+            "The long-term goal",
+            "anonymity",
             "this data",
-            "The aviation agency"
+            "This data",
+            "Aviation officials",
+            "tech company Palantir",
+            "The problem"
         ],
         "embedding": [
             0.03503509238362312,
@@ -23674,24 +23926,29 @@
                 "label": "LOC"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "ORG"
+        ],
         "key_phrases": [
-            "a startup",
-            "a sole founder",
-            "a very large seed round",
-            "+4842 chars",
-            "TechCrunch",
-            "a plan",
+            "a joke",
             "the TV",
-            "we",
             "Allbirds",
-            "April",
-            "AI",
-            "Silicon Valley",
             "what",
+            "AI",
+            "April",
+            "Silicon Valley",
             "it",
-            "whose flimsy kicks",
+            "a plan",
             "consumer",
-            "a joke"
+            "+4842 chars",
+            "we",
+            "a sole founder",
+            "a startup",
+            "whose flimsy kicks",
+            "TechCrunch",
+            "a very large seed round"
         ],
         "embedding": [
             -0.032212480902671814,

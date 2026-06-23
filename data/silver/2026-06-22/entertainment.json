@@ -64,28 +64,33 @@
                 "label": "LANGUAGE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "goodbye",
-            "select movies",
-            "The Way Home Ends",
-            "broadcast",
-            "TVLine",
-            "the Dragon",
-            "What",
-            "The Way Home",
-            "fresh episodes",
-            "House",
-            "[+342 chars",
-            "The Agency",
-            "TV",
-            "column",
             "a supersized series finale",
-            "streaming",
-            "English-language shows",
+            "The Way Home Ends",
             "cable",
+            "The Agency",
+            "fresh episodes",
+            "English-language shows",
             "More - TVLine",
-            "Hallmark",
-            "The Dragon Return"
+            "What",
+            "broadcast",
+            "The Dragon Return",
+            "TV",
+            "the Dragon",
+            "streaming",
+            "select movies",
+            "[+342 chars",
+            "The Way Home",
+            "TVLine",
+            "House",
+            "goodbye",
+            "column",
+            "Hallmark"
         ],
         "embedding": [
             -0.028357436880469322,
@@ -495,15 +500,17 @@
                 "label": "WORK_OF_ART"
             }
         ],
+        "contains_pii": false,
+        "pii_entities": [],
         "key_phrases": [
-            "them",
-            "that",
+            "surprising ways",
             "classic horror tropes",
-            "Widow's Bay",
-            "a boldly original take",
             "comedic horror - Ars Technica",
-            "An eminently binge-able series",
-            "surprising ways"
+            "a boldly original take",
+            "them",
+            "Widow's Bay",
+            "that",
+            "An eminently binge-able series"
         ],
         "embedding": [
             0.0020149380434304476,
@@ -929,25 +936,31 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "video",
-            "concert",
-            "some deep gasps",
-            "-",
-            "Onstage Health Scare",
-            "the show",
-            "the scen",
-            "Veteran",
-            "himself",
-            "an oxygen tank",
-            "Suffers Frightening",
             "a Utah stage",
-            "mid",
-            "The Daily Beast The \u201cForever Young\u201d singer",
-            "the help",
-            "photos",
             "breaths",
-            "Rock Legend"
+            "photos",
+            "-",
+            "The Daily Beast The \u201cForever Young\u201d singer",
+            "concert",
+            "the help",
+            "video",
+            "the show",
+            "Suffers Frightening",
+            "Rock Legend",
+            "Onstage Health Scare",
+            "Veteran",
+            "some deep gasps",
+            "himself",
+            "the scen",
+            "an oxygen tank",
+            "mid"
         ],
         "embedding": [
             -0.013149811886250973,
@@ -1393,29 +1406,35 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG",
+            "GPE"
+        ],
         "key_phrases": [
-            "Taylor Swifts Watch Hill estate",
-            "the",
-            "fans",
-            "the seaside village",
-            "a large tent",
-            "Watch Hill",
-            "her estate",
-            "AP",
-            "every clue",
-            "her Rhode Island home",
-            "nuptials",
-            "speculation",
             "Taylor Swift",
-            "[+5985 chars",
-            "Taylor Swift\u2019s beach town",
             "The speculation",
-            "a wedding rumor - AP News Rumors",
-            "it",
-            "curious visitors",
-            "photographers",
+            "nuptials",
+            "[+5985 chars",
+            "her estate",
+            "Taylor Swifts Watch Hill estate",
+            "the seaside village",
             "R.I.",
-            "the superstars"
+            "Taylor Swift\u2019s beach town",
+            "her Rhode Island home",
+            "the",
+            "a wedding rumor - AP News Rumors",
+            "a large tent",
+            "speculation",
+            "the superstars",
+            "AP",
+            "it",
+            "Watch Hill",
+            "every clue",
+            "curious visitors",
+            "fans",
+            "photographers"
         ],
         "embedding": [
             0.049526553601026535,
@@ -1857,21 +1876,27 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "gas",
             "noon",
-            "Virgo",
+            "June",
             "April",
             "Horoscope",
-            "June",
-            "important decisions",
-            "that",
-            "Aries",
-            "March",
-            "food",
-            "the next four weeks",
             "[+3661 chars",
-            "Libra"
+            "important decisions",
+            "the next four weeks",
+            "that",
+            "gas",
+            "Virgo",
+            "food",
+            "Libra",
+            "March",
+            "Aries"
         ],
         "embedding": [
             0.00524534797295928,
@@ -2293,23 +2318,28 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
+            "they",
+            "an Indie Budget - Variety Duncan Jones",
+            "no AI",
             "+6906 chars",
+            "AI",
             "The subject",
+            "a Studio Epic",
+            "Duncan Jones",
+            "a Hybrid Animation Pipeline",
             "producer Stuart Fennegan",
             "Indie Budget",
-            "they",
             "director-writer Duncan Jones",
-            "a Hybrid Animation Pipeline",
-            "no AI",
-            "AI",
-            "\u2018Rogue Trooper",
-            "an Indie Budget - Variety Duncan Jones",
+            "Rogue Trooper",
             "the film",
             "his latest feature",
-            "Duncan Jones",
-            "Rogue Trooper",
-            "a Studio Epic"
+            "\u2018Rogue Trooper"
         ],
         "embedding": [
             -0.08625740557909012,
@@ -2763,22 +2793,28 @@
                 "label": "WORK_OF_ART"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
+            "Callum Turner",
             "The Hollywood Reporter",
-            "Dua Lipa and Callum Turner",
-            "a look",
-            "she",
-            "Palermo",
-            "+1453 chars",
             "Dua Lipa Shares First Photos",
-            "Her Custom Chanel Wedding Dress",
+            "Palermo",
             "their May 31 nuptials",
             "the Grammy Award-winning artist",
-            "a three-day wedding celebration",
             "The \u201cHoudini\u201d singer t",
-            "Callum Turner",
+            "a look",
+            "Her Custom Chanel Wedding Dress",
+            "she",
+            "Dua Lipa and Callum Turner",
             "the custom Chanel wedding dress",
-            "The Grammy Award winner"
+            "The Grammy Award winner",
+            "+1453 chars",
+            "a three-day wedding celebration"
         ],
         "embedding": [
             -0.09344785660505295,
@@ -3228,29 +3264,34 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "legend",
-            "lies",
-            "the first thing",
-            "centuries",
-            "we",
-            "What",
-            "the \u201creal\u201d Robin Hood",
-            "\u2018The Death",
-            "its new film",
-            "his stories",
-            "what",
-            "People",
-            "Jackma",
-            "The Death",
-            "This Violent Revisionist Tale",
-            "A24\u2019s trailer",
-            "Robin Hood",
-            "IndieWire Writer/director Michael Sarnoski",
             "they",
-            "[+4742 chars",
+            "centuries",
+            "what",
+            "we",
+            "legend",
+            "IndieWire Writer/director Michael Sarnoski",
+            "A24\u2019s trailer",
+            "lies",
+            "his script",
+            "Robin Hood",
+            "the first thing",
+            "its new film",
+            "People",
+            "What",
+            "This Violent Revisionist Tale",
             "Hugh Jackman\u2019s grizzly voice",
-            "his script"
+            "\u2018The Death",
+            "Jackma",
+            "his stories",
+            "[+4742 chars",
+            "the \u201creal\u201d Robin Hood",
+            "The Death"
         ],
         "embedding": [
             -0.04085223004221916,
@@ -3704,29 +3745,34 @@
                 "label": "GPE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "ORG"
+        ],
         "key_phrases": [
-            "you",
-            "A handy roundup",
-            "\"American Dad!\" returns",
-            "More - TVLine TVLine",
-            "the Dragon",
-            "What",
-            "finales",
-            "a look",
-            "binge)9",
-            "The Real Housewives",
-            "HBO)9",
-            "\" Season",
-            "Fox",
-            "\"The Agency\" Season 2 (Paramount+",
-            "the week",
-            "new TV premieres",
-            "30+ Premieres",
             "Rhode Island",
-            "\"House",
+            "The Real Housewives",
+            "\"American Dad!\" returns",
+            "A handy roundup",
+            "\" Season",
             "Finales",
+            "What",
+            "a look",
+            "\"House",
+            "new TV premieres",
+            "the Dragon",
+            "Fox",
+            "binge)9",
+            "you",
+            "Season",
             "June",
-            "Season"
+            "More - TVLine TVLine",
+            "\"The Agency\" Season 2 (Paramount+",
+            "30+ Premieres",
+            "finales",
+            "the week",
+            "HBO)9"
         ],
         "embedding": [
             -0.05981941521167755,
@@ -4156,19 +4202,25 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG",
+            "GPE"
+        ],
         "key_phrases": [
-            "his marriage",
-            "the exact moment",
             "her now-husband",
-            "Tom Holland\u2019s viral performance",
-            "the \u201cEuphoria\u201d star",
-            "A source",
-            "The \u201cEuphoria\u201d actress",
-            "\u2018Umbrella\u2019 - Page Six Holland",
             "Zendaya",
+            "\u2018Umbrella\u2019 - Page Six Holland",
+            "Tom Holland\u2019s viral performance",
+            "The \u201cEuphoria\u201d actress",
+            "the \u201cEuphoria\u201d star",
+            "Tom Holland",
             "\u201cUmbrella",
             "his viral drag rendition",
-            "Tom Holland"
+            "his marriage",
+            "A source",
+            "the exact moment"
         ],
         "embedding": [
             -0.056434836238622665,
@@ -4618,22 +4670,27 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "an \r\nInstagram story",
-            "IG Photo - Bleacher Report Buffalo Bills",
-            "Bills' Josh Allen",
-            "April",
             "they",
-            "the name",
-            "Josh Allen",
-            "actress",
-            "the child",
             "Wife Hailee Steinfeld Reveal Name",
-            "Steinfeld",
-            "blog po",
+            "the child",
+            "actress",
+            "April",
+            "singer Hailee Steinfeld",
+            "Bills' Josh Allen",
+            "the name",
             "Buffalo Bills",
-            "Newborn Daughter",
-            "singer Hailee Steinfeld"
+            "Josh Allen",
+            "Steinfeld",
+            "IG Photo - Bleacher Report Buffalo Bills",
+            "blog po",
+            "an \r\nInstagram story",
+            "Newborn Daughter"
         ],
         "embedding": [
             -0.0930769145488739,
@@ -5099,18 +5156,24 @@
                 "label": "WORK_OF_ART"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "Ye",
             "her concerned opinions",
-            "the Alamodome",
-            "SAN ANTONIO San Antonio Mayor Gina Ortiz Jones",
+            "rapper",
             "The Grammy Award",
-            "San Antonio Mayor Gina Ortiz Jones",
             "Alamodome - KSAT San Antonio Mayor Gina Ortiz Jones",
             "Saturday",
+            "the Alamodome",
+            "San Antonio Mayor Gina Ortiz Jones",
             "a Ye concert",
+            "Ye",
             "social media",
-            "rapper"
+            "SAN ANTONIO San Antonio Mayor Gina Ortiz Jones"
         ],
         "embedding": [
             0.023097332566976547,
@@ -5515,12 +5578,14 @@
         "sentiment_score": -0.5,
         "sentiment_label": "Negative",
         "entities": [],
+        "contains_pii": false,
+        "pii_entities": [],
         "key_phrases": [
-            "Fans",
-            "Devil Wears Prada",
             "Anne Hathaway",
-            "Bored",
-            "Her Pregnancy"
+            "Devil Wears Prada",
+            "Fans",
+            "Her Pregnancy",
+            "Bored"
         ],
         "embedding": [
             -0.024476485326886177,
@@ -5938,21 +6003,25 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
-            "its acqui",
-            "archival producers",
-            "access",
-            "[+5783 chars",
-            "The Paramount-Warner Bros. Discovery merger",
-            "Archival Producers",
             "who",
-            "Skydance Media",
+            "The Paramount-Warner Bros. Discovery merger",
             "a major impact",
-            "the future",
-            "nation's memory",
-            "it",
+            "Skydance Media",
+            "[+5783 chars",
             "our collective past",
-            "the media business"
+            "it",
+            "its acqui",
+            "access",
+            "Archival Producers",
+            "the media business",
+            "nation's memory",
+            "the future",
+            "archival producers"
         ],
         "embedding": [
             -0.03862230107188225,
@@ -6410,23 +6479,29 @@
                 "label": "LOC"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG",
+            "GPE"
+        ],
         "key_phrases": [
-            "an American",
-            "her",
-            "The 43-year-old country singer",
-            "patriotic video",
-            "Instagram",
-            "deep gratitude",
-            "a video",
-            "American flag display",
             "American flags",
-            "a fence",
-            "a large fence",
-            "the l",
             "Carrie Underwood",
-            "her Tennessee home",
-            "patriotism",
+            "deep gratitude",
+            "a fence",
             "[+2773 chars",
+            "her Tennessee home",
+            "a video",
+            "patriotic video",
+            "her",
+            "the l",
+            "an American",
+            "a large fence",
+            "American flag display",
+            "patriotism",
+            "The 43-year-old country singer",
+            "Instagram",
             "her Tennessee property - Fox News Carrie Underwood"
         ],
         "embedding": [
@@ -6909,22 +6984,27 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "two-month hiatus - NBC News Late-night host Jimmy Kimmel",
-            "comedian",
-            "his eponymous ABC program",
             "you",
-            "+1864 chars",
-            "guest host",
-            "several guest hosts",
-            "\u201cI",
-            "Rosie ODonnell",
-            "Jimmy Kimmel",
+            "comedian",
             "his absence",
-            "Rosie O\u2019Donnell",
+            "\u201cI",
+            "two-month hiatus - NBC News Late-night host Jimmy Kimmel",
             "a two-month break",
+            "Rosie O\u2019Donnell",
+            "several guest hosts",
+            "Rosie ODonnell",
+            "his eponymous ABC program",
+            "+1864 chars",
+            "Jimmy Kimmel",
             "attention",
-            "frequent Donald Trump"
+            "frequent Donald Trump",
+            "guest host"
         ],
         "embedding": [
             0.011230288073420525,
@@ -7346,25 +7426,30 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "this 'painful' scene",
+            "his most beloved movies",
             "a few regrets",
-            "his performances",
+            "I",
+            "Tom Hanks",
             "The Rest",
             "he",
-            "this gesture",
-            "I",
-            "the room",
-            "his acting choices",
             "Entertainment",
+            "his acting choices",
             "Hanks",
             "[+2386 chars",
-            "Tom Hanks",
-            "his",
-            "his most beloved movies",
-            "an interview",
+            "Entertainment Weekly Tom Hanks",
+            "the room",
+            "this gesture",
             "The Forrest Gump actor",
-            "Entertainment Weekly Tom Hanks"
+            "his performances",
+            "his",
+            "an interview",
+            "this 'painful' scene"
         ],
         "embedding": [
             -0.06937036663293839,
@@ -7794,26 +7879,32 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG",
+            "GPE"
+        ],
         "key_phrases": [
-            "\u2018Indiana Jones\u2019 creator",
-            "The Independent \u2018Star Wars",
-            "the financia",
-            "The Independent",
-            "reproductive rights",
-            "Lucasfilm",
-            "us",
-            "Hollywood",
-            "George Lucas",
-            "surprising new film role",
-            "retirement",
-            "it",
-            "change",
-            "[+3660 chars",
-            "the story",
-            "Big Tech",
             "Your support",
+            "George Lucas",
             "Disney",
-            "the ground"
+            "the financia",
+            "retirement",
+            "[+3660 chars",
+            "The Independent \u2018Star Wars",
+            "the ground",
+            "surprising new film role",
+            "us",
+            "change",
+            "it",
+            "Lucasfilm",
+            "reproductive rights",
+            "Hollywood",
+            "The Independent",
+            "\u2018Indiana Jones\u2019 creator",
+            "the story",
+            "Big Tech"
         ],
         "embedding": [
             0.017815258353948593,
@@ -8267,25 +8358,30 @@
                 "label": "WORK_OF_ART"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
             "you",
-            "this",
             "[+1852 chars",
-            "her longtime 'Friends' director",
-            "Director James Burrows",
-            "a Father Figure",
-            "James Burrows",
-            "\u201cPapa Burrows",
-            "who",
-            "He",
-            "The hardest thing",
-            "her longtime \u201cFriends\u201d director",
-            "a heartfelt tribute",
-            "Friday",
             "- Variety Jennifer Aniston",
-            "Me",
             "Jennifer Aniston",
-            "Friends"
+            "who",
+            "Friday",
+            "The hardest thing",
+            "Me",
+            "this",
+            "her longtime \u201cFriends\u201d director",
+            "her longtime 'Friends' director",
+            "James Burrows",
+            "a heartfelt tribute",
+            "\u201cPapa Burrows",
+            "Friends",
+            "He",
+            "Director James Burrows",
+            "a Father Figure"
         ],
         "embedding": [
             -0.09648936986923218,
@@ -8731,24 +8827,29 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
             "age",
             "the \"Lilo & Stitch\" star's struggles",
-            "drug addiction",
-            "her death",
-            "Lilo & Stitch' star's death - USA Today Daveigh Chase's mother",
-            "the \"Lilo &amp; Stitch\" actress",
-            "The former child star",
             "June",
-            "meningitis",
+            "her death",
+            "what",
+            "the death",
+            "i",
             "[+3138 chars",
             "Daveigh Chase's mother",
+            "Cathy Chase",
+            "the \"Lilo &amp; Stitch\" actress",
             "details",
-            "what",
-            "i",
-            "the death",
-            "Tuesday",
-            "Cathy Chase"
+            "The former child star",
+            "Lilo & Stitch' star's death - USA Today Daveigh Chase's mother",
+            "meningitis",
+            "drug addiction",
+            "Tuesday"
         ],
         "embedding": [
             -0.07229778170585632,
@@ -9186,24 +9287,30 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "the Duffer Brothers",
-            "Netflix",
-            "the world",
-            "The Real Reason",
-            "the cast",
-            "+3587 chars",
-            "1.2 Billion Minutes Viewed - Comic Book Resources",
-            "The Boroughs",
             "they",
-            "that",
-            "proof",
-            "Stranger Things",
-            "The real reason",
             "a streaming chokehold",
+            "the cast",
             "fans",
+            "The Boroughs",
+            "proof",
+            "quite the same shine",
             "Netflix's The Boroughs Cancellation",
-            "quite the same shine"
+            "Stranger Things",
+            "the world",
+            "+3587 chars",
+            "that",
+            "Netflix",
+            "1.2 Billion Minutes Viewed - Comic Book Resources",
+            "The real reason",
+            "The Real Reason",
+            "the Duffer Brothers"
         ],
         "embedding": [
             0.011227685026824474,
@@ -9641,20 +9748,25 @@
                 "label": "GPE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "ORG"
+        ],
         "key_phrases": [
-            "a\u00a0Sesame Street\u00a0movie",
             "you",
-            "Netflix",
             "two directors",
-            "years",
-            "its sights",
-            "that",
-            "the duty",
             "mind",
+            "years",
             "Hollywood",
-            "it",
+            "a\u00a0Sesame Street\u00a0movie",
             "[+1477 chars",
+            "it",
+            "the duty",
+            "that",
             "The Daniels",
+            "Netflix",
+            "its sights",
             "a 'Sesame Street' movie"
         ],
         "embedding": [
@@ -10105,23 +10217,29 @@
                 "label": "MONEY"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "Toy Story",
-            "sensation 'Obsession",
-            "Pixar",
-            "the biggest opening",
             "the year",
-            "That",
-            "its opening",
-            "The Hollywood Reporter Steven Spielberg's 'Disclosure Day",
+            "the film",
+            "the biggest opening",
+            "sensation 'Obsession",
+            "Toy Story",
+            "Biggest Opening",
+            "Pixar",
+            "the se",
             "which",
             "the $160 million range",
-            "a major box office gift",
-            "the film",
-            "Disney",
+            "That",
             "$160M",
-            "Biggest Opening",
-            "the se"
+            "The Hollywood Reporter Steven Spielberg's 'Disclosure Day",
+            "its opening",
+            "Disney",
+            "a major box office gift"
         ],
         "embedding": [
             -0.018415644764900208,
@@ -10535,35 +10653,37 @@
                 "label": "CARDINAL"
             }
         ],
+        "contains_pii": false,
+        "pii_entities": [],
         "key_phrases": [
-            "you",
-            "their children",
-            "responsibilities",
-            "a little fun-dad energy",
-            "that",
-            "expert - CNBC",
+            "a reason",
             "Many parents",
+            "time",
             "we",
-            "a lot",
-            "\u2026 [+4831 chars",
             "schedules",
             "5 things",
-            "Fun dads",
-            "a reason",
+            "a lot",
             "their days",
-            "time",
-            "bedtime",
-            "joy",
-            "Dads",
             "This Father's Day",
-            "five \"fun dad\" habits",
-            "this Father's Day",
-            "chores",
-            "a toddler",
             "a parenting expert",
-            "the stereotype",
+            "joy",
             "many people",
-            "parent-child relationships"
+            "Fun dads",
+            "expert - CNBC",
+            "a little fun-dad energy",
+            "responsibilities",
+            "chores",
+            "\u2026 [+4831 chars",
+            "parent-child relationships",
+            "their children",
+            "this Father's Day",
+            "you",
+            "bedtime",
+            "a toddler",
+            "Dads",
+            "five \"fun dad\" habits",
+            "that",
+            "the stereotype"
         ],
         "embedding": [
             0.029290329664945602,
@@ -11009,24 +11129,30 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG",
+            "GPE"
+        ],
         "key_phrases": [
-            "sage advice",
-            "The Arrested Development star",
-            "him",
-            "Jason Bateman",
-            "'painful' advice",
-            "offering 'really great' but 'painful' advice - Entertainment Weekly Jason Bateman",
-            "he",
-            "really great' wisdom",
-            "that",
-            "This",
-            "a piece",
-            "Love durin",
-            "a Hollywood icon",
             "[+2590 chars",
             "a scene",
             "the 1994 TV movie",
-            "Katharine Hepburn"
+            "offering 'really great' but 'painful' advice - Entertainment Weekly Jason Bateman",
+            "a piece",
+            "'painful' advice",
+            "him",
+            "he",
+            "sage advice",
+            "This",
+            "really great' wisdom",
+            "Katharine Hepburn",
+            "that",
+            "Love durin",
+            "Jason Bateman",
+            "a Hollywood icon",
+            "The Arrested Development star"
         ],
         "embedding": [
             -0.1047794446349144,
@@ -11488,33 +11614,39 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "Harry Styles's shows",
-            "the photo",
-            "a sheer black lace bodysuit",
-            "that",
-            "an historic London residency",
-            "she",
-            "Bares",
-            "-",
-            "Shania Twain",
-            "Her Bra",
-            "her opening",
-            "The 60-year-old singer",
-            "her",
             "[+2028 chars",
-            "herself",
-            "London",
+            "an historic London residency",
             "instyle.com Shania Twain",
             "way",
-            "Gabbana",
-            "the UK capital",
+            "Shania Twain",
             "Dolce",
+            "Bares",
+            "her opening",
+            "wea",
+            "she",
             "Wembley",
+            "Harry Styles's shows",
             "Stage",
+            "the photo",
             "a Sheer Black Lace Bodysuit",
+            "her",
+            "the UK capital",
+            "Gabbana",
+            "Her Bra",
             "a photo",
-            "wea"
+            "-",
+            "a sheer black lace bodysuit",
+            "herself",
+            "The 60-year-old singer",
+            "that",
+            "London"
         ],
         "embedding": [
             0.06310362368822098,
@@ -11940,26 +12072,31 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "their cancer experiences",
+            "Your support",
             "the financia",
-            "The Independent",
-            "reproductive rights",
-            "us",
-            "public",
-            "The presenter",
             "Jeremy Clarkson",
-            "David Cameron",
-            "[+4617 chars",
-            "stark cancer warning",
-            "it",
-            "change",
+            "the ground",
+            "their cancer experiences",
+            "public",
+            "us",
             "he",
+            "change",
+            "it",
+            "other public figures",
+            "reproductive rights",
+            "David Cameron",
+            "stark cancer warning",
+            "The Independent",
             "the story",
             "Big Tech",
-            "other public figures",
-            "Your support",
-            "the ground"
+            "[+4617 chars",
+            "The presenter"
         ],
         "embedding": [
             0.055581338703632355,
@@ -12393,28 +12530,33 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "friends",
             "all",
-            "surprise wedding invite",
-            "the singer",
-            "Page",
-            "[+4022 chars",
-            "her",
-            "an invite",
+            "legal drama",
             "Taylor Swift",
-            "an \u201colive branch\u201d Swift",
-            "it",
+            "surprise wedding invite",
+            "[+4022 chars",
+            "Page",
+            "friends",
             "the form",
             "Blake Lively",
-            "Lively",
             "The former pals",
             "We",
             "olive branch",
             "their friendship",
-            "legal drama",
+            "it",
             "It",
-            "Us"
+            "her",
+            "an invite",
+            "an \u201colive branch\u201d Swift",
+            "Lively",
+            "Us",
+            "the singer"
         ],
         "embedding": [
             0.05477071553468704,
@@ -12864,26 +13006,31 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "GPE"
+        ],
         "key_phrases": [
-            "you",
-            "the Tribeca Festival premiere",
-            "Fans Zoom",
-            "One Unexpected Detail - Bored Panda",
+            "Implants",
             "she",
-            "Katy Perry\u2019s Red Carpet Appearance",
-            "her",
-            "her body",
+            "She",
             "[+6405 chars",
             "attention",
-            "Implants",
+            "One Unexpected Detail - Bored Panda",
+            "her body",
             "heads",
+            "her",
+            "the Tribeca Festival premiere",
+            "Fans Zoom",
+            "you",
+            "her new concert documentary",
             "Paris",
             "June",
-            "her new concert documentary",
-            "boyfriend Justin Trudeau",
-            "She",
             "one commenter",
-            "Katy Perry"
+            "Katy Perry",
+            "boyfriend Justin Trudeau",
+            "Katy Perry\u2019s Red Carpet Appearance"
         ],
         "embedding": [
             -0.002286972478032112,
@@ -13317,22 +13464,26 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON"
+        ],
         "key_phrases": [
-            "Her Mom Katie Holmes",
-            "This Ex",
-            "her",
-            "her ex",
             "Suri Cruise",
-            "Katie Holmes\u2018 daughter Suri Cruise",
             "They",
-            "her dad",
             "Or Holmes\u2019 longtime",
+            "This Ex",
+            "it",
+            "It",
+            "Katie Holmes\u2018 daughter Suri Cruise",
+            "her",
             "Tom Cruise",
             "her m",
-            "it",
-            "[+1574 chars",
+            "her ex",
+            "her dad",
+            "Her Mom Katie Holmes",
             "Suri",
-            "It"
+            "[+1574 chars"
         ],
         "embedding": [
             -0.05382048711180687,
@@ -13754,19 +13905,23 @@
                 "label": "WORK_OF_ART"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
-            "\"The Last Supper",
-            "Photos",
-            "- BuzzFeed",
             "Iconic Moments",
-            "Seconds",
-            "the series finale",
             "a meal",
             "I",
+            "Photos",
+            "- BuzzFeed",
+            "\"The Last Supper",
+            "Seconds",
+            "it",
+            "the series finale",
+            "The Friends",
             "Pop Culture",
             "\ud83e\udd7a",
-            "The Friends",
-            "it",
             "Today Years Old"
         ],
         "embedding": [
@@ -14177,10 +14332,14 @@
                 "label": "GPE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE"
+        ],
         "key_phrases": [
-            "age",
             "music superstars",
-            "Nashville"
+            "Nashville",
+            "age"
         ],
         "embedding": [
             -0.03498826175928116,
@@ -14602,17 +14761,23 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG",
+            "GPE"
+        ],
         "key_phrases": [
             "The 45-year-old reality star",
-            "she",
             "Beverly Hills",
+            "she",
+            "She",
+            "the blonde hair",
+            "All's Fair actress",
             "Kim Kardashian Debuts",
             "Blonde Hair",
-            "All's Fair actress",
-            "She",
-            "Just Jared Kim Kardashian",
             "her new bleached blonde hair",
-            "the blonde hair"
+            "Just Jared Kim Kardashian"
         ],
         "embedding": [
             0.03904609754681587,
@@ -15026,13 +15191,17 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON"
+        ],
         "key_phrases": [
+            "Jelly Roll",
             "you",
             "I",
-            "- Syracuse.com",
-            "Jelly Roll",
             "his divorce",
             "Upstate NY concert",
+            "- Syracuse.com",
             "rumors"
         ],
         "embedding": [
@@ -15447,25 +15616,30 @@
                 "label": "GPE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "GPE"
+        ],
         "key_phrases": [
             "you",
-            "the Prince",
-            "he",
-            "the calculation",
-            "line",
-            "the throne",
-            "who",
             "Wales",
-            "2nd",
-            "death",
-            "He",
             "\u2018Death",
-            "Charles",
+            "line",
+            "who",
+            "he",
+            "death",
+            "the throne",
+            "the Throne",
+            "the Prince",
+            "the calculation",
+            "Line",
+            "Cancer - Yahoo",
+            "He",
             "a kid",
             "George Reportedly \u2018Painfully Aware",
-            "the Throne",
-            "Cancer - Yahoo",
-            "Line"
+            "2nd",
+            "Charles"
         ],
         "embedding": [
             0.011730830185115337,
@@ -15891,26 +16065,31 @@
                 "label": "CARDINAL"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "ORG"
+        ],
         "key_phrases": [
-            "you",
+            "all time",
+            "That",
+            "Questlove\u2019s stellar new documentary Earth",
+            "a long overdue spotlight",
+            "Fire",
+            "the World",
+            "[+7476 chars",
+            "the greatest R&amp;B/funk acts",
+            "Wind",
+            "amp",
+            "an",
+            "Chicago",
+            "a stunning amount",
             "the Weight",
             "similarities",
-            "a stunning amount",
-            "Fire",
+            "you",
             "All the Eerie Parallels",
-            "Chicago",
-            "Wind",
-            "[+7476 chars",
-            "amp",
-            "That",
-            "Chicago - Rolling Stone Earth",
-            "the greatest R&amp;B/funk acts",
-            "Questlove\u2019s stellar new documentary Earth",
-            "an",
-            "all time",
             "Earth",
-            "a long overdue spotlight",
-            "the World",
+            "Chicago - Rolling Stone Earth",
             "the surface"
         ],
         "embedding": [
@@ -16357,26 +16536,31 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON"
+        ],
         "key_phrases": [
-            "her unborn child",
-            "friend",
-            "Parker",
-            "\u2026 [+7713 chars",
-            "her unborn baby - Yahoo Taylor Parker",
-            "What",
+            "a",
             "Texas woman",
-            "pregnancy",
+            "\u2026 [+7713 chars",
             "months",
+            "her unborn baby - Yahoo Taylor Parker",
+            "friend",
+            "Reagan Hancock",
+            "her unborn child",
+            "Parker",
+            "What",
+            "her friend",
+            "Simmons",
             "Reagan Simmons-Hancock",
-            "Taylor Parker",
+            "Texas death row",
             "a genuine friendship",
             "capital murder",
-            "her friend",
-            "a",
-            "Texas death row",
-            "Reagan Hancock",
-            "Hancock",
-            "Simmons"
+            "Taylor Parker",
+            "pregnancy",
+            "Hancock"
         ],
         "embedding": [
             -0.07790118455886841,
@@ -16834,20 +17018,25 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "The First Artist",
-            "JULY",
-            "Taylor Swift",
-            "A Chart Feat - Forbes Taylor Swift",
-            "Billboard's Radio Songs chart",
-            "multiple songs",
             "I",
-            "No",
-            ".",
-            "the first artist",
-            "You",
+            "multiple songs",
+            "A Chart Feat - Forbes Taylor Swift",
             "It",
-            "NETHERLANDS"
+            "No",
+            "Billboard's Radio Songs chart",
+            "Taylor Swift",
+            "NETHERLANDS",
+            ".",
+            "You",
+            "JULY",
+            "The First Artist",
+            "the first artist"
         ],
         "embedding": [
             0.060925908386707306,
@@ -17305,26 +17494,32 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "San Francisco",
-            "her sister",
-            "Golden Gate Bridge and Union Square",
-            "(Ciara Bravo",
-            "a Netflix rom-com - SFGATE \"Voicemails",
-            "Isabelle",
-            "Jills",
-            "San Francisco local returns",
-            "Fisherman's Wharf",
-            "confidant Isabelle",
-            "[+7643 chars",
-            "three days",
-            "Jill",
-            "best friend",
-            "locations",
-            "whose life",
-            "Isabelle stars Zoey Deutch",
             "the city",
-            "a promising pastry chef"
+            "San Francisco",
+            "Jills",
+            "[+7643 chars",
+            "a Netflix rom-com - SFGATE \"Voicemails",
+            "locations",
+            "a promising pastry chef",
+            "three days",
+            "confidant Isabelle",
+            "Golden Gate Bridge and Union Square",
+            "Jill",
+            "Isabelle",
+            "whose life",
+            "San Francisco local returns",
+            "(Ciara Bravo",
+            "best friend",
+            "Isabelle stars Zoey Deutch",
+            "her sister",
+            "Fisherman's Wharf"
         ],
         "embedding": [
             -0.05636085942387581,
@@ -17774,26 +17969,31 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "you",
-            "Today's NYT Connections Hints",
-            "The New York Times Mini Crossword",
-            "Wordle",
-            "hints",
             "the most recent Connections answers",
-            "Answers",
-            "Help",
-            "CNET",
-            "[+2707 chars",
-            "These clues",
-            "today's Connections hints",
-            "Here's today's Connections answer",
-            "June",
+            "The New York Times Mini Crossword",
             "Sports Ed",
-            "Connections",
-            "our daily answers",
+            "hints",
             "New York Times' popular puzzle game",
-            "groups"
+            "[+2707 chars",
+            "Connections",
+            "today's Connections hints",
+            "Today's NYT Connections Hints",
+            "Help",
+            "groups",
+            "Answers",
+            "Wordle",
+            "Here's today's Connections answer",
+            "CNET",
+            "you",
+            "June",
+            "our daily answers",
+            "These clues"
         ],
         "embedding": [
             -0.0323568731546402,
@@ -18247,25 +18447,31 @@
                 "label": "TIME"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "Friday night",
-            "American fashion\u2019s favorite son",
-            "a tale",
-            "frat boys",
-            "brand-new sentences",
-            "the first day",
-            "Ralph",
-            "guests",
-            "Post-show",
-            "Milan",
             "Milan Fashion Week",
+            "American fashion\u2019s favorite son",
+            "brand-new sentences",
+            "Milan",
+            "2027 outing",
+            "Post-show",
             "Ralph Laurens spring",
             "both",
-            "2027 outing",
-            "Ralph Lauren\u2019s Blockbuster Spring 2027 Collection - GQ",
-            "[+2577 chars",
+            "two vibes",
+            "Friday night",
             "4 Sage Menswear Lessons",
-            "two vibes"
+            "[+2577 chars",
+            "Ralph Lauren\u2019s Blockbuster Spring 2027 Collection - GQ",
+            "Ralph",
+            "the first day",
+            "a tale",
+            "guests",
+            "frat boys"
         ],
         "embedding": [
             -0.0986388698220253,
@@ -18687,24 +18893,29 @@
                 "label": "GPE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE",
+            "ORG"
+        ],
         "key_phrases": [
-            "a way",
-            "the world",
-            "Eternia",
-            "longtime fans",
-            "\u2026 [+3935 chars",
-            "that",
-            "the Universe",
-            "The Box Office",
             "He",
-            "Skeletor",
-            "the positive reviews",
-            "Masters",
-            "the big screen",
-            "new fans",
             "A Sequel",
             "Man",
-            "comicbook.com Masters"
+            "\u2026 [+3935 chars",
+            "the big screen",
+            "the positive reviews",
+            "The Box Office",
+            "Masters",
+            "Eternia",
+            "that",
+            "new fans",
+            "longtime fans",
+            "the world",
+            "the Universe",
+            "Skeletor",
+            "comicbook.com Masters",
+            "a way"
         ],
         "embedding": [
             -0.018029188737273216,
@@ -19162,22 +19373,27 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "GPE"
+        ],
         "key_phrases": [
+            "husband Danny Moder",
+            "three children",
+            "Friday",
+            "Julia Roberts",
+            "outsid",
+            "19-year-old son",
+            "her 19-year-old son",
+            "Henry",
             "her",
+            "rare family outing",
+            "The Oscar-winning actress",
+            "+2545 chars",
             "NYC - Page Six Roberts",
             "New York City",
-            "three children",
-            "husband Danny Moder",
-            "her three children",
-            "The Oscar-winning actress",
-            "outsid",
-            "Henry",
-            "Julia Roberts",
-            "rare family outing",
-            "Friday",
-            "19-year-old son",
-            "+2545 chars",
-            "her 19-year-old son"
+            "her three children"
         ],
         "embedding": [
             -0.02272799052298069,
@@ -19619,24 +19835,28 @@
                 "label": "PERCENT"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "ORG"
+        ],
         "key_phrases": [
-            "\u2019 Crossover",
-            "EXCLUSIVE",
-            "Variety 'The Young",
-            "CBS\u2019 \u201cThe Young and the Restless\u201c/\u201dBeyond the Gates\u201d crossover",
             "boost",
-            "the Restless' crossover",
+            "strong ratings",
+            "The Young",
             "June",
+            "the Restless' crossover",
             "The show",
-            "the Restless",
-            "the week",
-            "the Gates",
-            "1.8 million viewers",
+            "Its Third-Best Week",
+            "\u2019 Crossover",
             "[+1908 chars",
             "a ratings",
-            "The Young",
-            "strong ratings",
-            "Its Third-Best Week"
+            "the Restless",
+            "CBS\u2019 \u201cThe Young and the Restless\u201c/\u201dBeyond the Gates\u201d crossover",
+            "the week",
+            "EXCLUSIVE",
+            "1.8 million viewers",
+            "the Gates",
+            "Variety 'The Young"
         ],
         "embedding": [
             -0.019882572814822197,
@@ -20078,20 +20298,25 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "GPE"
+        ],
         "key_phrases": [
-            "she",
-            "nowhere",
-            "daughter - Entertainment Weekly Jamie Lynn Spears",
-            "the negative media attention",
-            "her daughter",
-            "a new interview wi",
             "her decision",
-            "the middle",
-            "[+3125 chars",
-            "a teen mom",
-            "Hollywood",
             "Jamie Lynn Spears",
-            "The Zoey 101 alum"
+            "Hollywood",
+            "a new interview wi",
+            "she",
+            "the negative media attention",
+            "daughter - Entertainment Weekly Jamie Lynn Spears",
+            "[+3125 chars",
+            "The Zoey 101 alum",
+            "her daughter",
+            "nowhere",
+            "the middle",
+            "a teen mom"
         ],
         "embedding": [
             0.036390528082847595,
@@ -20529,27 +20754,32 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
+            "this moment",
+            "Dutton Ranch's purported 'secret villain",
+            "Its 'Secret Villain",
+            "which",
+            "we",
+            "He",
+            "that Luke i",
+            "Dutton Ranch Episode",
+            "she",
             "Dutton Ranch\" Episode",
             "Mariano",
             "another flashback",
-            "we",
-            "Dutton Ranch's purported 'secret villain",
-            "this moment",
-            "Its 'Secret Villain",
-            "a look",
-            "she",
-            "He",
-            "that Luke i",
-            "its seventh episode",
-            "her",
-            "him",
-            "which",
-            "[+1423 chars",
-            "Beulah Jackson",
-            "Dutton Ranch Episode",
             "he",
             "We",
+            "him",
+            "a look",
+            "Beulah Jackson",
+            "her",
+            "[+1423 chars",
+            "its seventh episode",
             "Luke's home"
         ],
         "embedding": [
@@ -21004,27 +21234,32 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "GPE"
+        ],
         "key_phrases": [
-            "Meghan Markle",
-            "the United Kingdom",
-            "the highly anticipated family reunion",
-            "the family\u2019s upcoming trip",
-            "two kids",
-            "Charles",
-            "King Charles III",
-            "Prince Harry",
-            "time",
             "a visit",
-            "long-awaited reunion",
-            "it",
-            "An insider",
             "Cha",
-            "[+2645 chars",
-            "Ever founder",
+            "Prince Harry",
+            "the highly anticipated family reunion",
+            "time",
+            "An insider",
+            "long-awaited reunion",
+            "the family\u2019s upcoming trip",
+            "Meghan Markle",
             "King Charles",
+            "[+2645 chars",
+            "the United Kingdom",
             "his kids",
+            "Charles",
+            "it",
+            "King Charles III",
             "\u201can agreement",
-            "Meghan Markle\u2019s kids"
+            "Meghan Markle\u2019s kids",
+            "Ever founder",
+            "two kids"
         ],
         "embedding": [
             -0.09046895802021027,
@@ -21478,22 +21713,28 @@
                 "label": "GPE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG",
+            "GPE"
+        ],
         "key_phrases": [
-            "Millions",
-            "Earnings - HuffPost Los Angeles County District Attorney Nathan Hochman",
-            "prosecutors",
-            "12 felony charges",
-            "California\u2019s biggest tax scofflaws",
-            "12 Felony Charges",
-            "(AP",
-            "earnings",
-            "[+2548 chars",
-            "Comedian Carlos Mencia",
-            "the comedian",
-            "Carlos Mencia",
-            "Los Angeles",
             "a news conference",
-            "taxes"
+            "[+2548 chars",
+            "Millions",
+            "taxes",
+            "California\u2019s biggest tax scofflaws",
+            "12 felony charges",
+            "earnings",
+            "the comedian",
+            "(AP",
+            "Earnings - HuffPost Los Angeles County District Attorney Nathan Hochman",
+            "Carlos Mencia",
+            "12 Felony Charges",
+            "Comedian Carlos Mencia",
+            "prosecutors",
+            "Los Angeles"
         ],
         "embedding": [
             0.05215565115213394,
@@ -21935,23 +22176,27 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON"
+        ],
         "key_phrases": [
             "you",
-            "Craig Melvin",
-            "a display",
-            "good fun",
-            "all",
-            "[+2813 chars",
-            "soap opera prowess",
-            "that",
-            "Today",
-            "Page Six Hall",
-            "shocking request",
             "Today\u201d host Craig Melvin",
-            "it",
+            "Craig Melvin",
+            "Today",
             "Our Lives",
+            "the daytime mainstay",
+            "soap opera prowess",
             "the storylines",
-            "the daytime mainstay"
+            "[+2813 chars",
+            "it",
+            "all",
+            "a display",
+            "Page Six Hall",
+            "that",
+            "shocking request",
+            "good fun"
         ],
         "embedding": [
             -0.08008798211812973,
@@ -22385,19 +22630,23 @@
                 "label": "DATE"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "GPE"
+        ],
         "key_phrases": [
-            "Lawyers",
-            "he",
-            "a Florida courtroom",
-            "no home or savings' - New York Post Faizon Love",
-            "an old car",
-            "Embattled \u201cElf\u201d star Faizon Love",
-            "a friend",
             "no permanent home",
-            "grace",
-            "the 58-y",
+            "a Florida courtroom",
             "stardom",
-            "his expenses"
+            "Embattled \u201cElf\u201d star Faizon Love",
+            "he",
+            "the 58-y",
+            "an old car",
+            "grace",
+            "Lawyers",
+            "no home or savings' - New York Post Faizon Love",
+            "his expenses",
+            "a friend"
         ],
         "embedding": [
             0.022242991253733635,
@@ -22839,27 +23088,32 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "GPE"
+        ],
         "key_phrases": [
-            "TMZ",
-            "the time",
-            "his body",
-            "his passing",
-            "Oliver Tree's Body",
-            "Several others",
-            "Oliver",
-            "both",
-            "him",
-            "Crash - TMZ Oliver Tree's family",
             "Fiona Chernavskaya",
-            "Brazil",
+            "social media",
             "United States",
-            "his shocking death",
+            "the time",
+            "Several others",
             "his girlfriend",
-            "American soil",
-            "Melanie Martinez",
+            "TMZ",
+            "him",
             "the aftermath",
+            "both",
+            "American soil",
+            "Brazil",
+            "his passing",
+            "his body",
+            "Crash - TMZ Oliver Tree's family",
+            "his shocking death",
+            "Melanie Martinez",
             "his ex",
-            "social media"
+            "Oliver Tree's Body",
+            "Oliver"
         ],
         "embedding": [
             0.05851425975561142,
@@ -23289,23 +23543,29 @@
                 "label": "PERSON"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG",
+            "GPE"
+        ],
         "key_phrases": [
-            "the most insightful analysis",
+            "the Real Mystery",
             "[+5715 chars",
-            "a Wild Season 1 Twist",
-            "the Slatest",
-            "Colin Farrell\u2019s Apple TV Show",
-            "Slate Magazine Sugar",
-            "its true theme",
-            "Apple TVs",
-            "Colin Farre",
-            "neo-noir mystery series",
-            "Los Angeles",
-            "your inbox",
             "Season",
+            "a Wild Season 1 Twist",
+            "its true theme",
+            "Slate Magazine Sugar",
+            "the most insightful analysis",
+            "Apple TVs",
+            "the Slatest",
             "criticism",
+            "your inbox",
+            "Colin Farrell\u2019s Apple TV Show",
+            "neo-noir mystery series",
             "Sugar",
-            "the Real Mystery"
+            "Colin Farre",
+            "Los Angeles"
         ],
         "embedding": [
             -0.01659933477640152,
@@ -23739,25 +23999,30 @@
                 "label": "ORG"
             }
         ],
+        "contains_pii": true,
+        "pii_entities": [
+            "PERSON",
+            "ORG"
+        ],
         "key_phrases": [
-            "Toy Story",
-            "Jessie",
-            "purchases",
-            "a commission",
-            "\"Toy Story",
-            "Pixar Animation Studi",
-            "Jessie's lingering abandonment issues",
-            "We",
-            "containsmajor spoilersfor",
-            "chars",
-            "This article",
-            "A Much Different Emotional",
-            "the movie",
-            "Toy Story 2 - SlashFilm Toy Story 5 revisits",
-            "the load-bearing pillar",
-            "a very different way",
             "this emotional storyline",
-            "links"
+            "a very different way",
+            "A Much Different Emotional",
+            "\"Toy Story",
+            "We",
+            "Toy Story",
+            "Jessie's lingering abandonment issues",
+            "Pixar Animation Studi",
+            "a commission",
+            "the load-bearing pillar",
+            "Toy Story 2 - SlashFilm Toy Story 5 revisits",
+            "chars",
+            "Jessie",
+            "This article",
+            "links",
+            "purchases",
+            "containsmajor spoilersfor",
+            "the movie"
         ],
         "embedding": [
             -0.05018290504813194,

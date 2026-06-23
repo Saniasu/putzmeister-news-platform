@@ -5,8 +5,11 @@ from azure.search.documents import SearchClient
 from cachetools import TTLCache
 from collections import defaultdict
 from dotenv import load_dotenv
+
 import os
 import time
+import csv
+from datetime import datetime
 
 load_dotenv()
 
@@ -48,6 +51,48 @@ cache = TTLCache(maxsize=100, ttl=300)
 request_counts = defaultdict(list)
 
 
+# -------------------------------------
+# API Audit Logging
+# -------------------------------------
+
+def log_api_usage(
+        query,
+        source,
+        results_count,
+        client_ip):
+
+    os.makedirs("logs", exist_ok=True)
+
+    logfile = "logs/api_usage_log.csv"
+
+    file_exists = os.path.isfile(logfile)
+
+    with open(
+            logfile,
+            "a",
+            newline="",
+            encoding="utf-8") as file:
+
+        writer = csv.writer(file)
+
+        if not file_exists:
+            writer.writerow([
+                "timestamp",
+                "query",
+                "source",
+                "results_count",
+                "client_ip"
+            ])
+
+        writer.writerow([
+            datetime.now(),
+            query,
+            source,
+            results_count,
+            client_ip
+        ])
+
+
 def check_rate_limit(client_ip: str):
 
     current_time = time.time()
@@ -77,12 +122,22 @@ def search_news(query: str):
 
     check_rate_limit(client_ip)
 
+    # Check Cache
     if query in cache:
+
+        log_api_usage(
+            query=query,
+            source="cache",
+            results_count=len(cache[query]),
+            client_ip=client_ip
+        )
+
         return {
             "source": "cache",
             "results": cache[query]
         }
 
+    # Search Azure AI Search
     results = search_client.search(
         search_text=query,
         top=5
@@ -100,6 +155,13 @@ def search_news(query: str):
         })
 
     cache[query] = articles
+
+    log_api_usage(
+        query=query,
+        source="azure-search",
+        results_count=len(articles),
+        client_ip=client_ip
+    )
 
     return {
         "source": "azure-search",
