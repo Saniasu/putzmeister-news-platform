@@ -1,3 +1,4 @@
+
 import os
 import json
 from datetime import datetime
@@ -5,6 +6,14 @@ from datetime import datetime
 import spacy
 from textblob import TextBlob
 from sentence_transformers import SentenceTransformer
+from azure.storage.blob import BlobServiceClient
+from dotenv import load_dotenv
+
+load_dotenv()
+
+AZURE_STORAGE_CONNECTION_STRING = os.getenv(
+    "AZURE_STORAGE_CONNECTION_STRING"
+)
 
 # Load NLP models
 nlp = spacy.load("en_core_web_sm")
@@ -137,6 +146,41 @@ def enrich_article(article):
     return article
 
 
+def upload_to_blob(file_path, file_name):
+    """
+    Upload enriched Silver layer file to Azure Blob Storage
+    """
+
+    try:
+        blob_service_client = BlobServiceClient.from_connection_string(
+            AZURE_STORAGE_CONNECTION_STRING
+        )
+
+        container_name = "silver-zone"
+
+        today = "2026-06-22"
+
+        blob_name = f"{today}/{file_name}"
+
+        blob_client = blob_service_client.get_blob_client(
+            container=container_name,
+            blob=blob_name
+        )
+
+        with open(file_path, "rb") as data:
+            blob_client.upload_blob(
+                data,
+                overwrite=True
+            )
+
+        print(
+            f"Uploaded {file_name} to Azure Blob Storage"
+        )
+
+    except Exception as e:
+        print(f"Blob upload failed: {e}")
+
+
 def process_raw_files():
     """
     Process raw articles and write enriched articles
@@ -211,6 +255,8 @@ def process_raw_files():
                 indent=4
             )
 
+        upload_to_blob(output_file, file_name)
+
         print(
             f"{file_name}: "
             f"New={new_count}, "
@@ -223,3 +269,4 @@ if __name__ == "__main__":
     process_raw_files()
 
     print("\nLayer 2 enrichment completed successfully.")
+

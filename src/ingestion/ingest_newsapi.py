@@ -4,6 +4,7 @@ from datetime import datetime
 
 import requests
 from dotenv import load_dotenv
+from azure.storage.blob import BlobServiceClient
 
 from dedup import (
     generate_url_hash,
@@ -17,6 +18,9 @@ from audit_logger import log_ingestion
 load_dotenv(".env")
 
 NEWSAPI_KEY = os.getenv("NEWSAPI_KEY")
+AZURE_STORAGE_CONNECTION_STRING = os.getenv(
+    "AZURE_STORAGE_CONNECTION_STRING"
+)
 if NEWSAPI_KEY:
     print("NewsAPI key loaded successfully.")
 else:
@@ -61,6 +65,44 @@ def save_raw_data(category, articles):
         json.dump(articles, file, indent=4)
 
     print(f"Saved {category} news to {file_path}")
+    upload_to_blob(file_path, category)
+
+def upload_to_blob(file_path, category):
+    """
+    Upload raw JSON file to Azure Blob Storage
+    """
+
+    try:
+        blob_service_client = BlobServiceClient.from_connection_string(
+            AZURE_STORAGE_CONNECTION_STRING
+        )
+
+        container_name = "raw-landing-zone"
+
+        today = datetime.now().strftime("%Y-%m-%d")
+
+        blob_name = f"{today}/{category}.json"
+
+        blob_client = blob_service_client.get_blob_client(
+            container=container_name,
+            blob=blob_name
+        )
+
+        with open(file_path, "rb") as data:
+            blob_client.upload_blob(
+                data,
+                overwrite=True
+            )
+
+        print(
+            f"Uploaded {category}.json "
+            f"to Azure Blob Storage"
+        )
+
+    except Exception as e:
+        print(
+            f"Blob upload failed: {e}"
+        )
 
 
 def main():

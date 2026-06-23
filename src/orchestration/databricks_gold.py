@@ -1,9 +1,18 @@
+
 import os
 import json
 from collections import Counter
 from spacy.lang.en.stop_words import STOP_WORDS
 
 import pandas as pd
+from azure.storage.blob import BlobServiceClient
+from dotenv import load_dotenv
+
+load_dotenv()
+
+AZURE_STORAGE_CONNECTION_STRING = os.getenv(
+    "AZURE_STORAGE_CONNECTION_STRING"
+)
 
 """
 Databricks Gold Layer Simulation
@@ -25,6 +34,40 @@ Local Implementation Notes:
     * Experiment metrics
 - This local implementation simulates Azure Databricks processing.
 """
+
+
+def upload_to_blob(file_path, file_name, date_folder):
+    """
+    Upload Gold layer files to Azure Blob Storage
+    """
+
+    try:
+        blob_service_client = BlobServiceClient.from_connection_string(
+            AZURE_STORAGE_CONNECTION_STRING
+        )
+
+        container_name = "gold-zone"
+
+        blob_name = f"{date_folder}/{file_name}"
+
+        blob_client = blob_service_client.get_blob_client(
+            container=container_name,
+            blob=blob_name
+        )
+
+        with open(file_path, "rb") as data:
+            blob_client.upload_blob(
+                data,
+                overwrite=True
+            )
+
+        print(
+            f"Uploaded {file_name} to Azure Blob Storage"
+        )
+
+    except Exception as e:
+        print(f"Blob upload failed: {e}")
+
 
 def load_silver_articles():
     """
@@ -78,6 +121,7 @@ def load_silver_articles():
     print(f"Loaded {len(all_articles)} enriched articles.")
 
     return all_articles
+
 
 def generate_sentiment_summary(articles):
     """
@@ -138,7 +182,6 @@ def generate_sentiment_summary(articles):
         "gold_sentiment_summary.csv"
     )
 
-    # Idempotent write
     summary.to_csv(
         output_file,
         index=False
@@ -148,6 +191,13 @@ def generate_sentiment_summary(articles):
         "Created:",
         output_file
     )
+
+    upload_to_blob(
+        output_file,
+        "gold_sentiment_summary.csv",
+        today
+    )
+
 
 def generate_top_entities(articles):
     """
@@ -233,6 +283,13 @@ def generate_top_entities(articles):
         output_file
     )
 
+    upload_to_blob(
+        output_file,
+        "gold_top_entities.csv",
+        today
+    )
+
+
 def generate_trending_keywords():
     """
     Generate trending keywords using
@@ -248,7 +305,6 @@ def generate_trending_keywords():
         os.listdir(silver_root)
     )
 
-    # Rolling window of last 7 days
     latest_dates = available_dates[-7:]
 
     keyword_counter = Counter()
@@ -289,7 +345,6 @@ def generate_trending_keywords():
 
                         phrase = phrase.lower().strip()
 
-                        # Remove stop words and very short phrases
                         if (
                             phrase in STOP_WORDS
                             or len(phrase) < 3
@@ -337,6 +392,12 @@ def generate_trending_keywords():
         output_file
     )
 
+    upload_to_blob(
+        output_file,
+        "gold_trending_keywords.csv",
+        latest_date
+    )
+
 
 if __name__ == "__main__":
 
@@ -349,7 +410,10 @@ if __name__ == "__main__":
     generate_sentiment_summary(
         articles
     )
+
     generate_top_entities(
         articles
     )
+
     generate_trending_keywords()
+

@@ -1,8 +1,8 @@
 {
-    "execution_date": "2026-06-22 17:23:04",
+    "execution_date": "2026-06-24 05:02:23",
     "categories_processed": 7,
-    "total_articles": 394,
-    "new_articles": 293,
-    "duplicates": 101,
+    "total_articles": 288,
+    "new_articles": 262,
+    "duplicates": 26,
     "pipeline_status": "SUCCESS"
 }
