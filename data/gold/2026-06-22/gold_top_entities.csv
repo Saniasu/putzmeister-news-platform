@@ -1,0 +1,51 @@
+entity,label,frequency
+U.S.,GPE,15
+Fed,ORG,13
+US,GPE,12
+Apple,ORG,11
+Hollywood,GPE,9
+Iran,GPE,8
+Microsoft,ORG,8
+AI,GPE,7
+NASA,ORG,7
+Donald Trump,PERSON,6
+New York,GPE,6
+Texas,GPE,6
+Massachusetts,GPE,6
+the United States,GPE,6
+CNN,ORG,6
+America,GPE,5
+Miami,GPE,5
+London,GPE,5
+California,GPE,5
+Los Angeles,GPE,5
+Trump,PERSON,4
+New York City,GPE,4
+Taylor Swift,PERSON,4
+AP,ORG,4
+Netflix,GPE,4
+San Francisco,GPE,4
+Brazil,GPE,4
+Switzerland,GPE,4
+Australia,GPE,4
+Xbox,ORG,4
+Germany,GPE,4
+Knicks,ORG,4
+Braves,ORG,4
+Atlanta,GPE,4
+Cubs,ORG,4
+Houston,GPE,4
+NVK,ORG,4
+GPU,ORG,4
+Kevin Warsh,PERSON,3
+Airbus,ORG,3
+Trump,ORG,3
+Autopilot,ORG,3
+Amazon,ORG,3
+Boston,GPE,3
+The Washington Post,ORG,3
+FCC,ORG,3
+Indiana,GPE,3
+Cheddar,GPE,3
+McDonald,ORG,3
+New York Post,ORG,3

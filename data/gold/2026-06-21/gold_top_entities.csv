@@ -1,0 +1,51 @@
+entity,label,frequency
+U.S.,GPE,19
+US,GPE,12
+Iran,GPE,10
+Apple,ORG,9
+Xbox,ORG,9
+Trump,PERSON,5
+Trump,ORG,5
+Donald Trump,PERSON,5
+Germany,GPE,5
+Scotland,GPE,5
+iPad,ORG,5
+France,GPE,4
+AI,GPE,4
+Netflix,GPE,4
+NFL,ORG,4
+Pixel,PERSON,4
+Clark,PERSON,4
+Morocco,GPE,4
+Microsoft,ORG,4
+ROG,ORG,4
+Claude Guillemot,PERSON,3
+California,GPE,3
+SpaceX,PERSON,3
+Meta,ORG,3
+Taylor Swift,PERSON,3
+Travis Kelce's,PERSON,3
+Tom Holland,PERSON,3
+Bunnie Xo,PERSON,3
+N.Y.,GPE,3
+Henry Winkler,PERSON,3
+Yellowstone,GPE,3
+Switzerland,GPE,3
+Android,PERSON,3
+Air Force One,ORG,3
+H5N1,PERSON,3
+Congo,GPE,3
+Wyndham Clark,PERSON,3
+CMF,ORG,3
+Italy,GPE,3
+Wegovy,ORG,3
+Utah,GPE,3
+the International Space Station,ORG,3
+Knicks,ORG,3
+Seattle,GPE,3
+ESPN,ORG,3
+Shohei Ohtani,PERSON,3
+Ronda Rousey,PERSON,3
+Mexico,GPE,3
+Samsung,ORG,3
+GTA VI,ORG,3
