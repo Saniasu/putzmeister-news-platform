@@ -4,9 +4,10 @@ import json
 from datetime import datetime
 
 import spacy
-from textblob import TextBlob
 from sentence_transformers import SentenceTransformer
 from azure.storage.blob import BlobServiceClient
+from azure.ai.textanalytics import TextAnalyticsClient
+from azure.core.credentials import AzureKeyCredential
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -19,46 +20,78 @@ AZURE_STORAGE_CONNECTION_STRING = os.getenv(
 nlp = spacy.load("en_core_web_sm")
 embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
 
+LANGUAGE_ENDPOINT = os.getenv("LANGUAGE_ENDPOINT")
+LANGUAGE_API_KEY = os.getenv("LANGUAGE_API_KEY")
+
+text_analytics_client = TextAnalyticsClient(
+    endpoint=LANGUAGE_ENDPOINT,
+    credential=AzureKeyCredential(LANGUAGE_API_KEY)
+)
+
 
 def analyze_sentiment(text):
     """
-    Analyze sentiment using TextBlob
+    Analyze sentiment using Azure AI Language Service
     """
 
     if not text:
         return 0.0, "Neutral"
 
-    polarity = TextBlob(text).sentiment.polarity
+    try:
 
-    if polarity > 0:
-        label = "Positive"
-    elif polarity < 0:
-        label = "Negative"
-    else:
-        label = "Neutral"
+        response = text_analytics_client.analyze_sentiment(
+            [text]
+        )[0]
 
-    return round(polarity, 3), label
+        sentiment_label = response.sentiment.capitalize()
+
+        confidence_scores = response.confidence_scores
+
+        sentiment_score = max(
+            confidence_scores.positive,
+            confidence_scores.neutral,
+            confidence_scores.negative
+        )
+
+        return round(sentiment_score, 3), sentiment_label
+
+    except Exception as e:
+
+        print(f"Sentiment analysis failed: {e}")
+
+        return 0.0, "Neutral"
 
 
 def extract_entities(text):
     """
-    Extract named entities using spaCy
+    Extract named entities using Azure AI Language Service
     """
 
     if not text:
         return []
 
-    doc = nlp(text)
+    try:
 
-    entities = []
+        response = text_analytics_client.recognize_entities(
+            [text]
+        )[0]
 
-    for ent in doc.ents:
-        entities.append({
-            "text": ent.text,
-            "label": ent.label_
-        })
+        entities = []
 
-    return entities
+        for entity in response.entities:
+
+            entities.append({
+                "text": entity.text,
+                "label": entity.category
+            })
+
+        return entities
+
+    except Exception as e:
+
+        print(f"Entity extraction failed: {e}")
+
+        return []
 
 
 def detect_pii(entities):
@@ -85,20 +118,25 @@ def detect_pii(entities):
 
 def extract_key_phrases(text):
     """
-    Extract noun phrases as key phrases
+    Extract key phrases using Azure AI Language Service
     """
 
     if not text:
         return []
 
-    doc = nlp(text)
+    try:
 
-    phrases = list(set(
-        chunk.text.strip()
-        for chunk in doc.noun_chunks
-    ))
+        response = text_analytics_client.extract_key_phrases(
+            [text]
+        )[0]
 
-    return phrases
+        return response.key_phrases
+
+    except Exception as e:
+
+        print(f"Key phrase extraction failed: {e}")
+
+        return []
 
 
 def generate_embedding(text):
