@@ -40,7 +40,7 @@ def analyze_sentiment(text):
     try:
 
         response = text_analytics_client.analyze_sentiment(
-            [text]
+            documents=[text]
         )[0]
 
         sentiment_label = response.sentiment.capitalize()
@@ -73,7 +73,7 @@ def extract_entities(text):
     try:
 
         response = text_analytics_client.recognize_entities(
-            [text]
+            documents=[text]
         )[0]
 
         entities = []
@@ -127,7 +127,7 @@ def extract_key_phrases(text):
     try:
 
         response = text_analytics_client.extract_key_phrases(
-            [text]
+            documents=[text]
         )[0]
 
         return response.key_phrases
